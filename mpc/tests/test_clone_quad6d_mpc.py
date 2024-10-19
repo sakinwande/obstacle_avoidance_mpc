@@ -9,7 +9,7 @@ from mpc.costs import (
     lqr_running_cost,
     distance_travelled_terminal_cost,
 )
-from mpc.dynamics_constraints import quad6d_dynamics
+from mpc.dynamics_constraints import quad6d_dynamics, quad12d_dynamics
 from mpc.mpc import construct_MPC_problem, solve_MPC_problem
 from mpc.obstacle_constraints import hypersphere_sdf
 from mpc.simulator import simulate_nn
