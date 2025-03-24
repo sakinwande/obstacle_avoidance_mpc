@@ -57,8 +57,13 @@ class PolicyCloningModel(torch.nn.Module):
         )
         self.policy_layers["input_activation"] = nn.ReLU()
         for i in range(self.hidden_layers):
+            # if i == 0:
+            #     self.policy_layers[f"layer_{i}_linear"] = nn.Linear(
+            #         self.n_state_dims, self.hidden_layer_width
+            #     )
+            # else:
             self.policy_layers[f"layer_{i}_linear"] = nn.Linear(
-                self.hidden_layer_width, self.hidden_layer_width
+            self.hidden_layer_width, self.hidden_layer_width
             )
             self.policy_layers[f"layer_{i}_activation"] = nn.ReLU()
         self.policy_layers["output_linear"] = nn.Linear(
@@ -95,6 +100,7 @@ class PolicyCloningModel(torch.nn.Module):
         learning_rate: float,
         batch_size: int = 64,
         save_path: Optional[str] = None,
+        saved_data_path: Optional[str] = None,
     ):
         """Clone the provided expert policy. Uses dead-simple supervised regression
         to clone the policy (no DAgger currently).
@@ -109,16 +115,24 @@ class PolicyCloningModel(torch.nn.Module):
         """
         # Generate some training data
         # Start by sampling points uniformly from the state space
-        x_train = torch.zeros((n_pts, self.n_state_dims))
-        for dim in range(self.n_state_dims):
-            x_train[:, dim] = torch.Tensor(n_pts).uniform_(*self.state_space[dim])
+        if saved_data_path is not None:
+            x_train = torch.load(f"{saved_data_path}x_train_{n_pts-1000}.pt", weights_only=True)
+            u_expert = torch.load(f"{saved_data_path}u_expert_{n_pts-1000}.pt", weights_only=True)
+        else:
+            x_train = torch.zeros((n_pts, self.n_state_dims))
+            for dim in range(self.n_state_dims):
+                x_train[:, dim] = torch.Tensor(n_pts).uniform_(*self.state_space[dim])
 
-        # Now get the expert's control input at each of those points
-        u_expert = torch.zeros((n_pts, self.n_control_dims))
-        data_gen_range = tqdm(range(n_pts))
-        data_gen_range.set_description("Generating training data...")
-        for i in data_gen_range:
-            u_expert[i, :] = expert(x_train[i, :])
+            # Now get the expert's control input at each of those points
+            u_expert = torch.zeros((n_pts, self.n_control_dims))
+            data_gen_range = tqdm(range(n_pts))
+            data_gen_range.set_description("Generating training data...")
+            for i in data_gen_range:
+                u_expert[i, :] = expert(x_train[i, :])
+                if i%1000 == 0:
+                    print(f"Saving {i} training data points")
+                    torch.save(x_train, f"x_train_{i}.pt")
+                    torch.save(u_expert, f"u_expert_{i}.pt")
 
         # Make a loss function and optimizer
         mse_loss_fn = torch.nn.MSELoss(reduction="mean")

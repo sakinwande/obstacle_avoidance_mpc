@@ -77,3 +77,28 @@ def hypersphere_sdf(
     signed_distance = casadi.sqrt(sum(squared_distances)) - radius
 
     return signed_distance
+
+def hypersphere_sdf2(
+    x: casadi.MX, radii, indices: List[int], center: List[float]
+) -> casadi.MX:
+    """Defines the signed distance of a hypersphere with the given radius. The
+    hypersphere is defined over the given state indices and extends to +/- infinity in
+    all other state dimensions. For example, if indices = [0, 1] and x has three
+    dimensions, then this defines a cylinder with the long axis in the direction of x[2].
+
+    args:
+        x: current state
+        radius: the radius of the cylinder
+        indices: the state indices on which this hypersphere depends
+        center: the coordinates of the center of the hypersphere. Should have the same
+            length as indices.
+    returns:
+        the signed distance to this cylinder
+    """
+    distances_to_center = [
+        x[0, state_idx] - center[i] for i, state_idx in enumerate(indices)
+    ]
+    squared_distances = [d ** 2 for d in distances_to_center]
+    signed_distance = casadi.sqrt(sum(squared_distances)) - radii
+
+    return signed_distance

@@ -94,6 +94,73 @@ def quad6d_dynamics(x: Variable, u: Variable):
 
     return xdot
 
+def quad_6d_dynamics_nonlinear(x: Variable, u: Variable):
+    """
+    Nonlinear 6D quadrotor dynamics, implemented inspired by archcomp
+
+    args:
+        x: state variables
+        u: control inputs are basically velocities (linear and angular) 
+           
+    """
+    # unpack variables
+    x1 = x[0] #inertial (north) position
+    x2 = x[1] #inertial (east) position
+    x3 = x[2] ##altitude
+    x4 = x[3] #roll angle
+    x5 = x[4] #pitch angle
+    x6 = x[5] #yaw angle
+    u1 = u[0] #x position control (treated as velocity)
+    u2 = u[1] #y position control (treated as velocity)
+    u3 = u[2] #z position control (treated as velocity)
+    u4 = u[3] #roll angle control (treated as velocity)
+    u5 = u[4] #pitch angle control (treated as velocity)
+    u6 = u[5] #yaw angle control (treated as velocity)
+
+    # compute derivatives
+    xdot = [
+        u1 + csin(x4)*csin(x5)*ccos(x6) - ccos(x4)*csin(x6) + ccos(x4)*csin(x5)*ccos(x6) + csin(x4)*csin(x6),
+        u2 + ccos(x5)*csin(x6) + ccos(x4)*csin(x5)*csin(x6) - csin(x4)*ccos(x6),
+        -u3 + csin(x5) - csin(x4)*ccos(x5),
+        u4 + csin(x4)*ctan(x5) + ccos(x4)*ctan(x5),
+        u5 - csin(x4),
+        csin(x4)/ccos(x5) - u6
+    ]
+    return xdot
+
+def attitude_control_dynamics(x: Variable, u: Variable):
+    """
+    Nonlinar rigid body dynamics for attitude control.
+
+    Basically a 6D nonlinear model
+
+    args:
+        x: state variables
+        u: control inputs
+    """
+
+    # unpack variables
+    phi_1 = x[0] #rodrigues parameter 1, akin to rotation about x axis
+    phi_2 = x[1] #rodrigues parameter 2, akin to rotation about y axis
+    phi_3 = x[2] #rodrigues parameter 3, akin to rotation about z axis 
+    omega_1 = x[3] #body frame angular velocity about x axis
+    omega_2 = x[4] #body frame angular velocity about y axis
+    omega_3 = x[5] #body frame angular velocity about z axis
+
+    dPhi_1 = 0.5*(omega_2*(phi_1**2 + phi_2**2 + phi_3**2 - phi_3) + omega_3*(phi_1**2 + phi_2**2 + phi_2 + phi_3**2) + omega_1 * (phi_1**2 + phi_2**2 + phi_3**2 +1))
+
+    dPhi_2 = 0.5*(omega_1*(phi_1**2 + phi_2**2 + phi_3**2 + phi_3) + omega_3 * (phi_1**2 - phi_1 + phi_2**2 + phi_3**2) + omega_2 * (phi_1**2 + phi_2**2 + phi_3**2 +1))
+
+    dPhi_3 = 0.5*(omega_1*(phi_1**2 + phi_2**2 - phi_2 + phi_3**2) + omega_2*(phi_1**2 + phi_1 + phi_2**2  + phi_3**2) + omega_3 * (phi_1**2 + phi_2**2 + phi_3**2 +1))
+
+    dOmgega_1 = 0.25 * (u[0] + omega_2*omega_3)
+    dOmega_2 = 0.5 * (u[1] - 3*omega_3*omega_1)
+    dOmega_3 = u[2] + 2*omega_1*omega_2
+
+    xdot = [dPhi_1, dPhi_2, dPhi_3, dOmgega_1, dOmega_2, dOmega_3]
+
+    return xdot
+
 def quad12d_dynamics(x: Variable, u: Variable):
     """
     Nonlinear 12D quadrotor dynamics, implemented using Casadi variables
