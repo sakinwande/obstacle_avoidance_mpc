@@ -134,8 +134,8 @@ def clone_mpc(train=True):
             n_pts,
             n_epochs,
             learning_rate,
-            save_path="mpc/tests/data/cloned_quad_policy_weight_decay.pth",
-            saved_data_path="Training_Data/",
+            save_path="mpc/tests/data/cloned_att_policy_weight_decay.pth",
+            saved_data_path=None,
         )
 
     return cloned_policy

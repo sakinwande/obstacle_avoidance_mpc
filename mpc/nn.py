@@ -98,7 +98,7 @@ class PolicyCloningModel(torch.nn.Module):
         n_pts: int,
         n_epochs: int,
         learning_rate: float,
-        batch_size: int = 64,
+        batch_size: int = 128,
         save_path: Optional[str] = None,
         saved_data_path: Optional[str] = None,
     ):
