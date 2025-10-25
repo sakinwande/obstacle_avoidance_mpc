@@ -10,7 +10,7 @@ from mpc.costs import (
     distance_travelled_terminal_cost,
     squared_error_terminal_cost,
 )
-from mpc.dynamics_constraints import attitude_control_dynamics
+from mpc.dynamics_constraints import tora_dynamics
 from mpc.mpc import construct_MPC_problem, solve_MPC_problem
 from mpc.obstacle_constraints import hypersphere_sdf2
 from mpc.simulator import simulate_nn
@@ -20,25 +20,23 @@ from mpc.nn import PolicyCloningModel
 
 
 
-n_states = 6
-n_controls = 3
-horizon = 30
+n_states = 4
+n_controls = 1
+horizon = 20
 dt = 0.1
-dynamics_fn = attitude_control_dynamics 
+dynamics_fn = tora_dynamics 
 radius = 0.5
 margin = 0.05
 #Define the center of the sphere to be far from op region
-center = [-0.65, 0.75, -0.3, -0.1, -0.45, 0.1]
-radii = [0.1, 0.1, 0.15, 0.15, 0.1, 0.15]
+center = [2, 1, 3.14, 1]
+radii = [0.1, 0.1, 0.1, 0.1]
 #Define the indices of the state that are in the sphere
-indices = [i for i in range(6)]
+indices = [i for i in range(n_states)]
 state_space = [
-    (-3.0, 3.0),  # px
-    (-3.0, 3.0),  # py
-    (-3.0, 3.0),  # pz
-    (-1.0, 1.0),  # vx
-    (-1.0, 1.0),  # vy
-    (-1.0, 1.0),  # vz
+    (0,2),  # px
+    (0, 1),  # py
+    (-3.14, 3,14),  # pz
+    (0, 1),  # vx
 ]
 
 
@@ -51,13 +49,15 @@ def define_mpc_expert():
     # Define obstacle as a hypercylinder (a sphere in xyz and independent of velocity)
     obstacle_fns = [(lambda x: hypersphere_sdf2(x, radius, indices, center), margin)]
     # Define costs to make the quad go up
-    x_goal = np.zeros(6)
-    x_goal[3] = 0.1
-    x_goal[5] = -0.1
+    x_goal = np.zeros(4)
+    x_goal[0] = 1
+    x_goal[1] = 0
+    x_goal[2] = 0
+    x_goal[3] = 0
 
-    running_costs = 0.1 * np.eye(6)
-    control_costs = 0.1 * np.eye(3)
-    terminal_costs = 0.1*np.eye(6) 
+    running_costs = 0.1 * np.eye(4)
+    control_costs = 0.1 * np.eye(1)
+    terminal_costs = 0.1*np.eye(4) 
 
     running_cost_fn = lambda x, u: lqr_running_cost(
         x, u, x_goal, dt * running_costs, control_costs)
@@ -65,7 +65,7 @@ def define_mpc_expert():
     terminal_cost_fn = lambda x: squared_error_terminal_cost(x, x_goal,dt * terminal_costs)
 
     # Define control bounds
-    control_bounds = [1.0, 1.0, 1.0]
+    control_bounds = [1.0]
 
     # Define MPC problem
     opti, x0_variables, u0_variables, x_variables, u_variables = construct_MPC_problem(
@@ -114,8 +114,8 @@ def clone_mpc(train=True):
     # Clone the MPC policy
     # -------------------------------------------
     mpc_expert = define_mpc_expert()
-    hidden_layers = 2
-    hidden_layer_width = 64
+    hidden_layers = 3
+    hidden_layer_width = 100
     cloned_policy = PolicyCloningModel(
         hidden_layers,
         hidden_layer_width,
@@ -126,7 +126,7 @@ def clone_mpc(train=True):
     )
 
     n_pts = int(5e4)
-    n_epochs = 5000
+    n_epochs = 20000
     learning_rate = 1e-3
     if train:
         cloned_policy.clone(
@@ -134,8 +134,7 @@ def clone_mpc(train=True):
             n_pts,
             n_epochs,
             learning_rate,
-            save_path="mpc/tests/data/cloned_att_policy_weight_decay.pth",
-            saved_data_path="Training_Data/att_expert_",
+            save_path="mpc/tests/data/cloned_tora_policy_weight_decay.pth",
         )
 
     return cloned_policy
@@ -217,7 +216,7 @@ def   simulate_and_plot(policy):
 
 def save_to_onnx(policy):
     """Save to an onnx file"""
-    save_path = "mpc/tests/data/cloned_att_policy_weight_decay.onnx"
+    save_path = "mpc/tests/data/cloned_uni_policy_weight_decay.onnx"
     pytorch_to_nnet(policy, n_states, n_controls, save_path)
 
     input_mins = [state_range[0] for state_range in state_space]
@@ -231,5 +230,5 @@ def save_to_onnx(policy):
 if __name__ == "__main__":
     policy = clone_mpc(train=True)
     save_to_onnx(policy)
-    simulate_and_plot(policy)
+    #simulate_and_plot(policy)
     boo = 1

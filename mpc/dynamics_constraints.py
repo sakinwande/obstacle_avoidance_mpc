@@ -130,7 +130,7 @@ def quad_6d_dynamics_nonlinear(x: Variable, u: Variable):
 
 def attitude_control_dynamics(x: Variable, u: Variable):
     """
-    Nonlinar rigid body dynamics for attitude control.
+    Nonlinear rigid body dynamics for attitude control.
 
     Basically a 6D nonlinear model
 
@@ -160,6 +160,40 @@ def attitude_control_dynamics(x: Variable, u: Variable):
     xdot = [dPhi_1, dPhi_2, dPhi_3, dOmgega_1, dOmega_2, dOmega_3]
 
     return xdot
+
+def unicycle_dynamics(x: Variable, u: Variable):
+    # unpack variables
+    x1 = x[0] #Cartesian x position
+    x2 = x[1] #Cartesian y position
+    x3 = x[2] #Steering angle
+    x4 = x[3] #Forward velocity magnitude
+    u1 = u[0] #Velocity command
+    u2 = u[1] #Stering angle command 
+
+    xdot = [
+        x4*ccos(x3),
+        x4*csin(x3),
+        u2,
+        u1 
+    ]
+    return xdot
+
+def tora_dynamics(x: Variable, u: Variable):
+    # unpack variables
+    x1 = x[0] 
+    x2 = x[1] 
+    x3 = x[2]
+    x4 = x[3] 
+    u1 = u[0] 
+
+    xdot = [
+        x2,
+        -x1 + 0.1*csin(x3),
+        x4,
+        u1 
+    ]
+    return xdot
+
 
 def quad12d_dynamics(x: Variable, u: Variable):
     """
