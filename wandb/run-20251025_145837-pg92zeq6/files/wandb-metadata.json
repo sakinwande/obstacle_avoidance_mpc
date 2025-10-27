@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.14.0-33-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-10-25T21:58:37.796185Z",
+  "program": "/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_unicycle_dynamics.py",
+  "codePath": "mpc/tests/clone_unicycle_dynamics.py",
+  "codePathLocal": "mpc/tests/clone_unicycle_dynamics.py",
+  "git": {
+    "remote": "https://github.com/sakinwande/obstacle_avoidance_mpc",
+    "commit": "36ed1b4819cb18976061beae6b40b7ebc448aa77"
+  },
+  "email": "samakin@stanford.edu",
+  "root": "/home/sam/Documents/Code/obstacle_avoidance_mpc",
+  "host": "sam-desktop",
+  "executable": "/home/sam/miniconda3/envs/obstacle_avoidance_mpc/bin/python",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "514908536832",
+      "used": "64345939968"
+    }
+  },
+  "memory": {
+    "total": "66512826368"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060",
+      "memoryTotal": "12884901888",
+      "cudaCores": 3584,
+      "architecture": "Ampere",
+      "uuid": "GPU-1e98a4f9-058f-d3e1-7956-b00a88e024bc"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "7r4e0w0dza2xcqgcssghbx8zxc0yxoqp"
+}

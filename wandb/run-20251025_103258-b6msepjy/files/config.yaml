@@ -1,0 +1,63 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            h9d2yvse6swyzdyyzes9qybn8g2x6zdi:
+                codePath: mpc/tests/clone_unicycle_dynamics.py
+                codePathLocal: mpc/tests/clone_unicycle_dynamics.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "514908536832"
+                        used: "63868334080"
+                email: samakin@stanford.edu
+                executable: /home/sam/miniconda3/envs/obstacle_avoidance_mpc/bin/python
+                git:
+                    commit: 36ed1b4819cb18976061beae6b40b7ebc448aa77
+                    remote: https://github.com/sakinwande/obstacle_avoidance_mpc
+                gpu: NVIDIA GeForce RTX 3060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3584
+                      memoryTotal: "12884901888"
+                      name: NVIDIA GeForce RTX 3060
+                      uuid: GPU-1e98a4f9-058f-d3e1-7956-b00a88e024bc
+                host: sam-desktop
+                memory:
+                    total: "66512826368"
+                os: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+                program: /home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_unicycle_dynamics.py
+                python: CPython 3.9.21
+                root: /home/sam/Documents/Code/obstacle_avoidance_mpc
+                startedAt: "2025-10-25T17:32:58.514258Z"
+                writerId: h9d2yvse6swyzdyyzes9qybn8g2x6zdi
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.9.21
+            "5": 0.22.2
+            "12": 0.22.2
+            "13": linux-x86_64
+batch_size:
+    value: 128
+hidden_layer_width:
+    value: 1000
+hidden_layers:
+    value: 0
+lr:
+    value: 0.001
+n_epochs:
+    value: 10000
+n_pts:
+    value: 80000
