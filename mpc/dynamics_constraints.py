@@ -194,7 +194,6 @@ def tora_dynamics(x: Variable, u: Variable):
     ]
     return xdot
 
-
 def quad12d_dynamics(x: Variable, u: Variable):
     """
     Nonlinear 12D quadrotor dynamics, implemented using Casadi variables
