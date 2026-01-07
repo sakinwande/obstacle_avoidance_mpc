@@ -104,7 +104,10 @@ def define_mpc_expert():
         if not success:
             print(f"failed after {tries} tries")
 
-        return torch.from_numpy(control_output)
+        if isinstance(control_output, np.ndarray):
+            return torch.from_numpy(control_output)
+        else:
+            return torch.from_numpy(np.array(control_output))
 
     return mpc_expert
 
@@ -114,8 +117,8 @@ def clone_mpc(train=True):
     # Clone the MPC policy
     # -------------------------------------------
     mpc_expert = define_mpc_expert()
-    hidden_layers = 3
-    hidden_layer_width = 100
+    hidden_layers = 2
+    hidden_layer_width = 50
     cloned_policy = PolicyCloningModel(
         hidden_layers,
         hidden_layer_width,
@@ -126,7 +129,7 @@ def clone_mpc(train=True):
     )
 
     n_pts = int(8e4)
-    n_epochs = 20000
+    n_epochs = 5000
     learning_rate = 1e-3
     if train:
         cloned_policy.clone(
@@ -135,6 +138,7 @@ def clone_mpc(train=True):
             n_epochs,
             learning_rate,
             save_path="mpc/tests/data/cloned_tora_policy_weight_decay.pth",
+            saved_data_path="Training_Data/tora_expert_"
         )
 
     return cloned_policy

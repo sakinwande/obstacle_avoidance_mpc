@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.21",
+  "startedAt": "2026-01-06T01:01:39.237806Z",
+  "program": "/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py",
+  "codePath": "mpc/tests/clone_tora_dynamics.py",
+  "codePathLocal": "mpc/tests/clone_tora_dynamics.py",
+  "git": {
+    "remote": "https://github.com/sakinwande/obstacle_avoidance_mpc",
+    "commit": "ceeb14b1d3a04933d7b6e13f600f2f50dff82338"
+  },
+  "email": "samakin@stanford.edu",
+  "root": "/home/sam/Documents/Code/obstacle_avoidance_mpc",
+  "host": "sam-desktop",
+  "executable": "/home/sam/miniconda3/envs/obstacle_avoidance_mpc/bin/python",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "514908536832",
+      "used": "131913920512"
+    }
+  },
+  "memory": {
+    "total": "66512781312"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060",
+      "memoryTotal": "12884901888",
+      "cudaCores": 3584,
+      "architecture": "Ampere",
+      "uuid": "GPU-1e98a4f9-058f-d3e1-7956-b00a88e024bc"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "90zl8bb0qkx54rw5zlyp4bietdc7exlf"
+}

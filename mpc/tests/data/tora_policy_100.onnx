@@ -1,0 +1,718 @@
+pytorch2.6.0:±†
+ô!
+onnx::MatMul_0
+onnx::MatMul_24'/policy_nn/input_linear/MatMul_output_0/policy_nn/input_linear/MatMul"MatMul2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+"
+policy_nn.input_linear.bias
+'/policy_nn/input_linear/MatMul_output_0$/policy_nn/input_linear/Add_output_0/policy_nn/input_linear/Add"Add2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+ï"
+$/policy_nn/input_linear/Add_output_0)/policy_nn/input_activation/Relu_output_0 /policy_nn/input_activation/Relu"Relu2ó!/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/functional.py(1704): relu
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/activation.py(133): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+“"
+)/policy_nn/input_activation/Relu_output_0
+onnx::MatMul_25)/policy_nn/layer_0_linear/MatMul_output_0 /policy_nn/layer_0_linear/MatMul"MatMul2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+˜"
+policy_nn.layer_0_linear.bias
+)/policy_nn/layer_0_linear/MatMul_output_0&/policy_nn/layer_0_linear/Add_output_0/policy_nn/layer_0_linear/Add"Add2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+õ"
+&/policy_nn/layer_0_linear/Add_output_0+/policy_nn/layer_0_activation/Relu_output_0"/policy_nn/layer_0_activation/Relu"Relu2ó!/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/functional.py(1704): relu
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/activation.py(133): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+•"
++/policy_nn/layer_0_activation/Relu_output_0
+onnx::MatMul_26)/policy_nn/layer_1_linear/MatMul_output_0 /policy_nn/layer_1_linear/MatMul"MatMul2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+˜"
+policy_nn.layer_1_linear.bias
+)/policy_nn/layer_1_linear/MatMul_output_0&/policy_nn/layer_1_linear/Add_output_0/policy_nn/layer_1_linear/Add"Add2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+õ"
+&/policy_nn/layer_1_linear/Add_output_0+/policy_nn/layer_1_activation/Relu_output_0"/policy_nn/layer_1_activation/Relu"Relu2ó!/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/functional.py(1704): relu
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/activation.py(133): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+“"
++/policy_nn/layer_1_activation/Relu_output_0
+onnx::MatMul_27(/policy_nn/output_linear/MatMul_output_0/policy_nn/output_linear/MatMul"MatMul2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+ñ!
+policy_nn.output_linear.bias
+(/policy_nn/output_linear/MatMul_output_023/policy_nn/output_linear/Add"Add2ÿ /home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/linear.py(125): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/container.py(250): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/nn.py(80): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1729): _slow_forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(129): wrapper
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(138): forward
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1750): _call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/nn/modules/module.py(1739): _wrapped_call_impl
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/jit/_trace.py(1498): _get_trace_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(844): _trace_and_get_graph_from_model
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(937): _create_jit_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1053): _model_to_graph
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(1428): _export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/utils.py(495): export
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/site-packages/torch/onnx/__init__.py(383): export
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/network_utils.py(12): pytorch_to_nnet
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(303): save_to_onnx
+/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_tora_dynamics.py(315): <module>
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(118): _run_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(127): _run_module_code
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py(310): run_path
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(358): run_file
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py(508): main
+/home/sam/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py(71): <module>
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(87): _run_code
+/home/sam/miniconda3/envs/obstacle_avoidance_mpc/lib/python3.9/runpy.py(197): _run_module_as_main
+
+main_graph*´dBpolicy_nn.input_linear.biasJ	b~½gBù½Ê¾ıíJ¼>fĞºw§Ùºë»¾
+¾y×¼Fõí½Ó¾„‚^½cé½h  ½~¡ñ¾e•½"r¢½i9ú¼/ì]½QãôºO½S‡±¾1•Œ¾¯»¼yhn¾lË¾å´+»¢"ë½(­¾uCO½ôK-»bØ¼L¾pX»Ç½©ä*¾ï«’¾Ü‹J¼÷6½€#¼é2»6Ê½O½Ÿ±(»‹¿'½Ø=»÷gA½ÆÛÃ¼‘Èf»e•ü½?Æ®ºB2¾(®Ó¾3¾›±}½aöI½=İ½q{¾l[¾D»F¾»ú”¾Âš¼¼;›%½yãºúÏà»¾§¾ìä¯½µ¾¾£³Œ½'şº¡¯¢ºG2 ¾Ñ4g½êà¾˜¼¾¿0»(İ‰½Ö¢¼¾²™½Øe½ŠV“»3Z»·†½;¾ìŸ†¼Â,½Æ’»l¼7{†¾+àh½»³°¾ñ¥Ö½Ãş!»y¼ø¹h»ÓØÒ¾Ôööºvíö½ıÉ¾¾*¶dBpolicy_nn.layer_0_linear.biasJÛØ¶¼ç"k¼•ô¼JíŞ¼nÄú»Sô½ ı˜¼Tô¼Íá»ıG½¿ê ¼Ø'¼H“½·Öµ¼B«Ğ½?Kó½e1Œ½iZA½¤îø»è@¼hŞJ½ÎµT½>Îğ»÷E"¼ş¿<¼4P¼šj,½(%½Ë¯¼ÅW½·“Õ»§ù»(ˆ?¢ÿ½å¼J4o½ûÜ½Ãê»;Ã¨¼qKC¼ñ˜¼RWü»¨s7¼ğ¨¥¼ÁHª½í°¼¤=·½´Qõ»ŠAÛ¼İ¯e½]­:¼Ôô»7.—¼<ğ¼Ši½­…¼çİ»½`J´<¦T‰¼„_¸¼½ç»öU½Ê]0¼ãÎ#½«Î•¼Èó¼³¦ú»®Zÿ¼Õ¼LT½aè%¼bV›¼ÓÅ»]¼.¼¦`¶¼E×Ä¼ŒåŞ¼}×å»ïÂ½&B¼å”b¼q!m¼¾%ã»ğ”^½ë8¦½œP¼.i¯½•,¼O×T½aº¼›¿"½·¾½ùÁÌ¼å9ë»¤|½Ûæ½v±»u¦&¼S$Ã<*¶dBpolicy_nn.layer_1_linear.biasJu\¼À-Æ¼:ğ&½‚°»V¾ ¼}‚¨¼št
+¼`•Ã»r¼¦»bŞ¼äÁù¼k~,ºfdë¼ªüØº/¨¼Ù¨.¼˜ô½PÒh½%¸ß¼Wok¼ùlOºš;F½É$#½ù0½³yl½eW©»Ëç¼!Œc½‰m»-»9v»Ór™¼õÊ¼JÓ›½"›¼¥ì½\z»,h¼
+Œ.½5|Ò½|‡»x’½ÏNÁ½|»Kˆ}½I –¼vœ>’>½-Üºys½Gb¼øpª½° §½áŞËº¤Ê»½!Òñ¼ô•¼O¹ ¼ş*»ó¦¼‡Z½®±»ˆ¤æ»è¦šºz½`·T»Ñ™?»1ÃÛ¼»Û»µõw»pDƒ¼ßø‚>ø@½ñ†Œ¼Ë2»½Á×ã»ø"ºÈ(ú»ys½‰ˆ½L‹Ğ»Øùæ¼åÏ)½À'İ»‚~¼!Ÿ¨½Ê•I½@N½°ñn»e-ª½ac½½EP½1Ÿ'»‰%¼Â_õºEŞñºYf¬>XEº{6‡¼¯ìxº*(Bpolicy_nn.output_linear.biasJv…>*ÚdBonnx::MatMul_24JÀT…Ë8Ú6¹Ç}8hò¹–Òš¸hòi¸ëVR9¹ 9ş©8Nš¤9›Îğ8œÎ8}»?d^¹²ëô8õÆ—¸SmÄ9¾>ô¹Ô¼€·&ã¹œ–û¸éÑa¹€-¹¤™Ã8Ñb„? º%7	¯¸y+ß¸<ã70Šã·‹¶7˜Ô·Ú1…9—²98Jd8®+8f\Ø·ZÌs8Ş³,8Œ€r¸wŒß8½9t¹QËğ8¢:19xå8İˆ7bi¸Nı¸VºÆ¹€Û_5Ëº:·xQ‰¿Í°C¹¢Ì ;ÖŒ¸a	~¹-y80È7ÍğŠ¿º‘à8aŸ¶¸Pùü·bR?8ä~· ¦6úK‘¹P„¸^A°8˜G¸80\*7‡ÅÌ8OX`?V$µ¸&ÂÌ8jC9ÀVµ¨‚¹<“«9éş“¸•C69/&¸rPz9O¯ö8v8¸j€·Ív8¨Æ9C‡ó8ê²œ¸øÏf8ÂĞ„¸9|¿@@Ï·Û	µ¹1ù¶?öM¹ø9µkñ¸¸$a76Ò;òF¹¤‰’7ª—¸ò)¹£B9ày!7‹òK9T¢±8<ûØ7áşU¹™Ôx9(Îğ8ğ;'Q®¸ 2Ú5¥‡ò8KÏZ¹]ü8Mõé¸fÀn¸é*¸ß#æ¸ÇZ/9P]Ÿ·l%¿n”¸·¯7¯Õb¹Œ=€9@×ø¸ 53·˜ƒ¯8¬h¹`I58aµ¸4 O8h.z7aáT9Ùš09 `§³ï%8`gÄ8À…9ø@¸é9®ç9Õ°8H„[7hŒ¸@"â¶XÚµ·ÀS¿¦¸+m©?(`ß¸UÙ¥¸xU~¸¾á ¹¥ga>ø+8¨¹	J¨8Ì:š7r›9PÑ81£J9Y×¬¸ªª¹84›,¹î&ğ8õdW¸G}P?Rcs9x_:¹ ãæ¸ˆĞëµOÔ‹¸pò/6(Ì{7®£–8¬.¹wmC9Ùé%¹dÁ¨8Lï¸T_¹[_39ùÅ¸y;p¸ğù¸Ún8^Ãn?K—8±¯94İø8V¹x©!¹’ËE¹N¯µ¸ İ¿ª…×8Ír•¹±–9L+"¹l’"¹è9öñJ8nÒ9cıC9¿9ŞV9Ç ”8ÀsS·î-Ë¸@ğ>6äM8ÎËJ¹ûÀ5¹ô‘´¸  .°Â7òfe9Œ@08ô\µ8–iw¹„@«·¨ï8·È¶¹öK„8Ã:9«P¹†p¸Îgú·Qz9æ” 8HÅ·>EF¹Ÿ^9Í—ˆ8¸“ä76®5¹Œ³¸Íš	9À›‚¶I,²¸rõ39!28˜Öü·\D¹®uY¹gã©¸/'æ8‡'¾¸ĞT¹aå8àbµ8iÇ9€\·¤3©8 Ì)·H9xıŒ8»ëN¹ô—·À•ä8NY¸¶³Š·?¨·8Öe·9’Û²9À3·Ö_8óÀ59÷bš¸Y¢ä8&G¹² 8—»b9ƒÀ¸.š9FÕ8W7F’¸¼§g¸ñ¼ä8Ì
+(9å~9&SY¹°î9zŠœ¸¶ß¹¸Ÿ ï·+:{82pİ8-#¹ RN´¹Òt9*û¹!¸º·xpÌ·ŒY9Ùï9t¸Û›G9 À{¹bøÅ8úÙÏ·@'9¬l¹šS¸Ñ–7pÇI7ÄG²¸©Ã¸  `®8Ÿ¸À)Í6 ğ>´  v0'¶8º£9DçÃ¸œ²·ˆÿ8@æ7Hææ¸¡3D¸îK„8ş¥69®N²¸{w¥¹B±°¹Y¿–¹’Ic¹:X¸·°Ò–7™79è§$¹±ìŸ¹Pà¹p¹gƒ9¸Ù9·Ú8BÕ*9Y,9ç)9Òƒ¹èI9âã¸ŒÑ¸ êĞ6%e	¹@Òì¶iO9Âî9™àÃ¸lÑY7Cû©¸ =9ñİ¸>
+H¸Ùç‚8Şñ8èú¹ Â˜¸	@µ9úK„¸	½ä¸Vy%8Jø¶9ˆıï¸®ÛÔ¸?8.|79¸Ík¸ i½¹Ÿğà¹È81·è<9»N¸÷¡ ¹ğN¸&.¸ ø2<
+ö¸ HË6øGl·ñº÷8z»q9b9Œ\7aÇ9`X·©‰³9rGz¹ª158ÔoÆ¸0ç¶*Û¸ddBonnx::MatMul_25JÀ¸dY…8ğ÷8ŒA8wë¸faÑ8øŞq8°É¹¿:¹,Ÿä8(Î‚98ÛB¸¾Äú7®İ¹'÷“¹ğ)·Ö18,ôî·?é¢¸T{Š7 |´8É¹Öı9y;p¸‚TÈ¸`XĞµõ\¸€)¸°¸
+9ÙÑ×¸lhÓ¸éÌ¹"Æ>¸hÁ‚8tVD¸BA 8¸”¹¸¥â·âÃ¹Ï·¬¸2àr¸†Ÿk8¡¦¹ˆõ·sˆœ8=ö9lªñ·'Íú¸	F¹(ˆ­9¦CK¹`3»¶&ãP¹l¥ç7>¦9ŒËE9 ¾p¸Æ¤[8ÙÒ ¸?é¢¸¦æ‚8–¬7¸©é¸ë>Á8\y¹0ú›7E‘8jNú7\ş9Üµœ·Z‡•8€8$9v”18‚oi¸"–Ï9'9›ÃP9—B0¸Q¹ ô¹Æ¸"9¢_x8üÙ8Xk8şÈ8Š„´9 ÔR7?X¹"»i8°ü8`İú7²õ8Œï{¸%'9˜µb7Ë4ë8Öéƒ9f²ƒ¹4ë›7­YI¹Ìl©·ÈbĞ·²ú8e+ó8:æ8™ñ2¹Gä.9J_4¹jôĞ8  81LWX¹%Ë8È–¸Qô¸`_7Cc9‚ˆV¹â,)9a9€ÑS5ûiÎ8Ï0¹T¸1Ã¸ ¤°3ˆ¹0E-5ğ}i7ét«8š“4¸*‰2¹(~8´Çv7­ã8¢ü1¹cQ„8+ø‡8Ğõ…8Üú88"3·èd.7Ê$ê8Šÿ–¸®„8S78¸Ø´¼7°·Q·· ¡8à¢³7|ØÔ¸2n/9¸mM¹üa¸^Ø8Üğ72ë8>¾8Ë_¹¸æ%8¹ÛA’8`Ó6Cÿ>9RÛB¸¿å³¸3\ 9ò°¸t(9û‹ì¸j‹M¸+†±8WÚ½¸ ¬t6ÂÖ8òö9¬]é¸íËˆ¹•~¸,²æ8Ğ\w7 ”ó7³v9ä<¹«µŒ¹”÷Ï¸ şl2¿š¦¸ëßÔ8³Y4¹Øù¸@Q·Úo8é¬¹ ‹¸ÈGÌ·™Õ7ÑÅ…¹ø¯â8? 	¹fÙ:9"X87"V/¹Vä#8ƒ¼ˆ9Â±À7â¹œîJ¸iù¢9^BZ8¶¨+¸=Ã7±š°¸1¶¸dˆŠ·zNŞ¸En¹Œ#88èì8LO¨¸ˆí‹¸Î˜§7Àì6ràO8¥¹VP¹¾êm8256eæd9‰¶¸®´ç8€FO¸F¹;¹{—¹§Ö¸p9®¿Š6îK¹nå¸Í“›¸ çj5ªı¹ª¹gûx8&_¸ŒY¯7¸W9¹¸àÔ8
+«.8œ·³7 537äÕK9MlY¹ìÒò7‡!Ñ8	¹X9çÏğ¸nBÍ¸£n·8,–Ø8@xí6ã³í¸ €­²8
+96k–8ş¹0¹Œ6¦8˜0÷·åç9ù.8÷AÜ¸ğÆ~6p£9§¾¸ú¦5¹D–7¡p…8Äë8 e~´ŠÖ9À6Á6P¿59<&8BxX¸²jÙ8&U9æ—`¸  ²¯@]9R” 9õ“¤¸ÀxWµ İ·2L8)Ú…9A²¸„ê¤¸„õ8Z8I`69„ûŒ¸Ñ0¸Aï¸¥¹±„Œ¸Î»&¸
+½¬9dï{¸«,®8Úó59ú¹ğ¶8_(±¹Ğm7K½¹ ü9–w‚98¹Ap’9h“¹4-{¸óP?9ç>¹908]±ÿ¸ñ'8¾YT8pb“¸)¼Œ8€¢‡·À‚K¹?Vï¸N5¹R–¹›-K9ã Ò¸£ø8Ìêá8¨„·HïJ8¡B¸,âi8’Ì8Ø^¹º”9ÿxî8ïL¨828Šïw¸ã Ò¸ 0X·Ø¦5¹À/í¶¨.'86 ¸ ¹÷8Ä²·dŠZ8}û¹:¤î8T¦I¹ìÌ´7k-ƒ9-Ò8iL@¹Ô×J9vJ}¸ë˜¸İ©·0[¹:ª!8àE¸¬ÃÃ8Ê¤>¹åªS9Hææ¸¤¤8Ÿk*¹DôŒ·0\7¿å•9IA9¾¸&…¸¦68À¬ù´XÏ7 ÉÈ·&ê8œ[È¸*BW8]û¸ŒTè786ã8E¹Ø2ˆ7ê@²¸øº¸¢¥¹ÀÔ¢¹z/¹è-9,'•7â†œ¸JåI¸+F9œÜ¹'—¸–à8K‰¸©W&¹JRš¸±m9$3k¸ |À37)Ü¸¡o•¸ä<89U½è¸¦¼686×'9Àa¼7ãø8? 	9&ç‹8Îb8dŠ7æK¹“Á¸F(™·y¤¹¾°R¸’H¹Ğ‡»¶KÎE9n8Lv9œ«9¸ì¹0;@¸Ú?İ¸Ú1š¹öF9ÀŠ¶•g7Âm8;<Ö828Š8jcØ¸İaç8”/8L±7R9ùi©8"„Á8bëP8:«88Ú#8Rú¸ŒÈ9Gh¹ÕJ8:‡¹$Y8ôPM¸`ÿZ¸ª£&8ßH79@\t¶½­(¹R‚9 ¡°¸d~•8×é‚¸?‡19›%19Qõ¹CS
+¹‘eâ¸¨F7úÑŒ8Œ‹8’Bû8Rî¹¸ı7¹Ib9ò;¹Òê@¸£P·8(DÒ7Ép¸l€¹LÓ9Ò›¹–BM¸pM9mŸŞ¸İ¹»€8U¹8>›,¹:Y&9lDß¸Òìã8™ù8ÉBJ¹Ğ80D«7ì P8âüÒ¸Oq&¹\“8ğ­Æ·¶}¸ ¶¶W±:¹`£¶Èª®·H÷#¹Õu¸±$¢9€³‘¸ç~¸R&¹íÌ™8× …¹‚9¹–}>¹{­78´·‡¸X¸œ·¡ÑÄ¸Æ"¸¹f•4864#9¾W	9ÔÏ·‹8>7´.¹‘¹}p…8 ñ¹¶u f¹ÛÌN¸E½Ç8ª\69şdd8HÆ	¹f•b8  ø®[ûœ8f†î¸rF:9–Ó3¹’0N¸°e0¹H*™¸ÌGš·œä€8Ş9€'İ3ñ¥ì¸4i8MÊ¸°fM·Æ£7GµP8ÍQ8•Rˆ8åeÕ8˜:¸ş;'¹Æ‰œ¸4_9yÍ½8p!P¸|q¹˜K¹ñ‘9¥©0¹3‡8 x³>qJ¸¡pš¸öK¹Ô/¹|Ù8MTh¹xÆ¸   +À•Ø8‚TÎ8P=½7*Úr¸‚Ì&7;3ê8¶7,¹Ã2ê¸6YØ8Ã|·*Ò8E9Èém·37÷8vXÒ¸ ›¶7ßà…¸:³l¸@îz¸ó”²8â9f)9èüÉ6À	9è¡F8ÀÉ6½çş8Ş¬¹u(¥¸yH­¸ˆ§÷8ÂµŸ¸º¹¸,>7«8á^ä8Và9 Šı8xÅû7$ˆŠ7–œ9†´8bÄ7Í:™¸.Fd8®f¸wšÁ8ôI968³­8(ş8¨­Ñ7dÌ¶U3ö8âm8¡#9 Ğë¶Áá'¹Ø
+(9Õ<ù¸Ğ÷z¹^%9½\£¹“69ø(8q‰±8u_ş8€k57â9€1™¸`ØV¹T¹9 ª8ÃŠ8—9¾ı8@¬a5'—¸I†ü8–l 9ùs.9€	´7Æá¹ÄÊÌ7>“z8ÿ˜„¸®Z”¸>›,9Ô
+{¸Õ@C9 |i³ú\¸¹î;¹-ıh¹-70¹åÉä8jp¹–3¹'›Ÿ8  ş®†é¢8/9°‹¸e8$Œ7™6ú¸  h/D¸¨¦91”¸èm·æ¦Ï·R­}9 „0³aQ79(Ö¹ë 9*°Ö¸258,9O8ÌÛÂ¸À2ù6ªò8~¹\8píI8åK09ÚN¹jK9DöÔ·ëİu¹s)$¹Ì6ÀzÉ7&¾¹™M¹HŠ¶7“Ö!8v•9~¹\¸yÚc¹”û¸n˜¸»¹¹¸øX¸àÈëµ ş6aãÂ8«0¹œ#9Ñ‹K9>L¸ã Ò8,P8 U´®î:9‰é¸$lJ¹  5¯Xô¶~Hd¸—Í¸‘ï83¸É¸¸mM9†AW8f…9•r8¸Aµ «z7l9b( 8x‰9§ÛB¹2«~¹¨›J7T¤å·2G:¹ğj9…â¸m]u9ÈŸH¸ä¦59ËÇ]8je9|Hè¸¢L·Àê$µ± ¹,,‘·°4»¶÷~8PK¦7ú¯ ¹0Ò9z¹¸”h7:9Ä/09°‹8à=?4<ƒ9ùª¹ş†œ¸¿,ï8C÷8²±/9\~•8À‘³¸~í¸İañ8(#P8@Ú6¹2Ó§¸ Ü˜¸‚éÌ8háö8t@99,h¹=Á´¸¦ú8B°ñ8?Ò¹À78Æï
+93<9q»Š¶ä‘µ8xÁ¨¸¥¹@Ü=7ˆp…¸à'?¹@";8{ç¢¸¶‘ö¹ Ş8ê™‰9\Ç†¹©Uæ¸äjj¶ €ä°n|$¹¢Ù¸ğ¯u¹¨VÁ8Z”8à¼ÿ·Æá¹>[î¸*ˆ\¸@#,5˜Ã¹¶]†8BV8_Â¹f‰à¸]ÍÂ8„bÅ¸¥8ˆp9‚?’¸©ğÙ¸íÖ÷8ö¹È‹
+¸?¢Ù¸Ê_r9®ô€¹øò¸ °8ÌĞş7@kµğ½p8ƒ£69€5ØµİÒ-¹ĞBÈ·q«¸	¹ĞU$9hØ¸¿¹¡¸µkñ¸´tå¸°ÿ9òóğ8æ¿L¸ş7¹ãè¸5¸Ö ¹ÜEš·Û¢P¹Ä®8–Î8@™¹,¨69ëQB9"Mt8/ı8¢zj¸9…TÎ¸•K=9ªªp9à¿¶8)G}¸JÙƒ¹[–Î8Ìéy8b(¸ŠÏ8ùE–9æ¹üÜN¸I}Ÿ8Vï 7ö…q¸ Ì7ı%€9@´ ¹oA9fğ§8Cz¹Â9v¬¹ĞŸ#¹  ¤.o'¸İ¶8:>z8` 
+9|(9–9¸ï¢¶8 Öì2„¨18âh'9Ú¿¸²ó9é¹„¹’íà¹õFÅ¸¸ÄX9vûH8—°¸O‚‡¹ [´2.w¸¯Å8­ê@¹ç¸¤€·¦æ‚8X?·Pü7º¸ÑÅ…¹	B ¹¤ğ 92¯¹.¾¸Ã¸»¹6ó9E‹Ñ¸’‹¤8‰9¸ËŠ¸Tí¹ò9 EÅ·WÈ‰8¥¹4=8øOª7'>«¸jôĞ¸h>7öK9¬›¸%¹„ñb9ã¢©8ÿÍ8`¸J·òŒÙ¸FK¹8}}74††7´ñƒ7lŒ8tº8¼ŸÉ7l„9¢!>¸TÌ¹×f0¹ßa¸×5|9@¤Ğ¶è‘9ÂP¸¸ñ¹à÷Ã7|Qñ8Ød:9PuĞ7øİ8ÈêÜ¸åF¸œ:C¸«ñ·SMš8šÜ¸8Ò’6
+<°¸”Ù¯8øœ8Ö¬$¸„¸r¦¸dWX¹vÍ¯¸zÅJ9Ë¾8ß\ê8H(¹Ô½8gÎÅ8Îfã¸œÚ¨7²)¾8šå9›"¸¸bä¶ =9ìÓ{¸.U8=9¸mM9ä/9Ã[9ÿñµ8÷gÒ8ìÆ8#Ê¸¦Íq9¸:¸0m·¸ò•8
+ñ/¹)ñ87Á:9nç7Á—í8Œ[:¹ıÇß¸äö•·È}Î¸:m¸#P¸Ğ:¤90¯Ï¹lb^·Â'¥¸@ƒ9nTƒ9ÌÛÂ¸˜+·Yp”8@èj7@¨5²fK¸#§59Ã|9ÿ¶¿¸`d²7jau9£¸‰¸æ+9ñ€9¼Ö˜5¼Ô˜µD¸-
+¹ á7+’8xDº8÷·¸¥Š9’Î8+¹29 ¬²ö%8İl83·"¹@Y?¹¥Õ68ŞX¹ÙjK¹Œ=€9 ‡B·ílò¸ª÷¹´T7ˆ9 ,!¶JÈ=9¥ŠÑ¸T?9Ï8 İ?9%5¹€J¶G²¸6K<¸×¶8ê¡Â8"
+8L7ö¸Ó¾¹“§¸rY…8@Œ»¶!9†é¢¸ x°3+Ê‘9œ¿±7ß@n8&ÓA8Y‡·8 ¿ 7Ló±8T»9 ‹9Ü;¹.Ñ<9}ƒ^¹N°¬8Ó¶,lM¹ì]‡·D~8šï)8Ÿ5 Æ·{íM9Øçğ8g=§¸âá…¸şi€¹VÃ½¸¬Ò7|ö8´jÙ8aBÀ8oñM¹Å§~¹"§¹;F¹,'¹lx¹¼ßƒ8&Â9
+\:9E7ç8gl¸ÄÖ˜5øÎ9(À¸œ:9 Áw7)¬u7–\õ¸ ¦·7€~¸âùù9×8È¹‹8øÈ8ÁOÙ¸ŒZ?9¬ô|9Œ¹ÿ¸J_V8-wP¹|ó7ùP’¸å¸A`ø¸>l€76vr¸cs8íG–¸fŒ¸÷#¹_ğb9~/_8X#9 €'±±Õò8N‚û¸Ğ68‚-¹áßş8\˜-¸   ®y9hÁ‚¸XWV¹İĞü8®y9UV~¹ÜÕ¸&9õ‡+>M26ãš¸¿q#9¬F9!"¹Àë%¹¼‹37 nƒµÃz9Œğ\¸¤CK¹UkC¹> ¸M|L¹€bJ6Ìt&¹ÜS:¿Ì† 9aÛ€8k’î8®8V–“8(s9ø¥E·4ÏÓ8v¯À¸¸÷÷7>m9«¸@ïj7 ñº7]Œö8¢:8‹û‰8¼qŞ¸ŠÙü8±¹<v‹7À~Ğ8^aA9X8vCñ;¸8¹€8k·–é 9`§7;Ÿ¸Å7+9ò•D¹óo9ŞF–9ğu8ÎÑ×8)§¹è¸Â.79é9€¹Œ=€¹ ^7­©•¸jB¸Š¤‘¸t°²8 v 8‡Ò¸ÑlT¹àyz¸òz¹gV8œ®8ó¬a¹:´¸9E‡19¿‚8|H·¡‡¸À’p5Ÿ[¹Üm9ÒE¹w›¯9§­½<³’7ú”9°€á7]Y89æ)•¸¸Xy7óZá¸–*=9 2Ë·šè8‹vÖ¸\ùA8ü/77ˆ½
+¹„fj¶~é¢8tcß8¾ğ¸„–¸ü¥¸h®¡¹¯8 R1¹X>ú¸G¡/¹ U~4çà¸âßp8=ÿ¡¸è•>9XØ9¾Í§¸IÔ|9÷~8æ÷7Æd8`^h8$Ö7,¢õ¸½V»8 ãæ8c·¹¦Œ8\–¹ö(`¸È µ·<{8ø—¹ñ”!8€ÅµõĞ·%fû8Gé¢8Ù|¹~7@8yN^9`	Ó6“á8¹ì¹ÉYô8:"¸0““¸l+9üá8—ØÚ88|x9P—¸IÈ9ğ(7ü±ñ¸0õ‡·:µ¹‡B·wé¸lÁ¨¸÷‰‹9ÆØ"8(™,¸*€79ÈõI8§Jã8Ú#¸&)8fP?¸€õ§³vE9ˆu¼¹èWq¸   ­.×Ÿ¸Àkp¹7\¹3 ¹æÏ9Õ@’8`4<· /g6ı2™¸Ùe 8Ï{C9 –7U»+¹‰J¹ê^ˆ9„®¸Å.n¹0É6×c
+¹D~¸‹PŸ¸¥â½8–ò·1¡º¸Ğ;à·  <®*Ò8Ò7ƒ8Ø…9|M¸Ğ§¸N;”8’¶¸”Aº¸–(o8{q9™9‡9¼…9õx9|*¹e§ò¸H‰¾·Ï`»¸nÎ ¹F!9j,8àC±6â£9 =æ6ø9À•Ø8ğ/9ı\[8Í9o 8ì™˜·~t¼¹àËë5à77õE9ôB8ø–§7V}¹  °.ü'¸x)17ğ¨Ù8gú¸1‘´¸	÷¸šóA¸ÆB¸±a9P\‹6rç:†cP¸ƒÔæ¸š:9¥¥¸h]N70&â6‡¡–¸ıŠ¸ŒX¹¿›Â8”°²¸Ô{Š·ù†g¹w½¸/;R9XEP·›Ú
+9Èzµ¸ªªp9Èº¶D–·Ğ¡t8295d†9¬Á‘9‚39êñ9.Æ 8¬¸ô8)Â¸@ùt¹iEA9F¢¸V:i8×¶8è0P¹ø˜¹ôI¹+š59¼•’·7Šî¸ÃR¹Z¶9 ü19»Ş‘¹,ªÊ7Ô\µ8S{›8Pr877še¸N……¸ÀZø¸î*"9vÛ3·š¸f´¸>ÑV8èg9XîÙ¸ <?4 å¹úk8Şç8xVš7ÓŒ$¹ÃÓ¸Gy_9£9}ˆ¾¸ƒ[l¸¤ü¸p¹vœR¸h9s·{`Ì¸ÇZ¸Ğİ¿·o“†8é’ø¸Q9–X9OÌ;¹ì’«¹½ùİ¸Hk¸ÆB8S?k8—P¹¼ß‡·ŒÙ¸8'ü8!f8Ïıà¸4³u¹à=?4N88€e¸ŒÆğ7­M¹˜-9ØšÅ·òî9¤™9îş!8Z¸Ò*Œ¸P7¹Vu9–ÿ¶8õÂ9P|8jaO8î»%¸
+;9WPM¹ÒÑ×8ê_ã¸0õÒ6-ñ®8¢¿á¹Ô¶9êŠ·¨ùÊ·¾<9Éßï8óo9ï£ç¸ ¿´ô#8{ˆœ¸Rç¹Î>$¸IÓè¸Ú €8µ~¨¹?Î¸Æ²j8Îş+9pÊú4€g³ı7¹Ïõ±¸ÀG¹,€p8¬Ë7 -9`²58ë¯«¸Âğ8Ë”v¹¡6¹[-C¸‡@º¸€P¸(À8¼#ƒ7NLºõ'9ğ™‚¶B‘·ğ69Bïã¸]õ¹\ 0¹ø„f7Ææ*9TÙ8ŠÙü¸C?k¸Ô/9:/À8TÒÊ7xT8]ù¹Ì›9bHO9Ék9ñƒ9Š`¹Û¯/9TV¸È£8%
+9†Î8p°59„À9Hs‹¹×m'9.¿Š¶ÿL¨¸ƒç¢8qï¢8t‰,·Y¶8­×9,z¹ñÒ»8F*Ò¸ı'?¹†íì7²–8¬µ×8xå¸|F®·” 8±˜ù¸ñ»[9Sœ†¸ïlj8~};9¢!œ¸&1i¹Ò•Ø88Š8f}k8Ğ±¹'¢¸	v-96s~¸7
+ ¹-t1¹Ö±Ù¸¼ğ8Ñ°¤9nOÖ¸f€5¸Àº7Ï3¹õ¤–¸ÍÎ89C~ã8R„ ¸”Ÿ•·I0K¹\8´PÖ¸U‡¸èD™8µŒ9~CK9kóº¸üÙ8å”Ì¸Ğˆ»6˜è 9–<-¸XÕ67h8¹·…U¹êCº¸¹Ö=9¸¼B9?İ8dë09àP¹Ìï‰¹9’8>9Ø^7%Ì¸¸mM¹&^8eá8˜=‡8r91¶Í¸Jv^¸a³ë¸†¿¶7(¸%¸9Ñß8”4Ì7¢ê·  ş¯) Æ8¶á¸¬Rğ·(—|¹0X™¸ºĞ˜¸—/9”¸¹ßF¹‚¼9Àa–¸49w»ö8fÄ6¸É 88Ñ–7>W:¹Ç}8€8™8ât'¸%¨D9”±$¹Æ¯m8
+°8F8&¸h·MÀ˜¸$Ğÿ7<³\¸†X8E:
+¹Ø’}¸”[¬¹6:B95#1¹Ì¹á
+9CU¹Ï¸PqÔ¸[=”¸î9¹l¸p×9ú]t¸ õ$9µc¸¸mM9¹4”ÿ·ÅÃ6<&%¸÷Ş‘¸‘â¹@á¹7=¿÷¸¾ô±8N­z9Aö¹÷˜s¹[~ˆ¹Kì«9äÃ8Ååú¸f\Ø·Ğı¤6,„·À0n6lîã¸Qõ¹Hú7‚lö¸Ò3:¹óL¨8xh¸°®Æ·ı4•8òL8Şñ2¹j:	9`„û8¶Ú3·ğX‹¶ŒË·²ø-¹ö´À·x’ 9Aƒ
+¹PÙÂ¸J=C80®Ï7*Ó§8ÿ3}¸vT¹ë^8â}A¹
+Ô*¸®ˆ¹‚TÎ8(½ı·\š’·ô–¸ğ6E9[B9^A°8Zò¹Å÷¸ºW9@±B72î—¹±Ü8øW¤8°ö7”R ¹Öj®¸ß#æ8”¯¸F©Ö8_¥9E/>¹î`š8æJ¹ş’J¹“5ª74Z¸¨] 9¾Î¸˜D™·QÆ·qĞu8Ìs\¸úy8ş©N8q»Š¶`B˜·Òk9f¸HË(85­ö¸¹å¸¨79xå¸ê K¸ğg¹RÓÚ¸ı»™¸èRC¹¯FC¸°¦b7ø÷k8|N¡92¶ä¸V
+93¹°ØÌ7ÀÛs5 ĞÀ7@ûÒ8;ˆ29qcr¹ë^8p<%9ûL¨¸İ‰û8C&"9¦oŒ¸à6|8ìÜ¹ï$ƒ9D–7“ßö8˜#p7Q4&¹t)Ì¸!ÏK¹âô¹iãæ8,š7`ú¢·.Sa8˜¥â·r÷A¸X¹Ù·  k°ÃÕ¹1àC856"§9hõI8nÂ¤9Az:9v¬r¹ø*¸ãş7H#M¹™6‹8N˜É¸òã3¹  L¯ÂR2¹ùŠ8cõ9†6‹9îµü¹\¬8è28;–=¹Ë#°¸æ‚·Fn9¸
+¸èr·pÖú´u/‹·±’`9Æ¸­ßæ¸K…¸xI¹˜X9\í/8–ßn¹\ÊÌ·¿â8)¸¤9rìt¸€f3¹ıÎ¸WÂl9Z¿}8qz£¹ù.8 íâ5N¶9¸¸Úù‰¸ `™5Ïz¹·Îm9sˆœ¸äĞÿ·Q½Ç¸6l38“	9Œ „·öí9¯0¹<J„8<rŒ¸z¹·@:9[f9Ğ±c7®+¸tÛn7D	8˜Ó	¸O&°¹~ˆ¹zk‘¹u¤9ÛK97|¹'Ä7³{è8ºË!9^O¹,.9şD|8®Ã'¸68ÆÛÔ8Å â¸f7C8Bà¸ø¢Y9
+¥¸ÒÜ9”ˆI¹™™¨¸HËA¸W39êE–¸.m‡8H‹9ªgw¹Òq8pßˆ8Mù¸t»[8± 8>:C¸„l¸d1¹ÁÆÁ¸†h ¸Ó#©¸ÄÁ·Óî7ÆGê8"f¸ È9h7Ø´¼7ß#æ8Ô6J¸Rz¹V&(9\:9—=†¸NYØ8,4Ì7Æ¸+8x8™8  ƒ089\:9¼Ó8K”§¸§Ì90–¸ü8Œ°³8dá€9î>;¸æœ•9Òe8‹c8¨8Î8Rğ¹¸s7Üµœ·MÎğ¸¶ì:¸Y.¹]ş»9Òfı8pT59õ¡¢¹ š· „0³¹&Ò8R198gÊ¸¢UÙ8¶/¦¸–K¹OúF¹ñĞ§8m‡8Ù=$9fù.¸ ,¹1Ã9Z÷Ó8êeş¹¨nœ7Ã†|9vá±¸ı¥¸è¯$¹a€¹dÏ\8ü<¦7‚p9‹Œ¸'1F9²ëÉ8  .8Q9¦×í¸ß#æ¸A9f¡83¦A9 ²¹6Šñ¸j{9¹<ô¸˜-{8*åt¸Nç>¸€6d·´‚8ĞÜŞ¶µ¡¥9¾•Ø¸`ã5©Ë1¹êîw¸œE9hC7…TY¹Wm½¸h³‘¸g±¸MÉ›¸.l 9‚Ì&7İî9˜)G8¥×|9n³[¸yÙò¸ëwÆ89Üí8h7D?¥8XEŒ92÷ø¹Ê(Ô8“¸Hë,·ˆni¸P 2·Ş"€¹Òz9cpê¸%	ª8_à`8lò‡·ˆJ6xÏ·L}¹²‹ß7şC8ä9û8xå¸šùÌ·Âw»8™79*Ò¸”¢ô8îH¸ÀŸ×6  ê®äÕK9  D°Æï‰9ãÛ¦¸ÏØ¼8½ƒ±¸ÕR9¸j€·A½ä¸88½íÙ8Â¦ı9j9şè2¹[¦@¹,¬¸²\¹˜Ô¸†?9‘’”¸Q…8 Öö7 r¸:…^8îRC¹Ã	N9Ãˆ[9k&¡8Y½Ç¸ĞØÌ7Ğ(·öŠ¹ëI9ği7î’	¹iB‘¸ˆÔ·\ä¸ãÔ8yP¨9(E¦·ÂS8wô¡¹S)C¹Zv9_9¼İ·}aİ¸ ¹ş,9‰¶¸ÀX¾6>Ãb8&Ì›8²Å¸|ˆ¹îRC¹%À¸¹aÛ¸M{Ç8 ßG·²7¹œÑ8g°+¸@·Q·0l›7èÕK¹şã?9 şn²h^£6@ª¸§yH9ù‚N9'ŞÙ8àC±¶ÓÕ7˜ü¸c´¶¸ø¹÷7 E9˜J~9$ä8a°¤¸"ğ2¸p½7uq,¹êüé¸/ÂÍ¸,ÛV9"{é8_X¹pĞ·Íÿ¹óæ–¹´©¸Š‚¸µ§~9+DÁ¸2@İ¸£€„¹/ğØ8¥Zá¸øN9\V˜·[%7Ê·¹ÀÄ³6üoƒ·ÆÂ¸X.ƒ9œg¹>ù.8Àd9â\8Ìôî·Šé¢¸PŸµ&˜j¸&c9l®8ŠÚr¸ÌX³·«Ì±¸Óó¹¸Ã‰¹—i¸è8ZÏ!9·Çl9,’:9göE9Û‚¹¼®‹8d%B¸Æ¯ê¸R9¬#I9¬Rğ·;…8•‹‚9È‡¹³¸•¹‰Ä¸Úè08‘q9ÔÕ|¹­>¹Ã’¹–£)9“M9Ğî(7 Ñõ4ÅÙá¸ ” ¸š97Ô|¹#¡ı¸ŒÏ8p¹VÉ$8t9ñ©*9¶JŒ¹,+7nT¬8ö»c¸_ç8à¹KwÃ8¤,Ë7Kj…8ö9¹=GÚ¸q¸• ñ8`Œ81Óİ¸Š„´9N ¹Æ80'8fJ,8ÅR½¸”ŒÅ¸^8MÒÒ8Îà90­‰7zÏ;9â®8Ä.¹E±n¹¦^ÿ8J_~¹~õÛ¹ùde9hÜ8Ğ=ù¶ã1¹ô-9‘…¸¯9fì­8Ô¬•8#Ø7Â¹p—{7ÊÄ˜¸òõ2¹áİ?¹˜Ó	8†ÊO¸vô|9v´	9Û}ì8$É¹Ñp¸NÇ¹-›8D–7ÀŠ8 8D4Ô38f9úØ¢8ç¾»8Xß€6¦lP¸é
+9?î8Ğ56 Â;É™Ë¸ü_9ğ¶6øğ7&\«¸ÀŸ=·}X9Øù¸$€ÿ¸YwŸ8» M¹®uµ8Æ…¸!a49ªo?¹º•¹
+Q¿Å` 8¸L7ÌŠ7bHC8(¬9ÀT7™t&¹f8Ø9@É(8â|¹â¦59›Ë‚9gÍ¹6¹şğ#9À²¹¶ Í¸\òÓ8†aF9êË:9è·º‘ı¸:§9ş¾Ì=€«Ó8tnU9ğ"=71#.9‡™Î8ãæ8–Û9^ˆ-¹A¯¶¸Š]M¹Qƒ9lÏ9¨™©· @¸¢·ç8¿}9Õó8õ¸h6İ·ô…Œ¸ã¹±Ñğ¸ißÔ¸t÷`8ænO¸­?º8ÒÎ9AÙ9GÄÆ¸6Ìš8:F8	J¨¸˜qi8âe*8Ç}8€55xÚ®7¸ÓË68QD¸÷~¸ï#9s(»z¼19  ô0÷"o8ìôŠ8X2D9¦P¸+¿,9x!5¶~ñÔ8¸Š!·Ws]¹Üç·æ9](J¹P˜+·ôCz9Ü÷9[ã©8ô9gûx8Ca¸ü]É¸ˆà€6è”6C¹Š„'9/’´8—ëÉ¸hÁ‚¸$„L¹T“!9¤Ç×7¬O«9ü Ì8Î±¸xáö8,m…7x±…¹*vÆ8é)/9±è/¹ìiÎ¸Í&µ8œ!À¸8YG7‘9kµó¸0(½6Y9pPH9îÌ8àR¸Ô{P·şè8ªÄ92¸‡£6¹¿09†Lq¹B¦Œ¸(¡~8Yõ92Õ¸*¸$öS9 \‹¶0Ô6?]Î¸Õ Ğ¸ğ"ü¶LÇ£7‚!9=¸ÛE¯¸‹9,™¹ş3¹2:9tüN9n]8”Î¸t ô¸¢p9Ê)¹O0¹{)$¹À~Ä6¸’k7º¸ ‰¼5ºÈ9÷~Û8ZÙ>9èè‰·€¹µ|à¹àŠ3¸¸¬Ë·ĞÕ|¹4İ‹8ñ5h¹ÚÄH¹7/¹ªµ¸·ÆR¹ƒ»µ8'’á¸áO9Q¦a¹´(¸úk¸(·NJØ¸  ›0ïÌ½¸a×¸Èü8'9fBÍ8°îI¹Î¶Ç8˜Ÿ8p¹5|9Î><¹‰!)¹ÇSË¸°{ò7Ïş82&}¹üW’7l£–·w©Ã8Ü$9œ±¹ÿ¸Ï9€í81ò8Ji 8
+Ã8NR„8®â8¨Õi8Üç·P(7—$¹Œ‰¹  Ò¯
+öK9²b8˜Ê¸·HŒú7›Œ8™v¹lşV8ClC9 $¹ØJ£7{îã¸½·®	a83Ê¸/’İ¸`í>7Eş8ù7˜–§·¯¦·Ş8â7¸tû8Òh»8¥ß¢¸ìÃñ7«`Ã¸¬Rğ· Èëµ4)‡7¾ÃQ9‰àü8×¶8T?¥¸ÊÅ¸)|¥¸r¾‡¸Ä¸Mi¹×–¹ ó8Î›8¸ÛË[¹\&(9€¿ ·¨]"·Â”7¹±7¸ Â·½`9.ƒ9Î´8G9"´/¹„”ı¸,Ş{8ÎWe¸kD¡¸ğÑDµÖq«¸£­à8(9”Ë<9Wõ¹LÔÉ·9&÷Â·®g×¸rÇ9I:9¿v¤9´¹;8pû¸B_¸<v‹·õi%¹`3»6ËM=¹,J¹	—¸ª¹nüt¸µ>õ8€íf3ú¦5¹h,)7ğƒÿ6†Ùü¸D”ÿ7:E¸nBÍ¸Kp´¸¿¡8ìôŠ88p§9ŠÖ8îó„9 €H±òŒÖ¸>8‚?’¸ ä·ñí¹ÿÕ¸„p¹¹Œ—v¸&;9¨>·S¹7æ9Pi³¶Eå‹8³¶[9«±á8!?¹ô]œ7äùØ¸Ä­b¸Â`Â8`²K¹¸×.9°Óì¶dñ88.¸eÛ9æ·\¸ 	¾¶hãŠ¸<~¸H¢9#È€¸‡gR9Æû¹”M=¹Äø¹ïÓ]¹rj9VÈ8şzŒ9ù+Š¸[+¹„v	8eÎ·°r9xÍ`·”8U9D?¥80¹8ÙÎ¢¸ÕD9‘$9tØÅ7˜k9@í
+9`€.7·.=9 !û6ÀX¾6P…Ì¸‚ˆ0¸A,²8G/9šI69Š—¼¸¬Rğ·¿•Ø8@ïj7Ü0­7zX”¸„UÅ8ØŒ_7'9ä¹&9ÿ<„8Xª¹L–8Ã–¹bBÍ¸RIñ8/9vœ¶€LY¶±8`lÀ·Ox¨¹:Á¸->Á¸òf{9h7l¥ç7h¹²8  ş¯p˜79  Ï0aãæ8~‘	¸P"¹µ9ÈWq¸˜Î×·à‰Í7—¸‚};¹8p€8À„¹vd9¹pw]8o·l8Ö©¼·¸–§7  D/
+Ë9§Q9V?¹Š»¶?öï¸üD8?È¹ğôŠ¸YËñ¸4'9˜Z”8~ñ80'¸jtp8ÅÌ¸ˆÊ ·$8¸eªØ8¾Ğ·P”8°ªp¹Î8ô¥š¸3#\9K¹˜8*ëß¸cff9¨G¬¹4c¹yğ¶ĞšÂ6€V6×¯/9Z†u¸Z˜¸lÒ®¸—A89í9I¹N=O¸T(98~F#9õ”a¹ø×¶¸KB¹àC±¶B…8²dT9@÷#9Œ&>¹}Í­8 `p4?WŠ¹Ñ†9É–İ8Àç7ĞR9Ì8/¶Í¸—–î¸bå9^j€9®8ËÆÊ·pWÀµd²½8D–8E]8ÀV'¶ÉàK¹Âìğ8(9mMù8ö>¥¸× û8Ú}^¸rõı8È!ª9Ä6¹ÈR68Ï¸Zoœ7Ä¾„7Ù£Í8ÓK86şj¸ÆP9'¤¹ÈGÌ7~¸„ËE¹Ğù¸÷~¸€Y·â[Ş¸'Ş°¸ê„Ï¸  Ğ.óe9ª(9«ğJ9B›r¸Şô¹àvõ8–AŠ8·7àßq8- 7¹
+ƒ9ÒoË¸5#1¹Ù?8$Ç¸¸438+ÖÆ¸ö›í7h+Å7ÀxC¹^é#9<v‹·“•c¹ä±ñ¸Ì~¡·0Ñ¸xÀx·æ 9q©ó8úë ¹ğZi¶€õµ`99 ïj·fBÍ8_8!S÷¸º¹9vó/¸H•9„9J\Ë7[I9Ÿ¹x?û8÷~99*‰2¹:ª#¸,Úƒ¹Šì¸›ª¹¢^¸ x°3÷e¹S¡~¸°_7ˆ€s¸ ¤$9´›9ğ(V9Ípé8à5ş*C¹>9Ğ¹jF#9"¹"¹Ì=ä¸^A°8‡a¹D~¸<’Œ· Ğf¶¼¼Ü8Dwp¸Ï›®¸*Z¬¸‚Ì&73¹9r›¸_…e9‚Ì&7÷û¸–•¸#í>9˜X·^—c¸ñ-9T‘Ù8W8İ–İ8 	´Å’¹}İ_¹ÂnC9@œ·8á…Î8?^¹®”9Ñ˜B¹´(\8î‹8"Ğ®¸)£€¹T"…7
+vj8æ9 ²¹6¬€å8@n·ó"%8àOQ9w 8¤$9 {¾6(d!9@K9 Ic6*9úk¸>&%¸±¡-¹üØ+9¸mM9AĞG9Œ58LM9â¦8ÑUš¸œ+¦8H,w·Õí/9Ö`š8[ñ…¹† ×¸>ö™¸)¬‰¹“7Œ=€¹z8¸º¼Ç¸úk¸'rè8 ¥å6¡Jã8ğü8f£¸ªëÉ¸Xªb·Í:™¸²·ÉB'8ìW€7Fg&8u7Œ89ˆT··æ‚;9€Y»8`$B¸—Ø>¸ ­®7V&¹@©¼¶•˜ú¸À789ğ
+Ó6Ù¾£¸6ƒ¹×"|¸._í¸…¢8@\ÿ¶`É·¸œÈ8b59T;!72úe¹Še_8•¥ö¸„0¹:I9İí6KÎ¸¼ßä·¬î‰9Ülx¸Î´¸İ8Ì^¹(âÉ6›p€¸9‰9Eà8¹ø-9N¢ü¸ÿø9¡Y9´]…¸œ±·Î°³8œø›6£Ş¸Íññ¸İTÄ¸H6a·}õœ8Ìú™¸\P¹€ı¸\ÊÌ·ôª[8Ÿ€¸8v¸M¸F%£8!ˆñ¸X9pï-¹Ôû8  X/Á£î8˜X9¹ĞÉ6àš5Z<9…‘¹è‚98læ77,B¸H*Ò8„Ö(¹7Nğ¸Ø•ú·2+ª9;’9îTŠ¹1#1¹pÅ8]I8üÅ¹ â/4à‚Í·2ë¸®S'8?i\8Œ¸XT¸k„D¹‚'Y9
+@n¶7îa9½æ‚¸ pƒ5œÃÃ¸ÙâÔ¸Ğ¹°İ7d%°¸–Î.¹IR¹óè@¹®+8Ú)²8·Í8ƒ‡¹¸X@9¼ìÌ7tC96/79	)ß¸Bú˜¸¸mM¹sÜ¸Ÿ¿-9j9Á¸Uªö8t88›ù182ù¶xS38Eü8¥z¸\<÷8Ü2Ñ¸c 8
+\:¹€Mf³pİò6ce8^…Ë8¾ik¸Q;‰8µîW¹0£º¸¤r¯¹Ûõ±8©Ô¸›M<¹bu7¹b›¸t…}¹à´ìQ7is™¹¾§3¸ 9¹¥F´¸«z¸jöA¹[Ò›¸¹÷¸Qg8-t¹x¹­7ÌF«·ó¨ß8»èÿ¸İXK¹Ås9`W0¹ö±¸›8  0À§J9/ŞÙ8lß…¸Š9Fé¹ ö7‹û¸°ªp9­~ç8èÓD5Æ² ¸d´¹lßü7qè¸áØÔ¸@R¸µÇ}8('¹€.·6}$¹DÍ¹4¥î8 ¶~9¹âC˜8À6ØµiD¸bo9‡¡C9¢v¸é$¾¸Ş›8ÂÇ¹°ªp9ÔË¹X^)·‚TÈ8€¥¹úÊl8 Ä°3•–¦8TK¸Æ8ú¹ûXP¹­:L9œd[¸‡œ¸^Í· a2¸¾4É8×`»8ëš…8¸ß[8ÀA£µ’M9§Ö¸D’¸9…¸|½Ù8Æˆ¹Ö#¹\37 á5K)B¹sÑ¸Â´Ó8/ÿ9²L09;Á´¸¢8‘8è
+9zs¸\”8CTX¹æ`š8¦iË·ê¤9309Òx‰8{3:¹›1¹Õs9m Ê¸Í¹¨0N8û0µ8ã©8(dú6˜P¸ˆ)œ7xåB·Pë9İ&V¸°É6ƒ9Îu˜8dk¸İ¹Š7&ï«9v³¹Kd¹ Ô=¶B®¹·^8÷~8ß#æ8<&%8Øwe7‰,
+9Œf¸‘æ¸’£C¸U3¬¸Èt&9›kf¹N8#8]‡8>­
+8.ÓÅ8h!¹ÁË!¹º]¹BÖ>9‡ŸS¹ÛŸX8<ñJ8ã Ò¸€d²·ïS~¹Ë€8×~Í¸Z–¹`ß¹Ç}¸3f79.ô}9‹ß7¨H9«[¢¸lÍ…·HóK9<V˜·g9.
+09+z¹æK%8„<¸L“¹ôI¹1.²8©|˜¸»c¹†WÔ8•Õ68ç
+9Ó¡Ï¸vy.8({[7U=¤8Íi;9ğ4c9³Ô¹¯Os¹.¢n¸oP¸  Â¯¤E9õ?¹ ‰9<¹6Ë¸ôÉÙ¸|n9ì;¹2 9T18±7ª·-¡¶8´»¢72ÉĞ¸´EŒ¹j®8´÷X9H_[8Ìü¸	k9vÔ+¹‡‰9&c¸,µ8'1„¹ºiY8e«8û•¿¸äE¹€y9ä.*9m^¹Œ=€9é˜8¹Ÿ!Ù8iÒú8E¹ü§v¹Re+¸’ÂW8ã:8v¸zÍj8|¶,¹ï¸9ÆĞ˜¸º"¥8ª;‰¸¯8°¦¯7*F
+9¦â69˜F~¹lÒ°¹Æu ¸Ğ!Ï8gÿ„9éN¹€nş·4X9 ÇÃ7c8¸Z¶9½Q‡¸ßäö¸
+Ñs9¸!37\uÒ·²
+¹R:6¹æè%¹¨Ê’7¯Qß¸\"t¸ °O4/Ê96üŠ8D‡8€—ş8 i¶0‹ú·\«“8æ g¸_N8 N³ËÖ¹l‡ê·‹%¸»Ç­¹xo&7>
+"·˜79[Êì¸òê296ò¹éq8óíc9Ü80i¸BÙÂ8ò;@¸I¹"˜8ğ”Ğ¶Ïz¹TT=9Ï¸ šN´xD¸…¯¸Ï&¡8Àe¸µ˜lù¸²Ô!¹
+•ì¸¬Æ¸€aá7„)/¸3eI9¦Ã´8÷¸–u
+9ƒŠ¢8íğ¸¨e²·“/¹Zà¹±8’-ƒ9Úá…¸ˆ…¸7Êßí8†uC9ôI9L…·OôÓ¸hÁ‚¸Ì¦º¸’ôJ¸!‹š¸†ÊB8)ÊQ9Œn›¸Õ8´j¹æÔ¸Õ7E¹¢ëÉ¸>308n3‡8Hß‰¹?v;9I«›¸¿Äœ8•”	9‡š¸)~¸z29µ‰ß¸Çö‚8<y·8˜¨7O{Ç¸„¹š@€8O908/1„9&:O¹à¬•¸ŒFE7¸5¸ n7h 9Ê¢Ÿ¸G´¸OZì8ÀŞË6Û±¹ êÓ8·u¨8,ê8à´÷*9Œ‚8¹•ì8q¤f¹0Ô#¹ Ü1·H”Á¸êº*¸Ÿ}Ÿ¸+@P¹•Á8Ë“ˆ¹da:¹zëã¸ñ609B*Ò8  @¯5í>9åc09°®¯·@~¸6¨Bq¹Ùñ<9†ZÍ7ŠWÔ8¸mM¹¼µœ·˜)j7}y/9Í8ˆ¹5‰¹¿<¨8GÆ½8°½×·@~:µé59Ô E¹ü“A9Èê
+9ŞÜ
+9|;¹Î)T¸Áûª8Ø£8€-·¶òŞ8¶úK8èR	¹¤§¹ªX9 >R¸Nëã¸,…í8T•¸`3»¶WO9I9Fö¸¸Ä*õ8|[½8DaÏ¸|‹¸ıZ¹]Y¹„Ş‘9P„û89tŸ8„­9Ìı¤·m›­¹AĞ]9ú÷¹7†ì8€`À5œ×9¸Ñá·©9¸^‰P9;¸cs™¹€Íı¸·Á¬¹#¢	¹`Ã9LV¸†X&¹Å0Š8ØRÍ·]aL¹/”œ¸×M=9ŸD¶8¼Ú˜5i®+8™–Ç8à&¬9şx‰8x»Q·ßwÆ¸
+è
+9ìä°¸²ì„9€.·¶ª
+9m’ø¸œ’9 `n2^(>¸†Ç¹ î(7CÃç·í<Ö8¾k8â«1¸ÂR@¹ß#æ¸ÖÛH¹ ©Ù8	A
+9ôf;¹šK9ˆ“¶7V‹~¸ˆËE9Bª•8uO¶<œâ¹`ÍÆµ˜ º¸äÇ9@‹%·êRC9˜Ã¸†ÌÀ¸ÿù•8j…í8ß3Î¸^£ƒ¸©·¸ñb¹;¶¸Ü"¸•{ô¹ÛPU¹’»¹Äeô¸½7I9sğ¸ü«:0\16w¥9î³8Âá¹’AŠ¸şæ¹‘p…¸=“¸ÑÅ…¹¶7·/×¹oà9€ü¤4¿¹k#19ÆÎ9ÕºÆ¸¤"¬9ıW9È½7Mâ1¹ÜT9„—á8 Æ·á¹ök839„7¹®|Ù¸Ïñ¸ôë…7€ë¢¸·ı¸È/ğ8<õî7óq9	Y³¸"3{¹Ø-F7c&¡¸Kr¤¹Rá(¸FB8è7µ2¹¬	û¸¨-¸BO¨¸ğÍğ¸pøy¸V•´8p» ¹#Œ9ã¢©8ÀÛ=·Œ.Ğ·”Ğ@¸b½+9mò£¸,¸9Òd¹Éÿú¸€;8½&¬¸ªKA95Íù8kˆœ¸ÂÌ©¸“ç¢8(_u¹ãã¹n"¸F9tù8ì–·ÖrÄ8ÆL3¸ı(i9øê¸¸‚F80÷6¶Ñ9~Ç8‡œ¸@É6Ìéb¸È¡Í¸V´¸:š“8[’/¹¹˜¸5Õ¹¸âG¹Œ]M¹l;9}O‰¸fï8˜å¸Pª®·€J¸ ä7`U!¶½C¸8Pù¨¶ğ7©7Ô÷`8µ-9LÜò7 ±¸©]³¸e#9ÙÒ˜¹¬×7;ì¸B×¬8ù\»8ŠÎ¸Öÿ8¶Z¸Ï8ê)²¸º¬¸R19á§ƒ8-YM9J‘ˆ¹ 7¹c9[î8²¹~¦Ğ7ä”Ì8ì¬•80-9®+À¸®·]8ûƒ¹£Œ¸´R2¹»™e¹l‹8b¹"Îú7} ø¸Ü©$9!dJ¹¨7B99Mµô8‚½8`Y€·~Õ8ÆòŠ8
+!K8d;9”ÔV9N¹Z)Š8ì?¸¡Ì¾¸ÎÑ×8o\9O]U8â6\¸ú4—8°0N¸f8@9@¸JA;¹´O9
+«{¸B-@8æ÷O¸5‰¹õ#¹Ú,·  ´¯÷K¸ Ê ¸}©£9ë[K9Şy9V°8·Q7”uœ7ä:ë8a—8Í¹ñ·ñÆ€¸pğã7*Ue8B"k8_t9   -Ìï±·İî¹l®”7^’98|%·»ß£·mfİ8?TX¹u?Œ¸ªÑ¹:”œ8S´¹ê¢¹^“Á¸Ìaq8 Šı8
+'¼9_D08UÆÙ¸°ã7D~8©ïò8f)6¹R½¹”A9Y°e¹~»¸„ej6Ä{7»`Á8xF¶8ìiÊ¸ ¹Ùs¡9¬E¨7Øu¹|ç·¨ùÊ7Væ¹æ¸"¹Ù‚95ãz9R*Ò8½4—¸É‹¬¹g1¬¸øjF¹Î¢¹5„Ú¸ ¬9³Éğ8|©ê·À™,8´ÊÌ7'ò‚¹’N!8PÓ8H·Q·®ù.8 º¸‚ß¸€ô7ğÑ·Âvİ¸ªş9¢328än9bÈB8ä±ñ8’Á93Ôj9r¹8T=ı·ÄV¹R:4¹:ÿJ¸¶}J868¸×Yt¹0*•6’n¸ÇZó7cÔ9‡X?9R€¹"Ï¸ßĞ8bÈB8'+9Ÿ79Ó„9Ø¾7¢§Š9LÂ¸|L«·€Úš55 ú¸ =·2´gÆ8¡÷^¹h·¹æûx8İ_¸F^8q>9KŞ7–9ÆòŠ¸J<7"P8#-L9ºş0¸k}#¹5kø¸.~w8„öÌ¸>CŞ8Ô7û8õoù¸«¨y¹BW:9”ù¯·Àf¹ˆ6÷MÓ8L~¹a™ø¸ğù¸şİ7š¹ÀŠ7­^ºy½?9,Ú 9ó¸›Î²¸nF9xDl·ñşï8 ëj5¸»–¸;Ë”8ïˆè¸2GÀ8éãP¹
+9#9½|e9<v‹70g9Jß¸Zm·8}’«¸åVŸ¸øÌü¸~99€ïj78>·ùÛ>9®w8‚Ó8,­¼8¤k>¸ğüš5,…í8,ª/9¬9ËUü8ª¯u¹÷~¸ I¸7]Wø8W^¬¸M¡ş8Lâ9¹XFÇ8~>08_fÁ¸Šó’8hğ7¢‡90º!8Íğ¹úø§¹ëó¹ wk¹!=ı¸R@¸òé]¸;ƒ¸ò×3¹´ó7pîj7^1P9Ô†­·T¾¸È”O9«0¹z9¸ü& 9ïk9½|æ¸Ç"(¸÷e8İî9ÛÌN¸xª®·ZS¹˜z· “¶7•
+$¹¦ŠV¸Ä§7 |¸¶,Ò®¹=ÎQ9Sà¹I0¹°À·P”Š¸õl¾8 şû7Åkñ8pV¹0dğ·e"¹]Ù¹¨3i¹Ø´¼·æ`9šW8¶ß¸€ª\6ÅW3¹‚;9×$õ8YH´8C5dA¸ø/91¶Í¸yo¼¸ÚX:¹ò-9³»w8îV¥8[ü¹—'$¹¶Í8bf…¸zu8p™‚6Ê"'9Ğ6¸R¢<¸@(|6æN´9Œ=€¹·›°8tĞW¸#v©¹š¡9—èˆ¹Ï¸2™û¸V…±8½â³8"fI9Üÿz¹£à›8t¬e¸Yù±8P*Ò¸oõ¹¤Õt¹FG¸òd+9èjG71£9DéÑ8TV”¸Üë9ˆ!9f³³¸  ˆ.Øû9ø1N8ğöšµH£¡7È-90S²¸ˆô¸¶à›‡7K³u¹G4_¹Ï¢¸°š8àC±6®²Y¹Äé¢¸g|¶¸wQ¹š^ÿ¸Ug½8xå¸°ö¶	J¨¸ÆZ”8¸Ş†¸ôÁŒ¹µ§~¹Vå¸èo8>aZ¸æa¢¹G›19²jÙ¸0¿D8 Ic¶Aë&8~`81/®8'§Å¸_Â¡8A0¸®<¹3è‡¹T™· ñ¸(¤9ÊLı¸"bÌ8¼Õ>9ogl¸*ß8¬Á­9ø€9’fí82t#¹ R<8À/†¸d¯8Ñø;9¿¥¸pÓ6`}¹6¤…•7fï8Ô!»·e¸ê	¹4µ}¸ôbµ8lˆî¸¬‡—7²ÍP¸à·àÉ¶f¸D9 `93ŠòC¸½:™¸ç†®¹ğÊV¹÷è4¹À˜ïµvC¸u8	J¨8I¸øPc7ûmï8j%Ò¸Jâ!8p=Ã7xî8 y‰8æ—ı9È©%¸ª*Œ8 U~4âéÁ¸™ê¸“M9Ä9£6Ç9é¾8xöK9Ş¦5¹LÓ§¸°VX9Z)Š¸ú9`Ÿ¹fòü7æ8Â%8ß¥U¹ Ø4¬ ƒ·6I¹¦ ¹“rŒ8â0™¸±9vÇ4¹¾ú¸t8Œr«7˜òé¶ D¹HA·tWå7Q˜ó8òØ¢¸n}¥8ˆxA¸BÄç·£›¸Ï±9vM+8œ`¸×¶¸·Hs9Ç&¹iP—¸a12¹ñv€9îê2¹sJ•¸ÍG˜8ªàã87¹Ó˜¸Ñ8 ª9ş/¸Åßæ8Eµ¸i”+8%o¨8¯‹a¹øÔ9€ïj·’¦8 ,3=á…8ø¹òÒ§¸@Ä†µÂıƒ¸€˜t7 ½ÿ·õ$¾¸J™9ÿ€¹6d9Ó†­9Dz¹ëgD¹)§µ¸m6İ¸ÆT8¹NI08ä²·Ğò8—›9dÏA¹|pû8ì¯š7Ø´¼·ãQ¸8Ø¹ŞY9{Ç¸3`¹FÙ'8Æÿ9V
+¹òÚ7È¯9>&¹«—$9zæ¸ö8â'?¹_°B¹®S{¸¥6È¸Æ*9v¹¸I•!¸`3»¶éı¸ÉÌÃ¸B(¸†ëã8 .·6 á{´E$§8ÂĞ„8Ö˜+8²d¹8`T¹R¥¹0ß46à±¹¶?†¹jÉë8M=9üµœ·‰¶8®Z¹€{ø5||¸äl¸š94T¥8XqŠ8°‹8[dO9v%8¸ğ^ÿ¸RF¸å9Q…8 ¸"¹z“¹=Á8qš¹^Õ/8Ê1=8Ô$¸|Õú¸G<¹àk9sz¹Ğ´7X)7Ô9À=
+·À.J7Å&¼¹‚ã8¥Zá¸ª|˜¸e9¥Õb9Oµ9)r´8§o…8$D·7Óè8f=q9_¹á8$]w¹™è¸ íµ˜P¸} ’7™‚¹=ã²·´¼€·æE9~Ü ¹8¶¯<¸dš8÷ò>¹öi¸|·9û:¶8)\¹ö29[,9Èv&7jil¹ÊíA¸¶L0¹ ÿa7à†Â·ôè8’«¸~¸^0¸u6¸9=ı8+K‹¸ãHï8ì–k¸‘»—88ğ9i%8;9c¹ÀªÔ7èa¸A·8ÛïŠ8È÷b·Uõ9µœ8Ûæ‘¹‰¹Şe¹X¹ ëì·ìiÎ8®+¸”÷.¸€	Ó6B}8Äk€¹~¡9p¹Ú K8Ôß7TÎğ¸ğ¯u9îà97»6È‚7“öK9Ô8Xu7öy8@YÙ7LŸ¹Á&88 ½ÿ7­ò¸¤[¹$ºI¸²vm9Æë¹ğÇT¸U‡¸tq9/Ô|9¸±	9¢ôJ8xÏ7
+G¹pˆ»¶A@W¸E=8î¿9#xM¹P–§·9Å¸ä
+¸¾ÏR¸–uİ¸?LK9îg*¸´Ï‰¸*:(¸RÄ9xå8*p”¸ .¶ÆÖ8hµ, %8h€¹z9Dkº8ÆB¸zš†¸:8c8úó†¹v^¦¸¨ğ)·µ8o9"ó°8ã`¢¸¡1¤¹À7ğ¸ÚÚ82]69³¦¹Pş`7Õb9d„8$d9§j9²
+¹ÆòŠ¸Ø¸¹¥8¦æ‚8³†u9VS¥7{s¹Ôç9g|¶¸ŒØØ·b˜·7§2¹Fô?¹ê£c8Ò•Ø8$û6<mğ7`uÁ·  â¯èã®9¹•vw¹j+¹Èõ¸Æ–s8y¬¸üL8î}8Ä†œ8Q~¸V©9FŸ/¹ğÙDµ	®0¹™à8Ó3Î8f«æ¸(ß6H€9*Ô604¹` Ë·\:¹IÈº8™°09ÆÄ=88±85Ã³8¨¹8‡¹°…Å6Kh9 h¸x¹¶O°7|ZR8Ãø‚¸_ôÓ8¯"9êí9ê¦ ¹Ğãi8=/%¹På>8Üšš8,…í¸äµ˜7ÿFñ8ÀK29®'9 =-5VYV9²9ÆgU¸nå¬¹„MÅ¸c(]9TWV90Ä7Àl+6ù`ç8
+ƒ 9J¡ş8:„¹İÙù8;Òc9Òº=¹ uè·š¹¼u9M4ë8ĞIç·ğŠı·l—99|58ÎğZ¸Ó_94ñ9Ü<¨7B]A¹ñÊƒ9FÙ[8õu$¹'f9à3ù6PÅ"·ï7ñõø¸îRC9‚9€90â·îÆB¹Óä¹˜18‚ç¹;6k¹³aˆ¸PÉ6a5¹;8¿›É¸|›¾6V ¹W‘v98™g¸p¹>7\9¢»74B9ÃÜÇ¸h99@˜w6Š{¸>ëã¸è?¹§yÆ¸/>¶9Õ¹¥z8¤M¸7¨¸€Ö¹ QB8¬¹à*Ğ8HI8ñ¹8(:Y¸Ù“s¹Œ°¸  •0±*{8Ñ¨Ã¸®
+9¸œ8Ş'?9±ÄD9Å>9 ‡7àÔ8ÄÃr8Í:ô8ò¹>8ğˆ¹ 9äiÎ¸~jî7ÖN¹†5§8³4¡¹PÍ¹i_9ÀîĞ¶}‡Ä8­É„9šÅP8À#K8>f&8d´9(î„¹â¦8†¹¶×–¸¼7n‹š¸™!9€ì7½&®¹`/ƒ9È‘6ò7‹8–ı¶
+9
+¹´îê8¸‰h·‡TÎ¸  ‡±`‰¹É9m§ê8V–§·iª‘¸[49¬ı¥·7b8€Ô¸¢n¹H ¹b¹ m·8Ô¡‰7ÖĞ8ªX9¦X)¸üuÆ8$77Oİ99[Á†¸‚ŞZ8å®9‚r&9v	³¹Õ¥0¹Ø´¼· ­•¶?\9=ß¸Ëî^9x4B¸úËŒ9 të6„?8®{¸ê›¸ü’.9 Í¶2İ€²8Cm¬8D–7·Ò¹ÌÏ9¢G9L¸º+¸¸Š88sUâ¸€&ÔµèÙµ7`G6¶rO¹ÀEÅ·fœ
+9t÷28®hZ¸¶¹¨Õi8T—(¹ê_j¸œñ{¸* ¹°{A¹Vê9±Yº8Ä1N¸¬îJ8LqÔ8 ‘7 m·¸ ¹n6n|Î8@©!6ªí-9£qµ8b¦r¸[ÕZ9ÃâÁ¸zÁ727°`Y¸2Üü¸-ì„8üİ8£3¸¸Mun9°d8àÚj7Ü§¡8¥68ÿ+õ¸ˆÿs¹Ô/¹âà·C9]¤–¸¶2]¸Ô/¹NSû¸½ö„9Øÿ·†rO¸ó)ó8nÀŠ¶PÓ6b¨8oFC8€sq4n­8ÍT~¹æ-¹ °8àæ¸ó"%¸¤SŠ9_(¹È³
+9PĞ¸65¸eÆÙ8²'¸^ 9#ä8Â	· +5“<^¹=’9p&B¸yî:9 ù=7v—ê8Î—!9aP¹æ=1¸“h9|UW¹\l7l¸n²f8P¤·°‹8A ‡9R6{9À<£5  Œ¯3@P9qõ¼8`Ñ9rÓ°¸Äk>¹£û¸ãH§8Œ¤p8~¶m9å{Ü¸`sÊ7$¾¸4’$8D§5¹î2¸u‰Ç8Ğ6¸è°28,…í8ÿ\¹Pƒ¸rkf81‰8n%á¸
+9êÏ¸¶6‘ô.¸8gj·Íƒ±8¥õ8Û f¹/ã¸Ø¿˜¸êšP¸Æ¬8 ü—¹Xå¹ t9Z¼#¹òw?¸À7Z¡k¸†"¸GÙ¹•ÚI¸NÙ>9‚=K¹ïG—8¨v¨¹|K¹Ã¤É8À‡B·-¹½—89>V¹/»î¸99"X8±©¸¿9İÜ<85F¹“{¹–FX9¶]†8V¾)8ˆA*·	$¾¸ğU¤75f¹»^í8Ù”£8ÀµŠµª8¾¹Ç’9Lˆ„¹y5-¹í>9™²s¹L÷¸Ä-¹ 8D´»¾H9Î|8l(¹Zœ9×¶8,œ{8æöÿ·ºÇ±8 .Æ·e–œ8Ñ9_Íp¹œuµ¸ÒÙn9‘Œç<°f8"cé¸;L9L ö¸Y¸¸7°°û¶‹!¹Œ÷·Zzğ8ß¸=­¶8ôbY8zY9ÈéJ¹öYn¹×¨S¿Mé097Ş°¸Xİ7³/¿¸F²/¹<Øš·<v‹7³)¹<<¹¥O(9àEç¸şî¨7j°™¸YÌt9ç82!U9Üª’7f…9<v‹7*¾¸ôI9¬–Ÿ·»¡¸dMØ¸ë@8¼!dM9@µµŒ…¸Z6¸\(I7»ä¹O?9–
+09D7;9et9+×¹à>w7DOÀ8¶af¹ÒÆ¹xïY7ş8àU¸æ‰¹Pñ¹­îW9½õ¸ØÑ¹Æ•¸7
+9ÄÁ7»Âµ8’üs¹„x¹wÀ¸7Äë8âÒt8˜ğ¸	¨¸"®¹ÊY98Œ[8ìÍğ8‚Ì&7ğ-¹H³7Q†;È9
+Gƒ8{Ç8ş	"·õĞ·m€¹šW¸àÚj·‰øá¸Ò\8^ôÍ8 (?´]Óå8¼|š7tD98N7¹úeï8 Œ±7Gáû¸1ML9	559G·È:8
+Áç·`†|¹l¥ç·&Ø68?ıÑ8|·¹õ¬…·Ô/9˜­7,Ã¯· òÈ´üFO¸ µW7p}9ê¡9ô¨¹’ï©¹¸0N8X!;¹ì®¸¦‡™¸†ëã¸x^r¸Â_l¸  `¯!8\¸H07¡Ì¨8Ì–8
+«.¸¤Êk¸â…9@¡Ê·êí9ãˆS9 &34	—9êÖ8û,9ò^ò¹2nÙ¸x}Î6–n9nâå8cx¨¸†0@¹´¬$9bÓÚ8Î‘¹Íƒ±8î`š¸·ÿ70½¹*0¹o¹|n8nù.¸÷Ş‘8W5¹Y^Š9ËíN9ç8dâ	¹¸ˆ'¹¨¢¹ç¹ê"¹ÿ‰µ¸ğôŠ8ÒùÜ¸Q«9p5†6,Üû¸;•9|‰§·Œru¹ş›¸‡Y8r=â7Ø•ú·n¸Æë¢8 ãÌ·òCÀ8pM¹úš†¸¸€§”·7â¸¸C:¹8Ïz9agÍ8¥Ä=î…£¹bç$8øä·_%¸èD+7¼9¾±¸¤&V8 >Á8 ‰9Şáœ¸Ñ8«¹zvµ8Ï²…8q	§¸ëDÜ8ºE¿„Ü¹J§9üØ+¹‚õ"9Ğ§9EI¸š:9ğŒ¹¾9Bœ“¸ÚŒ”9_:¸fÎ¸wµ‡¹~ÊV8!ù8Ş<œ¸Lo·zš†¸½8¨ùÊ7~„9¿xÍ¸^ıH8úXĞºØe¸T£i¸T67.9u¬±¸NSû8£Ş9œŸÒ8Œ"‰¸˜Y_7í?ª8sQî¸ *¨3na"8 g¸50|8J9Væ¹Ğµ7Ê ×¸Ê%¹}½+9¬_ˆ·  H±~G8x*8¸Ğ8µƒ69Ò'?9H§¹–Ù¸¤¬í¸)~ 8¹×ó8nDP¸Æ¥|¹t½9õ#¾¸½×¸‹ï8Üê 9ÿ‘°<ØÍ7_SÁ8C~D¹¶Ê¹¶›Ï7ûò09ú]t¸¶G9É”$¹mßŒ¸(úÀ7  P1µQœ¸¯’Ç8ĞÂ¶ÙA¹$÷J8wñ¸Z/8”©9’í ¹Œ]¡¸éÚ¹dD¹sz¹§.9$¨¹”ÓV9³lL¹Ã6ˆ9½¹æ ¹ ê¤40W·”©9*Œ+¹”Û
+9¦Û8²Îo9úk¸P 09pkÖ7¿&¡¸F‰¹Éº8dV
+9ıFz9ô®¸U=”8
+7^¸"©9€ì¶Pb­·`¹ [zµ‹ ï¸ÒŠ~8{¹F¹L¹ÁÈ¢8lÎE9\6¹“î·ôI9ä¹ç77oä¸BÜ¸ëØæ87Ç19ÙâÓ¸öK9¾‡9Œç9üêã¸€rµ’-8é…8€©¶·à‹¹ê+Æ8úƒ9¼¸ÖÆf8ouŠ¹ú_89
+²œ¹à5;õ€¸raL¹·3Š¹„ë„7Bö¹…•¸.ª!¸|İK8YIJ¹}•¸ã¤—9Œp9:W:9Ü½<8 Æ·ì—·T%¸¹]ñğ8¿çg¹ÜŒÿ7¢ø`¸ÔÚí8ïg¹ÿƒ¹ùã78°¸ì!ï·ö%¸
+½*8Š8™8 À±ß5¹ Y7·ÃÆ;9xñ,¸\[ƒ·ïQ\¹€ä7µé§¸‡5¬¹ü¡¸sÁ¸ˆni¸äà¹í›[¹<ñ8[ÃÃ81ŞÙ83’É¸NM59„¸#¹8V9¹˜`·¹Qü8ÁŞM¸hÁ‚¸2ÙÂ8mƒƒ8àË7\:9>Nq9’ø¹Và¹cÃç7ú969>˜¹~ ¸HÊ¸ÈÅ7¦/9Æ 8z\§¸d®¸½8 ‡·şì;9HÏ¹d·Ö58&Fü7ƒ-I9¤üÍ¸"¸Jm·89}ºb9°¸İ»ú8Nÿæ8™îÿ¸Úÿ8¬Ì7ï¬8™ ¸ÔÍ¡8M,	9N†Œ9hÁ‚8ÏÂò¸–P¸Ü(¸à²¹¶™8v]T8ôò"·`Û ¹
+ò¼8X¤8Ïë5ùØ¡¹û~¹ƒ¨¸8P
+U8j[¹¿`¸Ğ-·Tûj8æ—S8·ÿ·É^ˆ9-{Í8’q¹àA€5°ôµê—|¸¦µI¹]–œ8_¤8˜²c8`‰_5Ì–¸Í†¢¹0!¹…¸”Êk¸ ¢ß¶Ú®·¬â·64é7aà¡80/9H58@Ö6ÍSŠ9*[Ê8ñ	º.„¹]Ù9¤&9ĞÂ6›Š¸ˆ·8üRâ8¨ª®·@+Õ7b09àÄ¹²#&¹–L8=­”¹Éâ·é&8l~7¹şªY¸u„ù¸	."¹åï¸Jì-9vô#¹N‰à8[cÑ¸ıü*¹´ì>9}ˆ¹II9¸ì`8ğÄ9<f¿¸b¶9.¸ã8Mè?¹
+Ë8)¹¨àH¸ÀXq¸{I09B1n¹æ`š¸<v‹·Œ¨59¢Å¸nù.8H¦Å8ø¹tZJ9„@’¸ğQD8Hë¹ñ«w¹6Ú¸  ˆ®NŞ 9ÇÏÂ8§˜ ¹„´"9udF¹|öK9<;9‡œ¸"CT¸Æ$G9Bù8 Í)7³59™¹`{Ğ·I©¸8Zœ¨¹áíÙ¸^”¬9g!{¸Ö'?¹ñ'9†(Í¸nÔ[86¹÷IŠ98–ø84
+!8“n·¸`áö8®x¸•o‹8}ãæ8ÈÖĞ·¼ä«¸ĞcÄ¸d•K8şÉ9À+8·  ¯@•6›º¹8fĞ¯8 Ÿ=7U°Ç8SÓg9K9£69€+İ3@ª¨µe{R9Şb¹á\[¸z%b¸º]…8¾!(8¤ 9$ò5¸‹4¤¹ ½·2¤Um9§4¹,Ä®·kB9D½‚¹x*¹Œ=€¹T¢±8p)~·N-9´	9úú8,‡7f)~·}g•9ï52¹ì……¸Ã
+½9 ¹(EF7à®#9¯FC8(‘¸Ğ+¹˜-ƒ9hı¸Dy9y 88Â7he²·ğ¯9¦ÃÃ8œ«¸‚··šÉ‡80¹Ûi9–FX9<Í‹¹Â+·^"¹±Œ¹·ße9E)8v9>:8LÁ>9Y^Š¹Û^8Ä'9–ŸÈ9×f‡9û8‚¦8ØL9Oõ9°4
+¹€›w¹ ˆ³p@æ¶Ö3Î¸'B¹t•·Òª4¸ŞA6:“¹<Û˜5  //c
+Â8í;í8İ8ÇAµ8Z}u8U(Š9`TX¹—Å´¸ †·ƒ°ï¸ş{8ı-(¹À_æ¶òÿ2¿ 7£9$ªÖ8n|$9ò’ƒ8ğŞ€¶NA¹NìS¸ğË¹|b8Æ™‡9ú­p¹¬ô„9w\¸¼_ü¸èWq¸tó¸Ü³9 €S2àC±¶D~¸À6|¸Wë$¹.á	9¸s#¹0º1¹óP9{Ç8¤p¹r|™¸eÀ¹úeï¸’Ö9œ’¼¸\x¸xBÍ8b¬‘8˜cl¸PQ8¹2§Ö¸Ü*¹[:9×Å·8D~8˜Ç[¹Ş,”7›XM9O$9}ÅÂ8 °¹+79Üê?9hó±8Ş™œ¹?~¸|Œ¦7¾ã¸
+Áç719ªÑƒ¹¸’û¸D~¸Î»œ¸røm¸pØú4l.±·›Ç¿=û#¾¸šm¸8µçş¸¨ùÊ7ï @8#©µ¸Ş@
+9”
+09‡Á¸²2/¹¶Í¸X9Ml9ìƒ¹İş!¹ ’I6ìÏB¸@¯µºùÌ7 û.9`í¹É{Ğ¸pÑñ¸x>9ì··DÄï¸¤Å%¹k¹†1]¸òùá¸o5£9rs¹Cz9l¾:¹”åi¸¾"¸Äò¸¸vOq¹ö?9O¾8>l|8È.9D8œ‹Ğ¸Êãú·çP‰9€Y4µà4ğ{8D–7rÑ¸—İ…¸ÀU9l~Œ9ˆ-K9ÂÙ·Ø\}·³¹’82Å¸’ÿe¸E=¤8Uµ¸K9,}“7„¤Y¸šZM¹I-+9Ñ‹K9Z†u8ô[B8nâå8‚¸®ù.8gûx¸†Ù80=-µ°,B8ì¦59Ä¸ Æ¸ÈWq8œÊ{¸19˜ìO8’¬Æ¸ZÕ39YÂ8(°8šÁ8\¹7*Ñ¸Tö¸ğ¨’7İÖ8õ¹¢8¹y9Tz¹Ÿ¾8È¶¹S!¹Êh.¹=,	9­Tw7Z8W¤ƒ¸h“7æ•ì8Ø»8¸¤»7¬Íà·|
+¹\”8–1¹/­¡8`ğj7N¾¸h·FÆ¹   .Pî¼7©ò•8Š2¹zş•73(#8?ê·øõ¸mØ¸÷)H9ê¾z8¼¹"9w4‚¹ø§“¸®ƒ$8îæ8×º%¹¼i‹7N¹•¯8JRš8ùßÔ¸	J¨8zw9&Ï19~Rá¸{İ)9²·D8l3×8h$ü·%£X8ÀÁ·ÛÙ=¹´ Í8½¹,»í·n@9à±¹¶xnœ·D–7cTÍ8Ğ%¸ß®ä8`66W9ÄDF¹Õ	¹¸—n9}š5›<¦9…rƒ9¤=¹9í8nƒß·P×M8@èj·síò8Æë6¸7Uî¸ÜÀì¸¢S8vè´8˜Î¸ÛJ	9^º%¹2–÷8`t—8|l7Xuï¶;6µ8íi7«v‰8†aÙ8V”’8p`17¸E¹¸J ›¸Pr8Só>9è•>9¼Bê¸¯õ±¸¸mM9QJˆ9aø®9p…Š7eÆÊ8ì¹ Ty·øø7Ëœ¹8¤0H¹m‡¸xC¹íü¤75«ì¸ÌÖª·6«~¹q9D9*‰2¹½*6¹Àïj7à´ _T8	Ğ68RòÚ8œ¢¹˜\T¹¶§·­¹ÕfÚ¸—.‰8Ë“¸CDê¸ÿ·Óû„9‘ëÉ8ğ¯u9[8Â¸2ø¢8FVX¹	ø¸‚Ì&·4ˆ„9iÅL9¯ú¸ø"|7"o(7µw8ı8¢DÃ8Øe²7HÌ¸XÁ¸PùÆ852"9“É¹]Ë¿8œk…9ÆRj8J…Ë¸„–Ù·Û‡•9|îJ8«DÔ¸;6T¹>Y¸[Í·¸¾¢O¸ûZ!¹®O4¸ğ~Ë6@£E9pa¹ V¾¶€\À5ˆø·&%¸Â´[8h™,¸¬­‹·Ø;9rôJ¸C4Ú8ÆŞ°¸\ÒJ¹â´“¸Fõu8õ¹Åjç7†2^8Ğû·ÊX8ƒ5œ9ºĞ·8hÓ9Àô6á¤9»!d¹8­9®¼L8€ø5HŞo¸h7èšÉ¶G×¶¸0U¹ÅíÙ8I<·kå†¸Û#&9ÎJ9’z¸`BÍ¸¸&Y¸ÆAF8¯cŠ8m³8¿0±¸P†9¯.¹U‡¸x‰ö·°*²¶µÆ›¸F-O¸°ı69ôI9  ”/XG¸V•b¸8‘·ÈJ’¸Ë|O9<v‹·…»¸8¦Må7b¹À÷š5Ğµ7@¶Z8  €/¹5XÛ8ş…¹Pı8ßİ˜8Ø~ô¸Æ­:¸ÎOM¸8„¹¹W_ƒ¸wÖÁ¸‹“ò8vTƒ9¼Û+·4&29Üåù¸íjK95ƒš8ëUr9²L0¹¤X¹ï¦
+¹ÀóÁ8J†š¸–½69ïÂÑ8…Ú8i9Õ8À|¸6Äë·íÀÛ¸ü„®·/f·Ñô0¹ìí¹€p¹!"8A‡D¹~g¯8GE¹Ğl¸¸ê¹7 U~4(Û¸!:+¹d)Ô¶ÅÄ¸ ä7$M¸Å•Ø¸Š¦y¸a¬9à5¹’†8œÉƒ9j94sW8éb¹¸¡e¹¸ı'?9ğ¯u9ªËŠ¸Ş	¹)˜9|F#9Tµl·¡8±f¸½lC¹J^n¸h7BÃ8V‚8Îõê8ö½9€œâ8?qµ¸r{M¹oÖà8Ó›–¸O»¨¸229  @-éšP¸Çş”8v‘¹FÁ¸FWX9°ô5UE5¹"¸,0C9Îê8,­68¾îø9àà8†#¸PŠ'¹’|6¹@5ù¶uœª¸@Æÿ7ş8Ÿ8à˜µş†]9À›Â6p{i·ËíÙ¸Nª•8Àğ$5¯j8Õ‘¹8©s¹¶²›8«g9r™4¹Øåe7ò´[8„°¹ñ;¥8,c9EÕ¹8¼]J¸Ø´¼7  ®0Çê—8R
+9`¨·H){¸­×·Ò(%8rp¸7¹ ›5Åßæ¸4¶¢¹Ø(·àØÌ7Ğ‰»6¨Ø7*Œë8xâ9íS ¸úCÜ8<v‹·4£¸î’	9lè9F½9ã¢©¸J6{¹oì^¹KÎğ8¹`3»6ğôŠ¸Ğ68q:¹zÂX8'áD9É\û¸]Š˜8®Œg8<v‹·	ü8µßæ8€ë*77°8xÇ¹HŒú·ğ’	9àEÅ7’–4¸L@-¹øæ×·šFå8JÍ9cöE9ã@9x9ß#¸œˆ7Ò×8puÁ7ğYi6Ù…á8pvµ¸ğn¶ nƒµaÔú¸ê¦59[nò¸X‘7}‡Ä¸½79$ãb8•‰è8[¥é¸kkı8ç"¹F•b¸A€I¹÷1Š¸\69vâ9É:™8'C9_q0¸X:a·¯õ±¸¼à8Á•Ø¸áú8~NŞ¸˜$&9 `¸?¡´8:«.8U>•¸pX7{9N€7¹!~^¹éËZ¸{7š8X›£¹eÖ>¹šp2¶vC9Pr¸g¬¸–TÎ¸Ğù&9
+U$¹2ÛB8®Ïn¸PVw·Pj9z;99³ß¸IÉ¶=„7µ¸âùu8	Ó6m«¹+»8Ôßƒ8ä¾„·Äğ$9¾®|9ĞÈ‘¶n&¹ğŞ)·šÁ¸¨*7lú·»à£7`qØµb9ò·9Êµ‹¹ÕÍ 96kÜ8;î8¨š¥·B99€]#5Üº78°8:¹°%9HŞ9)9ÔÌ¹Pği·Ï–=¹¸É¹8%–Œ9–¼{8Â6ÿ·ÛÔ[¹ ùÎ5À‡¹-†Ø6‹ëÉ¸n\,¸ğ¯u9#Ó9ßö‚8ài9®+¸€ÿ_5ÚQ×¸üî¸H¤u70ò7–×L¹TÃ¸ `l²lÑ¡7N59Åãî8 èº31Lø¸{>°8®$Ä¸Æ¸v9ŠE\8wr6á¦9Á¢®9C9jsk8  (¯6½C¸¸b”V¸Ä.ƒ¹´@²¸ä¤¹² Z8wšÁ82ÛB8ú]t¸	J¨8 ãä·}¥"¹ß3Î8>48%£X8
+N[¸Fá¸ç0`9S¸v	9˜6•8Ë–œ¹ë_¶¸¨½Ò7‹òˆ9f…9å-‚¸é8 `'9QxY¹ä“º·d´¢¸ÈÛH9&¨?¹F”8Â$8/Mk¸h2z·€Y»¸æ6œ·1ï§¸«¸y“?¹aãæ¸Pw°¶¤Ûß¸Ì‘´8>ëã8gİç8Õùı8HG¸š	|¸N™¹fñ¸^”9ò¹w8åç/¹Â’¸ø	9„Õo¹8%·8€ˆ¸üOõ8À»ù8Ø¥€·¨CK9`&%7SB¹è	¤·Œä7$œ¹„D99 íà¹  £°øœ}¹¾–(8$Ú.9p¹âÙ·*¶	¹^H–9É»s9¨|	¹à)?4 €¯Ÿ*m9v0Ô¶d‘·ãÃ9 tâ¸P-·¶Ìµ/80÷‡7„­R7¤ÏÅ·Õ€¸‰®+8w‹B¹º:H¸d½»¹<v‹7¼f¶ôÿŠ9<éÀ·­ º8 Z79&AE¹|ñ¸A$Ğ¸P·”¸ï.G¹é„‘9AeÄ8­–8×Šx¸Ø7ï6PÌDµÖ‡±86ÎÍ¸òú¸£¸+
+9X¿¹ÄÀB8eLå8Š3‹·k¹Bc¹9.õ8yç86Ir8{½¸@fŸ80T¸½>¹üí¹ïy9@Ês9ª#(9v^¹ÅVğ¸H«9  €/ÈRr8R¸	J¨¸ØÎ8èˆ¸D…¹’jM9
+p¹…{é8'³(¹zØ×¸¬Šw¸,Â©·9¦ı8lr÷8(F/¹“ëÉ8Õ?¸;iç8ÌÊŸ77Í¸(k`·È‡¹ıü‚7¸ï¹éä 8;6ªôÎ¸¸W9îÜ¸¢Ğt¹…¶è8Àûˆ8Í”v9¾§3¸6Š^¸•‰·–ÓZ8ÙÔ8€òA7…õP9:­Ù8ŒØ+¹=´8”çü8Ş‹k9i>9`^î¸ª>‘¹Â'¥8üµœ7ğcò7×zS9½gZ9Ê9¸uŠ8K*ø8(KÑ·ØĞ…¹€‚8#KF¹mB·!»£8¤©9 ä·2±¸fXj¸È8¯í¸p_9pØú4ğÃ·ÕF9<Û˜5„ö¸$6·Ä8éõ-9€oë¶WÍ¡¸¾Ú‹¸ïû8\:¹Z¸™'!9ë
+¸äRC¹yqˆ¸€²¹¶´ÊÌ7šft8G<9ùn€9 İ9¹$y¹NYØ¸ôò¦·ØÎˆ7Iø–¸\²·nŠK¸2´8Âšr¸  D®à\µ¸<v‹7aç8	w¸‚o8ôI9A‘´8¬á8"–_¸µ"f¹°%Í6nœ ¹RË09uü6ÜvŒ·ÄÜ=9‡;8 ,¸ "Ú¸p-ƒ¹ÖŸ/9$|8ıYŒ8b”u¸Ş¨ 8Ô­8B¹¨Ç8™^ì¸P$¸»9ÇZê8æ¶‡8šxÔ8¬×j¸€3ù6üj ¸07©7ùŸ9$³8ÒÛ¸Æ";¸£<9‡–…¸9Ñ†8Èlå·aG9À$ÉµØ©ö7ø&€¶\ ‰·]8²£H¸M ¹2fÙ8„_±· ä¹o—é8*Õ8¿Şâ8ğøš5*ß—¹–ªˆ8®19?ç8xw¸Ly·8BQş8‘¥¹^…¸²ï©·*'8˜Ãæ7ì8Û¹×ûK9 ïE·²H9V=8è÷¶¹l#8„Š˜7²0¹ãæ¸n39OĞí8¦6@¸;å8Á8¹‚Ì&7ˆI¹'@ê8¹`	Ó6@[t¶®+8Sõ¹Äò¸×	9ö` 8„Ü~·ÊLl8Ö0”7m¼…8D 8i±¡¹/A9Â;S¸KÙ8 Ó6º]…¸Ğ¹Œåå8È^9fJ°8v‘9Ê¾…8À›å6 ²¹6Ü|8Â`»8ë¹´»[¹	Ÿø8tà·¸÷Ÿ·J¡9_&±8ËG$¹|ûŒ¸]·¹!D9˜¹®¸A¿M9–7|¸ïB·¸øÁ¯64“«¹åÜë8zô»8ùşz9Ä’8Ã9K³ş¸õğU9ôÉJ¸–}9Hİ3·  À­RÅ„85¹/×9”Ô‡¸9Ğ7xni8gûx8FÒ…¹v¸R8P8i9…¯8¶ƒ©¸öP,9 İ¸¡ßö¸ìõ6 \ô7‡á¸›‘·0ÓJ¶=)8 _µI¹»§5¹Óq8Yc;9Url¹é;¥8J¿¸m€Ö¸ÚX:9q%H¹Ö¾Œ·Z`¸¸mM¹\ü6¹[Ù¸€ä·J}¹uôÛ8è¦ˆ7¾Ü&9;cj9|·8­O9ö£9J	¸	¸ì¸qSk¸ğ†œ¸š¹}~Ø¸æ½ø7Ì˜€·®0r¸	J¨8’"7$İ˜¸ä8S¹ãº:¹PÜ!¸Fµã¸Jq¸ø-9†Ù9Æá¹zI<¸eÈ†¹Ò <9 \:¹‰•b¸BP¹éAÜ¸H	>7vz‚8!ÃÑ8  ¯85ˆ9›Sİ8åŸ¸0¾İ¸Z…+¸“Á8î­B8ø;¹µü69¦L9ÕDË8£¦¸c±E¹©SŠ¹„hj¶-S¹ñı»8œQ‘·-8E=”¸î#>9Èîƒ¸À»7Se9Íƒ±¸!p=9Lìy¹¯`¸ˆx¸uM¹L²’·  1¨VX9?{ª¸˜Ä–·L‰$¹µ.9¶‹48—x¹ªL‹8à{¸6©ì8¹  ± Îğ¸`%j·))¹>ŞÙ8öyl¸Àbï8ş›¸S;ˆ8®ªX8H	·÷9¨„·Ş|68¢šR¸W›¸›
+9¶bŠ¸–¬+¸îÏ
+8ù²"¹ĞÍ·\ˆ¹Féã¸·.¹¥î¹¥T79”:á8.ÿ¹&NÔ8ªL0¹*U9Ï‹¹-¿â8ìô±¸*ºâ8áC¹—;8D–7 X›7ş S¸9êÃ<‘¹.dn¸ú÷z¸l¬¸,µ ¹t7¹3³‡¸ÈØí·”Á!¹†p9A:9¬“¹9<9lµ8\£‰9êO¾8îßi¿	½8<9º:
+¹Lƒ)9şQğ·Â 	9»¡8	§59†Ë¸`uO¶½Û
+¹„)Ô6+½ğ¸!Æµ8ÔØ8æõ¸¼–9.oH¸F €8×v½8E®N9 •èµ6añ·8g8  <{şç8Àk\8‡K=9ŞÒ9Ñ¶¬8‚>¼9SÒk¸¹ÿ“8b*˜¸‚ôJ¸ØÕ|¹¢¤¹êg#98ã59pÃ|¸	G98$˜‘¸Øá¿·tm˜9•`Œ¸ùÛë¸ÏğK9€új·ŒY˜7p·+8¦¹ªó±8èP,9ì¹ Òì¶‹Â¸ö‹K9H¾‰¸ ›Â6g!Æ88ü¸ufÆ¸¥19 ·pÊú4n}:qj§¸9*`8N~!9 ãæ¸ˆ27x¹’ƒ¯¸{e‚¹¬Rğ7qæõ8ÇEb¹!‰E¹:Ç¹@q¹ ¿ ·©ğë¸ hb8lÕ¸gâ18	¢Ğ8Ş¹ze8  /£9_ª7rÃ¶¸HåB8î|¸gûx8êÄ©¹øÙ8Ã,$9:g\¸ğ\¹”µE8®+¸ıU¸<À&¹Xnœ7Uß6P²·6ºn8X’<·±œ¸ŠTÎ¸Å4¸V÷9«Ò¦8„¡·úÓ*8•!89ÑÅ…9´kÂ¸ß#æ8(×°7ÎZV8½W0¹½lC¹J³¹0õi¸*$1¹Òá…8 Ä·î÷}¹Âÿ€8ÈÓ±·ŞN8Ú3Î8ŒVû¸a[·¸°Y³¸cˆœ8ÃµÕ¸AÕ¸Æ£¸ò#>¹ØŒø8¿-¸®ÌJ8£!¹^n8\5k8jÎ¸
+J9~#®·èı8×¶¸/#„8¼¾=8Ÿj„¸ühã¸Ñé
+¹ğ×D5üØ+9ë`¢8‹Ÿ8Rw·¸ù6=9D~8û8"ÓK¹¿9€F>9jA"¸Á¸‡¸oÜ€8—Sğ¸ºpÄ¸Dı¸^¹¦
+(¹A,²8Î¸²t¡8:x8r‰o9>á¹"8ğ¯u¹ïÇ+¹(ªÈ6zÿ’¸òF¹fÿ£9•Sk¹äF9àÕ¨7	T–8ö¡¹šß9P;”8è¦59°‘%9  x¯NÏ7+Z,9Œİ¹†ä¸dîJ¸bŞ3¹`29©X@¹1~ ¸`6å&¹Ùâ9C9Ö><9Û’Ö8‘ƒ8i>9p†·Ş}O8’nÜ8¨ ¹HG¸6I?9›799…7Õ¸	Ç8ƒ8‰¸€ï_5/3Ò¸ğ¥Ñ·Â«W¸àtÁ·V“Á¸b(¸ÂÓ¸N‚¹Ô¬•¸åêğ8<v‹7Œ9CÂŒ8ë9ú¯79ìÆÖ·>·3¸ªÖ8S!\¹0·¹ËyÆ¸Rr”8ë9À›µ,…í¸*+¸©%š¸@xí¶Òyã8hùÊ· V6]öH9Ü¦5¹ù.8şİË8ŠÕ8¶ö¹ŒŞ­¹  	1F:¹ÀÍ9f…¹€¥¯5-¯ß¸ß<ò8BÍ¹2$-¸NoH¸rA7¹c¹‡t¹j2w8NB¸ú€ã8¤x9¾ÍÔ¸0j,7ãe¹TÍ9®|£6àl±5:]A¹E¡·¸Š¼9¹$*¹9SE¹AE¯¸#±78æõ…¸ÒT0¹ât#¹;iç¸
+Ì#¹lçÀ8€-O8Àe¹£$%¹ÖiÉ¸Xñƒ8·’o9¬U¹Foj¹Šƒ¯¸.¿Š¶	<9Ò„¹¶±/¹ {8ÿ„O¸";M8øo¹äÙ¸(î¹ŞŞ¹„7Œ¬¹ùöó8ˆ9"9şh¸¨ D8¾|Ò7àãÿ¸ˆò¢¹Ì/¿86u¹®I8Áö­8OÈù8€sq4à¹97D–76z¥9Œ&· dA9I09;„©¹€ßÜ3û“X8N¿Š6x,j7™HÙ¸s9¦8;™9`6¶\Óç7˜–§·`”47p7©7²5X8`µš8–f¹Ÿ¹˜Mã¸ :İ¸%_…9Ğ[C¹H,Å·×¶8õÖ¹Hf8Ÿ;¸€Š•5€½È7(?¹Aìq9Yy9ôI9‚¹9´‚8 ±¹¶ß#æ8Æê98îDÇ¸I¹^q95#19ì8o]Æ¸PÒ¶¬Å¶7&V/¹àØ·ãe8§ÔĞ¸CùŸ7ídù8€ Ë7Å§68¸WŞ·ì!9Ï2’8Î>$¸bO8¸Fà?¸FÌ¸än|¹`:W·!7àŸ¨·ájî9®6Î8Şr^8[¶³9\‡7˜ì(·n‹¹áœø¸ÅR½80Îğ8ÆB8åƒ8¤¹{ìå8Ç­®8™ÂR¹Nb¹À×œ·5›é8¾´8hÁ‚¸”İ?¹`½é¶”®8[K¹n.“8Y_ù8 µ¼7@€¶`Åò6ˆ*9Ôk9,f¸×¶8úê¸N²ß¸ÔZ¸Hì(7€)6`S¸¢à7n!‘8ı>¤¸¤k{8vƒO¹&?¸Ò·w¸ö¸3£X¸,¹Ìq·!#‚9É D9¹9¦N8%t39+À8  €¯ZCó8å¹Ú±¸	Ò
+9ş4¥8Ş.­¸Ğ¥7ŞQK¸ ©¼¶‡Ô¹ 8oFC8§Iå8±T9ìq“7%)¹p¡„8º”¹hùÊ7 X¤8Ô¥94!w¸Øé­·º"998ıO29hÁ‚¸¢Ûx800µ·r°¹h·Dù#9 ¹°©ì¶Šm…¹°Ü=9¿É´8tõS·ëßÔ¸ş‰9)¹‡}±8Hh¨¶R3ƒ¹töK¹d¦9û„œ¸´ ¹OŞ8Ñ„—¸¸îÁ8ö‘w9CË‘¹,¸ğ¯u92;ÿ8^A°¸¬‹Ä·göE¹‹'¹’YX9ói.¹€{ø5¯9é²¢8Æl9@k¸0C½7â¸ŠLS¹;¸[´Ñ8$V9aô…8 }›µ?Ç1¹/V³¸İ¶¸ê÷Ñ¸\j¯9„H69pBÍ8fÎ¹ğj9ÀtÁ·’³28ğº›8ÆP¹Vn¹-ZÏ¸Ê¸ÿ»‰9ÚŒ¹_¥P9<Â‚¹¦Ç¦¹İ ¸Ÿ:i¹¾¾ 9Åjç·~¹\8Êıv8‹ğ¹üuú¸)Ö›9ÕÂe9Áï8cî8êá9Y!¸°ˆ»64_9Z59áTx¹İ^«¹Ñë³8ÙÄ‚¹(¡·½«¹LxÍ¸e¤¦¸K9#P8ßª8¹Ë”³¹Òfã8¯()¹YÏy8ãf¸\(„·Âe¸Lò‡·róX8hÏ¡7„·cP8jP8–_S¸›Éƒ¹ß#æ¸Á£9†´8c[l8üÂ¹ßĞ¸^BÍ8ˆËE9n|$¹^A°8 §—¸‚Ì&7ÜÄ9ˆÃ:·x*¹†D9yÚ8¿¹{ƒ¼9ïÓ89EÌÄ8zI<¸ø,±¸öfõ·ı~5¹HŒú·Èõ…¸CMk8–ÿÛ9  ş/\/¸119dîJ8Ì 9ß±û¸¿”a¹¨˜¤9à-¸BgÊ89£¸;¿R¹ˆe²7ÏSŠ¹u‡80z6$¸ğ±·¶õ%¹T‹·+È¿¸@.n6p˜Õ·`ò¹·1Ü¹;?¿¸Ä"u9|ˆ7°ƒ¢7*ÓM¸Ûü;9æ}9u¹ÏÛò¸ø[9…TÎ8Dj®¸,½¸hBÍ8òsp¸ÒlÕ¸‘8ß¡i¸Øõ¶J³¹`•_µ­tT9¢~¸¸¸'7¢¸~9L¡8Oõ¹ˆ97F¤¹ Ğ9ãu¹œîJ¸Gl²¸¼ï‘¹ÛÌN8àj¦¹Ç ”¸XÌ¶7(«è¸‹Œâ8­”9Ø5·6óØ‹8g=§8pµ¡7µçş¸î&¸¹´Wƒ8¬2Y7
+n¹ş†œ8îÛg8D–·ÙÄ‚9µ,Ä8£)3¹'ÖS9~ø:¸¥¹J”œ8Š4ã¸+á9÷~¸Ïhª¸“«m¹X¹x¹²8àb\·´®8,C 8Ä+9„>G9:””¹éİ‘¸ıBÀ¸‹ï8m
+ª¸Ó$9m˜À8Ïu¹ä¦59Àø$µoQ¹xö6¹4“ö·
+*ê·nBÍ8   °ù¸šÇ(¹ŸÑ¸›Ì8ü¡Ù8a"á¸±„¢9Ò)²8%
+’8 >o2àÔ8.‰¹Æ¿ã·¬Ñ¹€Á'9,P¸Ëâ¹  À-ryÙ8np¸ˆg–8†Cz¹¢£8%	Î¸ á·Îâ9åı¹] ¸¢úy¸^»¹&ê"9½Ş9ĞÕ|¹Á}ã8w§J¹—7İT¹ êF8ºÛL9ÊIS9Üb+9‚­¯8ØÀ8cUù8–PR9Æø8¢ƒ¯¸ìŒ¸%¾ó¸V?9‚´9I7É¸a¾×¸˜´58  â/åÌÜ¸WP9ug…¸Âç$¸è|¸¤*€7&J¹}œF¹zàÑ8B„¸"ªÖ¸2tË¸ü¤Š¸îSm8iá²¸<º7:Ãp¸]³I¹@"9ıö¸8,·è8€‘U6PlšµÜ¸ş·ûõ±¸.Ñ9Nïİ¸i
+6¹á¾¹'•¸6/À8^K7¹	<.9 ïü8;ÄM8¿9„9Ò5‹8¶`¸…Ó8ˆni¸ô-9w…É¸–š¸¶]…¸Æ;¹7¹µe ¹?“˜7Ìò¸x<7ó`¢¸£¹9¹Ô=¹£‘»9@Æÿ·v<9óæ–9@#P8fl¸³¸Ùù81fw9h¹\fÀ·  P¯Šy¹Óìˆ8ô|8Œ=€¹ ¦
+¹<}r8í¸D•·RB8Ï·¶¸Dõ9¼Ó19Ã¯7Nƒß7`ª2¸l˜-¸€`µO Ú¸wc÷¸&i>9”™‹7BÀ8î˜J8vˆ9¸É¹8N®O8´7€½f3à5Ä6Ø#ï6Ë°ê¸Á´$9½?¹3…"9	T?¹öA^¹¶´ó7‚÷#9H¼¤8@9@Qı7¹cü¢9a|¼8eiP¹‘sÔ8JÍB¸MiK9€¶â@¹Û”¹l$9`Ù7ú¨8^A°¸Ô}G¸íÒ¢8ìû	9¸eÃ6æ¼‰¹¶µ<¹˜³<9Ö€79UÆ†9„8òD‹9Îÿ8z{[¸qm9ªÇ9Àk\8ÈôŠ8ÌÒ=¹õV²8s’´8·W¹Ê†œ¸ÈFØ¸t¹,Ä 9ı6¹Â\8¤Ñ9Úï8×¶¸ëó`¹¤ZÓ¸¨K¹X^'9ıè*¸ï398‹#¹Ò±¹ø€¶·z˜¸tz¹NÈÔ¸\YÖ·ŒïF8@`µ¶œd8Wr.9 Ö	9È93€C9ËÛÃ¸¢¹ ß6Ò`T8¨@9xÖ
+¹8¼7Ğ8àL$8Âœ¸Jm·¸¼÷À7Ú€92AP9Ã¸—½«9`şæ7Ğÿ¹Ó¹Nª•¸ˆ³78Éù·8 ªè²Û´³9ˆÿs¹6nB9¥8€Š•¶šk‹¹ºq¸  x¯Ô«!¹rôJ8  Å±€d²7fõ'¸¦ß¹ô¹:ŞŒ¹ö{n8Şlk¸dk8§‹'9£%ì¸À8„¹Îšš¸õoÿ8Òét¸p7Œ¹‚ÿ’¸h·™S¸¸mM9Ó¿ì8dZ9€˜À·Êk¸\:¹…º9Œ.ï8À|¸¶1#1¹h¹€—›µ*p9dÑÜ8UFš¸ş›¸Ì¡ù7JÛ8Š_9ë—¸Şe“80	9ˆéï8Lèv¸n|$¹Ê‚×8Èú9–1@8N0•8JŸ9¹;ÕK94¹†Cd8ö9šÂ6«M9$eÌ7Ùı¹>â·Üğ38à†œ8éAÜ¸E‡9dø¹À!J8 îš7üä°88´¹ú­·Ğ{Š7ò6ˆ9èi6·€!Ñ·u’<9—6¹°9ûP¹ö”9fäa8Á)8ÔT¸ d9w©Ã¸2©¹0e‰¸  i1È<’8ê¹ğ¶¶$Ç8¢2Ã¸B¿789M÷â8Oá8 ×97¤Ã¯7kx9."\¸Â:¸B1P¹Ÿ69Šp–9) 9YÈ7,5Æ·¸G¸åY`9â[8BÀÃ¸3Eù¸iü¢¸~cù¸§Úú8+;Ò8C˜B9n|$9 ğj7<AM8¸˜Å·”÷`8îé8DòF8˜¹f8 –3ñD¸¬¸†%k9ğ|¸º„68üG80{i7ìÈê8n0¬¸‘¹pŠJ¸h+9kîJ¹él!8¸7C8CÕ7(Ÿ8¥}9<Ì8Z¶¹F5-9@bh7!Ìƒ¹zdæ¸İ“7ì”Œ·—¸B›,9äM,¹j†¸I;¹.C9ÀÛ=·™Óg¹@å‹¸f¨¸ 7Æ·-«‰8~#*¹0UĞ7°¸D*Ò¸ú·àzÎ8¸‰Ô7@Ñ‘88³8ß–8Zu49ëÄK¹HÏÀ6Ï¸¶·w¹-mÉ¸BÌİ·Õ®R9-Ã¸Â˜B9ei·Cé4¹ø8$9Ë­·f‹ß8/¡´8x–·Š0@9<ÉÜ8 #û7X¹p˜ƒ8—oú8€·I5ÖÒ7¸â¦¸ğ¯u9Ï#¹@ß¡7‰î8ğÎ¸Èw†6ÈÏÕ·d9Ë"á¸|.o¸˜n¹ ´¼·D7m„9ˆ×
+9Ø3¸1ûf9
+<°¸6º9J#¥¸ v7^ìC¸êY¸NMØ7L4:¹ñÿø¸’a¹ÓâÔ8P¹°Ğf9G·œ›8¼ğ8 ©€4º™¸€ÔÒ¶JŒ9ó\p¹p™“¹ú K8˜èF¹ÀM8Ä3È7`Ú6dçÀ8aEQ9_õ¹ˆAQ·IÄæ8@û·Pj9uÙ¸pçï¸€M8@C7àºÌ8c, 96;[¸¨:819£K¹Úş¸ó49*¸8şiç7ëñt·ÿùd¹cè­¸à0P¹Hµ·ıJ¹Ÿ.!9QÆÙ8|&¹1ğø8›x¨9 $)4y€¹JÏ¸ªÀN¸«‰„8îÀÿ8â¦8ì9ßú¤¹	9æD¸ù¹f]^8ãnÃ¸¿ô±8(æ‚8³…2¹#‡9akó8A…¸£Œ8—D9ïi‘9¯9°‹¸§5D9~ı¸şÊW8  ò¯´9:8,º+9ù›#94€9,¹7Oµ{9´¯8Ppš5ç$À¸İG¹Ğ4 ¹_ø¸¬^:9hÁ‚8Sg§84ç9°R69Ìô·<Ğ]¹rŸÌ8=³ü8f¦/¹ï)88ÀM-9ùŞÅ¸±Å€¹ ƒ9
+9dY·7ØØì6qK£8JD¸¶¹B×8Vd84_¹5i8m·8Fı{¹`×–7H	>7‡œ8h¡98@»·œå8öb¸ç!«¹öB¸87/9%=¸D~8šğ?¹¢ ¸¹h¹bİ¸`³8Å71É7ƒÙ¸½9„¹aç¸Xåj7B¢8b"9J996„y9êú8)~¢8¢Ï¹gï¹¸6¶q8:Cÿ8@Ë£¸`zšµ~¹\¸d>}8„S	¹0æ9iÃ†¹¼ãˆ8Æ7ø|8šM`8š“7 1¶{R9³d9¢ø 9bd
+¹X#B¸¾u·Ü8x12¸Îğ¸¹Æ`¹.›8è9Š19à¨J9F569a©7 8D4„¬¨¹°9P&(9X„)¹ ¶e3ˆ„B¸\V¹ëã8Œ=€¹İ£7fC%84ª¹€Z¬6
+ˆØ8•;¹%7¶Z”8Š¸ÏSÜ¸Ÿ€8øñ¸ßh¹4Ü#¹uÔú8‘bË8Ñµö8 'Š¶Ì%Š7~/›¸¾ÊQ¸†TŠ9¬qĞ8(F/¹¼®¹òiÎ¸.ó¼¸kõ&9@F6Ló±¸†ô99ãï¸ W€9Xñğ¸ˆni8‰},¹Ö•Ø¸p›¸RØ59ü¦5¹­^Ù8CI¹{îã8ìT’8¢:¹®f~9¨éÍ¶T™9‚ì9‚¾k¸¾Ñ!9 ,¶9E…©¸”Û¢·şm9’â-¹œ
+Ä8b¹9"‹48ce¨9JS9T¡Œ¹|à¹B»¡8p=¸"%¹”
+09€l85À8³Ñ8‰'v9Æi8éä¨8·£8šô¹|î¹Ÿ»¸C/ƒ9å´¿¸?Õ†8f‚q¸¯YX¹pÉ6éò9˜¹³9¾ÌQ¸ÄÀB8¯Š,¹İ3Î¸²ë¸nN¹ı*8¢‘¹AÎ8¶¸Ö£‘¸€øµ™Õb¹¥Q8.29>‹!¹Ì®8@Æÿ· ’¦¶7Ş°8Oáß¸É²"¹LÕ¹ôÙ¸\vC8ÀqÃ8@´¸¸Féã¸4{Š7^e¸t…¸ùœ!¹-9Ü85s¸Dô9 Úo¸a88Éa69è7:t¹ÌNÊ·Ú–8× æ¸z!¸Q¬89´ˆ¸>/9+ê÷¸˜©%¸ŞU5¹Nk8;9¸ÒK¸bC¹ù_¹2İ8üo¹d•ù8 36D¥ª9\ª•¸Ôš¸røu9á‚n¸è
+‡9Î&9m½7Wÿ8Øµ·EŠ9î~9ìYƒ·[ˆ€¹A8dŠ†7G¿g9"S¸Ò«9UÚA¹D E8`¥7ş‰Õ7’Ô”9¢M¹.´ø8åªİ¸àeş6Ø›[¹àV¾6î4ÿ¸V¹“ZN9‚O8¸ 8j³ò¯ ¹¦hg¸@Zt¶T
+t¸Fé¦8óo9W‹¶÷~8#Ğ8Jn8Û'9€µ]¶³’¹-Èé¸Cªƒ¸ ı¸ô“8Mş
+97û½¸9=„¸üo
+¹
+:`™)6¦ªp9L£¹¤@9ÌQ ¸¦Üá¸˜-ƒ9(±”¹Bş9¥áT9€åA9\6Ì7ğ
+å7`S7Æ-¹xJ:¾b™¹ÒÙ¹T·7ß#æ¸k~‰9 =·2”r9Ï8­‹¦9d·9àÛ·{¹¸\:9 ÙÓ¶ïª7´8h®·©º˜¸[Ë°8½>¹ns@9}[·Ğÿ1·ÍÂÎ¸V•¹,Ä8>`ß¸oôÓ8i 9†X¹¼Šê·ØaD8 ˜W9 İ“·  ì/¤…d¸„çò¸Ì—9a°¤8æ\¸äÌJ¸X|í·¸Z8Î><9^©¸ò¡Ù¸²Ï59 2 9Y/£¸	I¹…09
+\<¸Šg†7Ş¸¡¸<V¸8¨L9ğ¿8evz9ôô8Ü'D9ÀLê8Ü®8†µ²¸– 9¼ÜĞ¸¨y·7êb8"¿9êf8
+<°¸8·­·NJ09mçË8Ö¹k¹y_9ÆB8Rp“7bëã¸Ğø©8Î
+@¸-¸F$µ8y9^/¹v[[¸>ß
+8À•¶7&r9G÷=¹°y¡· »9/9æo
+¹ÄE±¶À´ù´ïÂÑ877¹^¡8L¸Ac³¸%ä9ÀW›·qœ8ç¸7‘k8• ñ¸ğ~p9Àè$µĞÉ¶„9  €¬–~3¸İ{9 è82596Z,¸À0·6î`š8 è®³ {f³.Q›¸îiÎ¸+¿Õ8Êš9 634tfr¸h!ü¸˜‹w·ˆ%·À!V5ûA8VeŸ¸€É8•Õb¹Œï{¸È@¯9 ‰W6âîY8j^p¸31Õ¸[Á¹tQ…¹8’ô¸x¯j·`ƒ»7dÃ¶¸ÑÅ…9F/¸É=$90ö¹™<Õ¸2Iv¸„÷`¸¤k¹¶›Ï7Éng9**ä¸Ş‡¸]89Ø[Ô8¹‘»9q¤8÷§ì8{ õ¸£a¸"„Á8è,Z¹V¸'Â¸8¾7‹8rb8‡S²8Åá…8Ş…u8p$8á-9
+p¹tu7ÈV9ÏL9 ¨®7§<49¬jÙ¸şÁ¸ @¶&£9èE™·È7·Úñì·N¶H8 =æ6vg•8xşü8Ø¿˜8#òG¹i¾¹†™8iÈ†8|áL¸A¥Œ¹Ÿ÷7Ä/¹7c‚7Âı™¸ÁØ¸ö±Ã8à„†¹´®82š“¸*ğ88 ‡4î‘08ÃŒ¸³9Æ`5¸Åjç·˜9O½Ç¸z¸,…í¸%ÆP9.Ïm98_8‚˜4¸µ­f9ïo¹ÑÕ¬8ß…¸ô¸ˆ·gûx¸â?Ú¹ÂS8ä>õ8»B¹UŞ–¸Œôñ·‡Üb¹ |d¸R[¶¸(”²6Ú8á8€`À5ÿí8 ˜_µñUH¹Nxj8J°¼7Æ¹áU8˜<¹ˆR¸„68M”Ğ8	L8¶…;¸#.ì8Ûà 9÷#¸Öj9 ô	9"8Ç8Ø:·o5P¹D+7LÑ·ØÍí¶€`7'`´8ä"¸8_*·"9—~¹0õğ¶êş8Š^ã¸Gé¢¸~¹\8£øm9xëå7¸Ş¸&bO¸dûŒ8Hå‹¸ğØü8ö™9?ıÑ¸<o¢·¬Ç8‚Ì&·¬àO¹!G9|©ª8úÀ3¹^âå¸!§Ö8Ôêˆ¸:§Ö8Dz¹¼ı¹!
+90W7  .Ö£‘8àïj· <æ¶(¹€ğ*¸pÉ¶`Š¼·¬vª7ğ¸é8Ú9Àwmµ”;9Ø
+(9  ’/x8üŞ8ş{¸h7ö&¸C†¸¨°ª9®i¹·û	¹r?<¹Ÿ=/9öªC9ös¸”Ùğ85h+9¸~S²8>÷1¸^Ä9®š98 ©€´éf‚>q9ı¹TdÑ8^ÿ¸‡‚Z¹4X¹ğ8Ğ’Ä·|³¹?;8’Z9¹Hú·“ÒH9ğGØ¸°‹8&Õ—¸ºvg¿Êê ¹Î„W8?iç¸˜¸ı¸@e ¶¼Î¸ ù8á¸PZ¹¸*%¹œ'À8àØ698J6â‰¹ şl²@÷`7oà ¹(…h8 Ô06†%¹¹–ßr8G¿o¸ T6‹F¤¼¾"¥8‡œ¸¨ µ·5õ¸k×9&Ôµ8  ®²¦¼8r
+0¹ #K8Fn98oà`¸0èĞ¶ÆRj¹²ç”¸Ãˆ9Â.¤¸‹Z¹Tœ¸D~¸Âò¹­7:9Ù‚9Piš5¿i¹>ê6:\¹{•¹;Ê¸F‰T8Y·7Á¡8=âô¸ê
+¹"ı8¹Ã]¹UÏ8FS$¸„ë7[›ã8|¹øJ<ÆF¼8Ğk\8ò;;¹şÀºph9£J£¹@ª®·
+Ã¸p’Ì7Ü9²59æ.E¹ƒ`Ì8 qû·1ÓB9ş±8Şû9ºw ¹T!»7YB¹ê;@8M7¸mM¹ômE¹â91<9h|¸‡]D¹pEÅ8Ğ·>O“¹Œdê7— ê¸¡8X¸ƒ—Œ¹½Šô8Ë³ò8N¼è7!V9L§¹f×2¸j9˜£m·ØV38*Í;¹”p9M$¹”I,9ä 8ò6ˆ9°K ¹¹x{¸¾6ö7L¢¾·ó>¹<Ù˜µy³¸2>l¸ò1¹”à­¸J3ƒ9 Ê ¸Ï8<áƒ8e)9LÄç7l¿7¤q’7…Ò˜8Œe7âg6¹¨9àğ½6äYÀ7@R¹™#ø¸˜Ó¶7°¬¸ëŸX¸âE9‰89	J¨8Œ“«¹ü·¼·¦‡÷¸Ù8ö§v¹®ÓG8¶÷c8V—ê¸Ù¸Pq¹ X¤¸@V46A#”¹x§7Î<¹ W›7(
+B7ep§8älL9b€9ƒÂc9n9D ¹ã&¹^A°¸p²:7ˆzú85<»¸Y¹3$9XˆP9  .ïª)9Àmä¶²p¸ğŒñ·T&(¹~2?9÷9s£¸è‚ì8€»©7vÕ¸òz8ŞBU¸u–N9ùÑ8€ö¹ªL09.•¹.ñÒ¸ÚcŠ8	J¨¸Y¹è>×8x*9<v‹7Ê&¸¸â•¸ŒQ9,‰7¾8*ó©·Ğ-7Âª/9·dP9¼á9 ·Q7®i¹VÜ~¸üÈ{¸ŸeU9ìÆº·—x8ªµ"¹úŒ¸Íª¸Ğò-6RÛB8?Õ8†úC¹± œ8ÜşÄ74…8Ü¢8¾/8ëp‡¸@û·é¡Ş¸¾´¸ 4ó·Úş¸˜Î¦¸9‡8†î/9Àï¹ñßz9ìeÙ·¬Rğ·X»Q7f¼·³ş¸eãŠ8³éJ¹t§Ô88>
+8‚æn8âI094¹G´¸ ,€3ªX9ÖV¸@
+09j˜·Y	~9ÓI9Ş=À84_9Zn“7ÒPJ¸*¹8úS¸+ó¸ÇÆa¹Ò	9­œ·81‘´¸‘–è8Ï:™8æŒ58Ü}ã8¨\(7¾9i$×¸V9Pá8¢O8¸ošÁ89
+9ıY8áÌ`9«Š¸yzj¹–Na¸õ9æ`¸¼]9É¸8l-58ÿj·8[®î¸-Œ?¹<J„¸ıç¹©Vn9•È·6ˆ]¸h8HC¹f4¬·–Ñ80Æÿ7.Dò¸ÊĞ˜88™8ú¼¹{…¹#9’>18NÁœ¹Íğ’8,¾8Ô±¹ØF9D~8¦„W¸h„û8ŒK·|9Œƒ¯80Z8š8©SŠ9Ø‘¹c¼‹¸ ˜ø2|9ÊŞñ¸›ö¹vj¸éè¸˜ãi¸ï%9½ÆÏ¸ĞZÍ´Í3Î8¹‹n·838í8ü*Ò¸Æû¹*_í¸ĞÓ6®N"9=ÒÛ¸°7æ¸Xy7¯»ı8^rù¸]Mç84–Ï¹eLH¹=ú_¹SC¹©d9¨F7„°²8Ï^9ñ¸8Pjí¶ÑÅ…¹¾ã9Z¸ä‡²9Â÷„9NÛ¹w8¾Â=9ëc¹EoÆ¸õiÎ8X-¹†ı¸Û,Ş8†jù¸ù`ç¸{„‚¸FÊ94—ı8÷0Ã¸âz8ã0…¸ªÁC¹£9Q9 •ø¶8ì9æM8¿9h·˜Æ¹ Lï¸Ãz´9+B"¹™,O9
+•ì87æ8KÃ¹¸@9g=§8²ê¹Æ	;¸Ë¹ßH7¹ şl2D#®·HŒú7æ$¸Æ¸`ª·„™¡¹åøŸ¸${Ç¸‡@º8¬ú¹y~ 8W^¬¸#è·œèµ6”ªh8Ö¢D¸µÖ¹¸P9¸¸`.`7àÉë5Å•Ø¸aĞu8†÷"9zê¹¸^4Q¸åâë¸v‘9P
+Ÿ5ĞcÙ7U 9Âv¹kq¹ şn2b‚¹ï5Æ8m¸"9\dA¹<ÄÁ¸İ¼q9ö©8”88Î9´…$¸É¶6>3^¹æËp¸X.ƒ9(nœ7ßt ¸[İ¹yï\¹ÑˆË¸}ıó¸Ì±Ì8vC9#e9ôI92r$¸~)8?9XI¦·dÎö7uÓÛ8$W¹Nê
+¹Ô+B8Nñ8ê€91 9r¶9¸€¤782Z8F7q¸p¼ô6Ú5‹8!oÆ8 	Ó6ªó±¸yT¹ó§™¸¹U¹¨÷Ñ7
+«.87íí8Ï¹l#¸˜Ô8€“§7Z\~¹®w8Páö8Ó6¹Umò8¸aœ7XË¸Ò±9Ò•9ÚX¸9¢8uÆ¬9+”ğ¸ïaï8óæ–¹j·¹8_7èQ¹ï&¸á94d$9êò¹¸N‹9ù.8y	ï¸üêã8Ü•j8š‚×¸NÓ98I¹’s¸Ø¸:Ï¸¿®·&øi9B"k8	µÑ¸£Õ8¹úÿH¸€;¸p@¹¼X·¸»ß7LTş8J']84ŒŠ8Åc—¸ Àı³_dİ¸s4Ş8V¯¹´İ9°Æ»6ğç˜¸ƒ,¹ç¿¸ôK95Ã»¸'4E9óæ–¹VÀ	¹xæ¹Ø´¼78ú»9ƒ”¸}Zn¹–Ó¸;¯Š¸·Ë¸2¹³NC9v®ô¸z4¹<gÊ8N¹’|¹];`9)Ê‘¹^›¸‘ö¸–9=6c¹¢÷9¸ƒ»”9Qdú7Ó¹ö<q¹ÃËE¹+¶Í¸/8Á	!¸:79(/9Îƒ8¹£C¹p¡·Jú8Çİ8®78°Ä9¸É¹8s¨ß¸:k2¹ÎÈB¸88Œ¹pp7øi8æX™8 ãä·şL8¥u¹^òÕ8±d¹F{3¸g¤·®19øÏ7ó$¾¸bÓS¹'†g¹$á°7µ º8Ğè£·6u$¸t]}9Z¹Úü¸$•ú7ìÇ¹Ç ”¸JÍB8„°@8Çè—¸‚ë¹,<·Ô/¹ªF7¼±/9ó<78ğÆ¹qñå8¸+¹p†‚6o¯¸È(¹×4·w_8“¼ì8w£6¹bĞ8¹>“‡·‹t8ş'<9ÊL¸Ö!¸~¹\8xáö8£‚Ø8¶.«9ÃÑd9Áâ99şrµ¸ùq¹/Áô¸¬êº7Zoœ77Î¸Is¨8LUB8ïø9}~¥¹¸"M8yê—8|±o8ò/*9vÎ 9i#n9ZÛ¹üÄ®7ŒL”7 L 9 ±·*Õ8ÕŠí¸öK¹.WW8xÁ¤8bˆœ¸¤"P8ã¨ 9ˆ
+80X{¸ğ€v¸Šî
+9%ë¸.ÙJ¸$Îğ¸Àd²7 Ç·€’®7²×¹¨ùÊ·ø‹H·ÌC—¹ŠÁ9P¬–·êô9>/9J!¸¹¸_X¸:W:¹`Œ:·XV{8šŒÕ¸å%_8R°Ç¸5èA9ˆ¬¶Î1Ã¸Šñ8± b9	J¨¸¸ûK8 Ê¹ıÇ`9º¸ĞD¹ ¤¹æÉ8Œ~˜¸fT‡8
+Ê‹9à]ÂµÿbÛ¸ğT8Nß)9šD8p;¸g^¬¸®èİ¸÷ñ¼8jlö8è{84Ì·„±†·Y¸•M=¹ªĞ·¸¯b·8 ÏŒ8²¼Ç8ù²ó¸Ôñ29dà¹¸”É5ïAí¸ Ôµ9Ijö8=G¹²'¹`7§8Ú8Xõ‡7m#f¹œÈ¸4à·8Ó·8A8¥8B”œ8}a¬¸Úÿ¸D‡…¹ğœ-7„ad¸Æà’8ì
+—·9\9/s > õM¹Í«8Öu¸Àò^5	¸ ¡8¨ …¹ô(V9l$8`Ç7Íkl¹¬ÀB¸h5¸'F9CS8¼}”7NC?¿O¹í9Øe²·íd^¹$G¹ãTH9¸<7Ş•8@\¸¸ü¡¹ ¾ï·€.¨¹h…¸ï8Å9_“¸
+&9Ó»
+8PÜ‡7[:9¦ô3¸öf™¸À¹¼<À7…@ç:~¹\¸YEZ¹Ú*¹ÒB¯¹*47qFº¸P²·6·øK¹L@Š8œÛµ¶£?z¹õ¾¸z¹”"P¸óË_¹¤Ï8ömÂ¸­¢1¹xw·7p6â5X»+¹óñ¼¸A¨Œ¸è®r7%2–8Ìk<9S½Ç8  "°Î9uõ9h”8M?.9-ü¬¸ô;¸T£Æ8,…í¸Š³°9Yp¸ÏRc¹‘8ü’Á¸o“¼*Û¸ddBonnx::MatMul_26JÀ¸Î®9¯¿¸„¹å¯¸~/„8vX‘9Ef09ú‚9iÍ±8ê•Á¸,Îğ8÷›·8ŞÅ78 p¹­ƒ8ÊKq9  X¯€˜@9É¶ó¸Ş†]8=Ï8~Î¸–ç”¸NKp¸îôC9él!¸Âc9br¹ÿ‰¸);F9·Dğ8A(î¸Ë¹¸^¸ŠÀ8;´9³.2¹¦°y8…ä8£õî8Šõ¹˜§·ôb—7â:¸> Z¸[”0¹ıZá¸fL8=c¢8Ìû;9?}³9O9`ş ·
+ãC8‚j8N.8 ¶2Ü'?9î*`8MñN9ÌG3¹ªa¹İ°°9şV†·åêğ8İ‹;96”¸ü—9…;ƒ¸T.ƒ9·^í¸<v‹7˜:7-ˆ97ø€¹Ï8Û¯«¹³/¿8¶77–#9 ¹¶Ôt¹‘®9œG¹Dº¸ì¸ö€é·09¡›9G¬¿¸Ê3Î¸ªêÇ8ø7x]9¬¸4Ì7ı18f–8§ª£9\aÁ7>É†7«íC¹NF¹R—3¹Ñ@œ8CÄM8oKÀ8ˆ[<6À”â¸à¤8ëî¹ÔÅ ¹¶#V8"Üp¹Î¹>
+¤9Ø¹h¸;-5¹°¹çã¸Âıƒ8ö]9¾¤8ZÓ—¸\ñ£7ìD:9`à8Ÿßö8Er&¹8/¸”-L¹ïwÆ8–-9#®l8Àu¼·w‹è8ô„£9»%ö84¹ã Ò8Õ¸cY¼8ø27Œ=€¹ 3M6·=9E_¸®!9@É6Ú8qg…¸¤Ò 9½{·¸d´9Äï‰96õ¸’‹8óş“¸ ¬2ıä¹¸B÷h¸TÙ?¸Èü8„¤8x*9Üò7308M19¶0ù¸òé¸g|¶¸,…í¸‡ú
+9üs\8¦ªp9€L¿4@|•¸x³·@Ú¹Ê…¸0Ê·Oe¸ù'¹aÄg¹:´¸Â+ø·Ú¡?¹Ä¨9ZLÁ8£Æ60>7÷$À¸@À—¹¥Š9h¨&¸è`ö8lŒŸ· ˜9à|¸Cæ7êÌ¸ e¶İc0¹C¹H¤·I09Xº¸PÉÙ¸j
+D9¥$k9hb¸Òu8ÊJ8zX”¸Åe–8`w7‚óë¸Q¹ï¸‰(¹@%!¹®ÃÃ¸ÛíÙ¸GYÁ¸¿¹N9q´ç¸t"v8g|¶¸º©9€e8LÑş·0nÑ¸„UG¹!­L9^A°8F)¹4j9êiÎ¸y†ˆ¸f¬D8@µµ|9´7‚9…ëÉ8v¸óFÅ¸ó9¶±9û8Œ;ø¸œëÉ¸vÂŸ8;i¸ÀÎĞ8b@8Ú5‹¸35¹Œãˆ·t@’8zÔ9 Nì·ğÕ[¸#ñb9@5W·‹2ê8âÀœ¸  à.	ï8ş¤ö¹:Y&¹D,Á·	£÷8&ÿË7O¹R”œ¸ŒX&9»lC¹ÕÙ!8 €7+¦¸Øò7àƒ¥9&’8şÈ8hö94^9'Š8³ØK9È<’¸ğˆ»6
+°9ºå8Â ×8ØŞ‹¹èÑDµìmú8ä;¹…¹kÏá8qN5¹É#!9xªl·£8   ®¦9¬¸-x 8Ø 
+¹ÇS;¹‚Ì&7G><¹0C9˜
+¹8È¹¸£7@¹°€ò7p–¸k@€9–ÉÀ¸T.ƒ¹9yş¹Áû ·Å”8>ˆ¹sXc9´îû8š¹Ä¹æJ8²C¹’@†¸l‡¸Tos·<#í8Ùåâ8*ù¸"ev8 )7À·há 7dÃ¶¸H<¹¬ºH¸;Òò8 œ>·ÀW›7%¥ğ8Ûõ±8õ’>9Ê;ş¸ Y¬9`|8•6¸‰Sk¸1ù6Œe¬7S?k8|×
+¸Ø+·¨ÊG9è?9(Ï*¸Pà²7¹ø9¢[97Y/¹Üi–·¥R’¸¼0%¹İ9ás¹â»z¸
+ˆË¸N¾9vú‰¹àV¾¶Äˆ½·Ø®V·›¹¢9¦jÙ8ÊY8ä··¸ú9 ¨®·¸¬ÉB8Î¸kNA¹Ä¹1y–8ÖV¹Ax8úœ>¹Ã[ì¸Uo9Í}9êk_8à\µ8Õ“›8æÙ;8|P¹&«¸Ô
+¹}¹œô¸a¥µ¹‚e¹|¥7™¾8ı_¸``ä·@õ‡·. †9ğ¯u¹4¹¹µZ‹9èMI¸¼+9Ü`¹®Ş°8|[/¹.«Ü¸Z÷¸Ÿî¸öCM¸¨ˆå¸  Ş®^'8l¥ç·$¸<lğ7p-9R9v…9ø¯8LË­7*Ş
+9Øù7˜+9ˆ·6!é7e’¹	«8¨Õ8ò60;¹À‘¸š“7û¤˜¸`vÒ·ÊÅ¸È µ7÷f„¹ˆİ8˜MÅ8Cö8è¸"Ç©¹8(é¶¤k>¸0÷¶BJA¸Ù´a9Ä’ÿ·>WQ7xe¸ÓfŸ¸W^)9Cz¹>	9HÇ9Fn98‚¸Ššˆ7Xf8ĞŸÄ72µ{¸È>9Á”R¹töK¹óÍk9GÆÙ8_[ 8ä±ñ¸¬ùÎ7øÜ¦¹jh9=iL¹XšÌ7ÑæË¸ÚI09Õ¾ñ8–l¹î%9¶82¹÷L¡8î2!¹Òù29q¹J9®]â8B›ğ¸@z¸:›,9OÙ¸ ø¹»ëI¹@ºKµ6Ÿ/9‚.œ8à3¿7€n›6.è¹ÂÊø¹0›Â¶zk9å‹|8à²·6’d<8ƒ¹º,U¸„¬·:Y&¹ŞF_8=İ¸¹ä9D–7Ú„¹ø»¹8Z”¸OèÈ8;Q‹¹(µ›9Q#69Îô˜¸Ò)²8•İã8Ğ%¾7 0Y³O;¸iD¹†gO8  X¯†fí¸^İ–8³n¦¸À9“òè8áÉ*¹
+9R¢ü¸–d9à¦7€0·¶n|$9ú”O¸?A¸ l+³DÕù¸ş„æ8Š¦9æ^¸‹¾¸¬±77ş´8ŠŠ9	J¨8b@¸—9089Mƒ9p±·¶+Ğ·8ê¶Ş¸–39leÏ7—09€ÿ9™» ¹÷¸=³¸*—:¸¬y8oHb¹í²·d´9Ú¦5¹d>H8·u¨8¨^²7’ê98f¸›J`9‚Àš8üY”8]â²·¡—¸vJ¸B/8å£¹²ñĞ8× K9ş:,¸¬Rğ7£Õ²9@"¹Ò\[8z°¼7p©¹œn8¼ %9ä«ç¸ú)9p
+¹Î$9f·9ú]¹5îã¸¨Q·»×|9zŞP8:ƒg¸~G–8·€Ì89E¤¸XÍ¸>ND8NÙj8öí ¹âF¹¿eJ¸(õ¬¹µ5/¹Êº¹š°2¹ŞªÃ¸†ÃÑ·^A°¸ôI¹•J£8õ9†{E8À‡8gûx8Ïû8²Q69ÑÅ…¹–;‰8ê€¡¸‡ò¸Ø®¶·`·”8ûñ¼8ì¬•8á~9¢99¤Ü”7xZã8Z)Š8ƒAî8xå¸‘69Ëæ¥¹ ·Q· mµ²|ò‡·Õ—8F.1¹€Ö9·í$¾8šÜ¦8s9[Š¢¸Jb)9~:%8<µ”¸¾¬B¸Í“]¹¯,í¸Êø¹ ¦x·àéŞ8©¸“¹¸mM9xå¸€:90(7-ıä¸ÈlJ¸iÿ9¯dÑ¸U^Š9±791Ë8 D-³ŒÜ¸NÂ/8ç»¸<j¹I09¨‹8Iü¼¹Yœ¸
+O¹Hì(7Ş=8Œƒ¯8‰ø¸
+×>¹]õK9œ¹¶~¹H?7?Ké¸¿{#¹j¹¯¯¸ÂÕp8Fø5¸Î©¼·©H;90!Ñ7Ú˜9ÿîI9ß„9dq“7”á¸òN¸f8€A•µ´ÊÌ7PZ¸ÀÒr·ùÔ·îÖã¸b,¸×09€{?¹©mA9Qœ8%´ƒ9YD¯8“¹$•¹aÆŸ8,Õ	9Œæš·‹´€9vé¢¸Vı¸ÎÒ`¸ ÀE9"f ¸Ò:¹Ö=,¹6¾[¸qñ9 ’Ì8=a™¸;ƒ¸ «¼6€Ğ·ôI¹ÌöÏ7©(7|ê—¸¨ô¹Nëã8Ô/9Ào½7E‡¸H0c·ô€-¹Ëu#9Ğñ‘¹åsc¹CÃç·ƒTÎ8è¸€<µ^D8Æc.8öÃh¸ğ/9·­7ØÒK8ğø8øÀk¸ ¨ ·~¥¹À|¸¶ñK¹D®9ğ—¤7ş¡Ù¸‘§·Ü`˜7 p9ŠÙü8ë39ÃÑå8ö¦59ü/¹7[œ8D®û8{Ç¸¶ä‘¸z;H¸í-¹^£j8,Œ•7åêğ¸HZ¹`î#·æ”Ì¸Ò Z8X–9‘8	J¨¸\˜§7#½$¹ÓP‡¹¬V9 ĞK³Ÿó1¹NI ¹,&P8„H8»€D¹`;›5iæ¬8ªN®8JÛ¹ˆ5¶e,Ğ8ğ‡9&ùã·Mr&9T*±¸  ş/5¨d9¨F	9ëG¸¨49nÔ\¸¤Æ¸WÃ9fÄF8&q90ù¾·€$£¹xÆº7L»¸È¸?µñ8€Óé5€8W69<@¸X,¹;ÄM8@h!5ùÚ9—9>¸‹¶·R7!È¸¢Gê¸KB9G¾0¹¤+¸,ô¸Ìçz¹¤³¹B„j9ß#æ8c5ª7ù¹l‘:¹ ğK3–ZÍ· õX9ÀÏÁ8¶¸µ¬¸¥‘´8`—R9L(5·€Ëã¸ˆA{8
+W¹Ê|Á9¶´¸?iç8¢Ìë8(–6¹*Õ¹à˜=7§#$¹Vï ·LG‘6h|¹¬Z8e¾·¹8íÇ¸ºşx8Ôÿ9ËÔ×¸÷ı¿8'O8L–¸İú¸98;9D~8MK=¹Dz9~¹"¹¿hW¹ø¬•¸:‚X8èÓDµË9¹t·”8P¼º¶‡.5¸bb«8šX9[v9ÓlÃ87‰¹e‡¸¦¿İ8ş!í80Ó·8†Hk¸ÊJ¸ Ç¶ Øİ3öœz8[=”¸¦Û¸#¸:§á¸5#19£b ¸CiL9œ^Ú·t	/¸2ú¸ËôE¹®T7³ä8¦Àq8Væ¾8vh.¹ös¸Lã·¾Ã8nHË8øŒ·ş-`8â*‡¹ví¸_§Ä8¶ˆV¸6
+0¹Ô„¹#ÍX¹B}9 7¨3@E9š“·X|¸ŞY59Eu#¹5í>9à­«7¸Åû7¸©9à|¸”•…¹€+5+…¤¸e]¥8{…¹D¤À¸­İ›¸Vîå8ZV¹9/3¸ª‘´¸:/9”3g8qc¸¨0—7Y¹¸”ıt8€K µºÙ8I  8w)è8G¯ş8Ş¶	¹ØRz¸¯û‡¸ç£©¹ Á2d‘9¸Ë¼7x€9  0²Ä„9Î°‹¸SV9
+Ù¸¸’pá8 "4ø’O¸´¯¹çô8Ø´¼·lr‘9Ø8?é˜8	Ğ€¸øJ#8pPï¸eş9«û—8„¢€9 ?æ6vC¸0â¶@õ·Ï8ÉEq9ä(Ô6Åœk¹ÀfÍ·  ú²»nK¹˜š¢·ÿW9÷~¸\–P9~sĞ¸ €·â¨z8·/N9İg¬8ÈR¨¹`8§·UÃÃ8L92|¹;¹Ñgä¸0Â·t-ƒ9*+8µ#Ø¸>*¾8ŠxB9Š"l8åta¹b­"¹rüÃ¸  D/E…9ßL/9V!9pÈú4Æ9W]M¹YĞ8"“å¸ò”œ8«ô=¹Hl755b9%î¹›:T¹˜(¸ £&¹±,Á¸ızÙ82·8†	^¸º=¶8‚¤¸Û48?8¹8ÕTò¸‡¶ï¸¢v8ÆÎ8åÉ×8×‹¶·V59²|z¹€õ¹(H¸­7¹8ê>¹d•K¸©Ûï8Õ8HFO8 |¸Ñ€×8è•ú7„Aº88Ìş7¢ôJ8³Ã7.Õ+9´{Ò¸jB?9Ç•Ø¸İàú8é(›¸ÿ¨Í8f8¯T ¹$ô·¸J ›¸¢‰A¸Š;H8×±8(å'9”Œ58*©¸Ša¹.oH8ˆ¯¯7ÑÅ…9¼p{9¦Á‰¸ÁÜ©8Ø2<¹ÄÜ=9`—ø8M>¹f·9$QM8]¾9xTç¸	J¨8xW09À;9æş81r8”%µ7®ç8<¬8V ›8Oõ9¯ÏÃ¸¸®Ù¸ìA9Mp¨89È8 nƒµYy\9  ¼°Ûı8`½7"õT8İÑ×¸[¢¹C*<9ĞİÔ¸ø|¸ÔQ9Ú3:989œû.¹,B—8Ÿw6¹½\­¸á…±9E‡¹,İ”¹î¸‘‡£9À ß74Ê8br8:ÂÊ8-Ğ8p(¹X¾W7ÃÔª9—.Ê8Ğ’„¸?6¹zNŞ8Ô0¹d´9ı8Œƒ¥·BsK9Ôœ¹rf¸29à»¼5bY…¸Ş•¹–L8Ş8ª¹ê7¾¸æQ¤9ú	%¸fæÇ8,•71Ò¹ø¥»7 ¶8‘+¬¸	J›8~>¸d38G#H¹”79ïd9?$¹o²¼¸ck{9Ğ)7àäø6¸!37 ¶¹Pq6<&%¸E¹â8à0P9>9¹#˜09|b³·Î›X8 œ>·ôVÑ8ô‹e¸üN¹Â,d¸ùq9|3•¹L58ôTƒ¸‚=©7i9„&V¸ùl–¸€µû8ŠÍ9Ìò8:
+09Rp”8Pré·TP8«yö¸jâ!¸Üÿ9*å<¹äÄæ¸²Ó¹F@¸MÅ¸@å‹¸0#P¸Q?Ì8ç’V9/F¹Qó8w’¹œºñ8hF¹ØÃ9ÌÓÍ8Â's8p3Ñ7jÔ7xã„¹$|¹ğ…p·ÌA¸Ç­±¸l[³7ÌO9  ®/m'm¹½[’¸Î>$¸Â{K¹{W¹„„u8eĞà8ò¹w¸ğOÿ·nÙ¸ö8•ø.¸¼—$¹ÂŸT8u’Ğ¸*lM9
+~‰7¬^Ô·´…ˆ7†ï 7 ö56B>·8úk¸Ÿ“7´ªh¸ˆë9*_•¹¯áë¸¼‚V9R©·L–8àØ69Œ›;¹ØU·7‘Ù8åâÿ8œÔ¹ c9\·¤åA¹§º9fL‰·A#¥8SÆÚ8$ò‡·Œ=€¹Úá…8¬=8;õì¸¿eJ¸`³¹¶v´	9\„¹øNã¸Pí·å¥9z¹]~¸Íø#9-Ì¸N¢¹{Š¸H’°¹lx¹°T§7H³9¦T8°ù•8ŠÙ9N;”¸ÌFŠ7¸ì¹ƒöK9¤¹øTF¸ÅU29yô#9cd9 ¸İ3VZ:¹WØç¸æy>97qŞ7ş6ş¹¬µ/8˜$9…Ş£7ïì}91Ã¸ *E5ÎÛH¹+í·6Î3¹¯×9’Ì8:„¨¹l¥ç·«ìï¸ÀÙ¶î9s9EóE9we¹ĞG½·PfŸ¸&¡
+8î¸g^9‚ôJ8üeè¸iúb¹½æÛ¸w 8^OÖ8•4,9<Ğ7 ù¸×¶8³Es¹Ij¼¹ÄSç8 ØÉ2 „é²|H¹ ¿Æ7²Ü9Z`¹@É¶˜ğo·*\8¹ô× ·‘¹`Ù7ğ×|99S&¡¸ó`¢¸ â/´$°9.«C8¸.æ·Ådö8:GC¸(Ô¸¼“·İ¹¾øŞ¸ÒØM8Râ¸Ï7^ù­¹_ÃÃ8ŒJ—7Ÿ‰¹›¹ÅxÖ8ôI9ş¸Í8°\w·Ë“¹©y¸SeØ8ZU8¢•Y¹µ‰E¹%9J§Ö8Ô~59˜ém·óı9¼9N—9ş—K¸\:È”¹†6"Ók8\S¸€ğj7Ø:7ÏœS¹CºL9¾pa8ô…Œ8Îyz¹÷5ë¸ÏÿN¸Jöà·*¹»¸ €x±È©¸'+ß¸Ïùë¸úY
+¹Ô?¸ş¶“¸U:Ÿ¸¤Ö¸8TÅb8ø0:8â¹¹)”,9ñÕ¸H)¸ÀA¹–Tw7ƒBñ¸—Üë¸X¿·ôû8n£¹¡B¸ ”ï6úk8 jIµNc5¹İP9D‡¹,…í8Ï÷÷¸ÉW¸7cµ¸`„û¸}ÿš¸Şã8MT9ëÚñ8gûx8`É7µßæ¸$¹a 8 á“¸†‚8ÁVs¹<®—7+§Ê¹ÄÏ¸¸Yß¸Ş]j9~Éw8
+û¹P“5¹$;ƒ7‚¤.9Ğ9¹FÀ	¹6§Ö¸ˆj·%¼”¸ãÖE9:18ÀQ¹ ı¶²n
+¿`Â¡6è†ê·}]D¹˜{ºí°¸ ¾o2ıiÎ¸Øt·6§>8é|ø8Å9yÛİ8š“7§?=¹fÒ8Îé—8áĞ„8d´9X·Ø8Á ¸Mø¸<œ·8à?”8¼Ì28	]è¾Zæ¸«y9òÀ¹îƒP9F*Ò¸NoH¸LÔ{8¸u¹D9ÇA=9xÍ×61µ¸±£¸e§ª¸ä{9ÆÂ²8'=9Lç.¹
+|ş88Ë·B,3¸|-Ï8M.U9Â=¹`ğ8A{Ç¸÷AÜ8„ †8®
+ó¸µ`õ8åÃ¸¬=T8KÖ’¹~/8ŸâJ9ë[9H|Š·ÀŸ=·ƒ9 9 5×i=¹îÂß8ËM‚¹ƒ9Ÿ@{8èE08lÁ7v³#9°Óú4 ™Í¹t‡.¸°õ9Ê/8«0¹€/²9ó¹ÂŒ†¸SÛ9Ú·@[À5¹ik¨¹œ‘L¸=ı¸€¿Š¸ôzR9»"¹Æ÷i8ö©¸kgq¸£V¸„hŸ¸”€‰9Ã“˜·‡J„9¦K 9ìÍÁ7ªÑ¸{É99¬Ù˜µe&9|ı6¹êóL8ó/\¸,Ç8ÀÊ–5~_ˆ¸@²8bPY¹Ñó¹œåå8û`¸æ-Ë¸ï6¹  Ê0}Çæ¸º‡&9nKî7uÂH¸”÷œ8«Æ	¹
+¢·'(û8}n"¹gÇ¹´'Æ8÷Ô8¢ r9Õ”
+¹¹a9WL¤¸îZE¸ÈHÃ72š¹Uè‚¸-u%¸h s7òV ¹.1ş8¾”v¹Û86áÀ9
+Ş¹Ü79<ÕB¹ä"B¸¥ƒ8…¸Ä8­ª`¹¬Rğ·0·Q·WôÓ8€*$¹B6@¸m`ƒ¹•É¾¸½<ƒ¸ÑÙ¸–¸§=9ešL¹ˆ·Ç}¸½"¹VI9äÏP¹¸o·:ÎM8^7§8ğ¯u9¨	·ûÃ7ÃZ8š>w8ğˆ»6®R8AÄä8Î8Ø´¼7NòE8KÄM¸ğ¿¶Ù¶ô8aõ¸ÃÂo9ÖI09è´8á9h¹èX8÷~¸A±8y+ß8„p¹t8â·]ùN¹¦69¸A¸à½&6[`<¹OĞ·éŸ8ãÓ³¸(â‹¸¾e¸J£C¸f™k¸V˜·¸F·Ø› ¸™n¹İEK¹z£9UŞ½8´0¹×ªí8¯+f¹  92à€9·oNb9â\9uH@9|ªY¸  ‡3xN9B§Ö8ğ9¦6K2¹Ğ¸î’	91 ¹hÑ¸}{ 9€›Â¶Bív8h;¹]ë*¸æ‡ş7Ó/¸¯™59Cz3¸§İ¸ÇS¹\O8œ V¸¨õ©7 Ñï·NI¹Ce±¸.ã8LP8wx¹›¹cÀ78ïJ8 ˜Œ8;]9ŸCÏ8º_9ò¦9óm²¸š¤Ç¸Ç}8²ˆ‰8Ÿ¼y¸4b›87T€7À¸˜8Û=P¹’?’¸Æ¾»8¬¹ÖµB¸Õvê¸šYX¹`<9¾<9ğï7ï Â¸­ƒ—8¤—¸)ø9Ğd·Šà8n|$9h¡#7”3¹zcm8gûx¸©p…¸j@8X7¾¸Ãöò¸´¹ô9èã\7€½f³ í¶¸ç90á]9§ñ2¹€&<¹‰nC9Ğõ…8‡7*1¸úk¸İ}9ò¡Ù¸mÀ$9nÎ8ì¾8¢¹åíÔ¸ ùø¶ ú-7†C8Æû96@8 k¸
+¼ƒ8÷v£82•¹¹“¥¸8ø/9üµ8¸¸‹¸Äø¸¸NH69±¶[ŞÙ8¿ÊT9&Ü¸íõ¹wÀ¸ÊÄ·8„¬®9y¸Ã¹r["¹æÿ¹6ïU¸D¨„9ôI¹jò•¸İ:8È=9©Ğ8àõ»·FĞ¸Ì¸-¸Œx9çÛ¦8Cxñ¸Â\8<ê·ı÷Ù¸'í‡8 2ù6Í=A9¹jV¹Àê^µ1$9Ğg9Ni¿8¦¾8Háö8™—¸Ø3Î¸²må8|Á/9Tó±8xÎ8be8¢¸8¤x¹É:K9 x<9è¸ Â¹xø·¯–¹Ïè—8yÔ|9àú·0ˆ„¹Ò Z8öÙİ8ºÕ‚9tÇ9¹Â½9<{8 ?æ6´ià¸VUG8¤p9Öí9Cî¸,"M8  B®ï¸-Ó%9]9®.¾8›Ÿ8Œ¤¹Ñ`8ğbµ—ü94.6¹ˆ2q¸Ò3:9²%?¸˜çï8±¶¸³õ8¸‚…·A¹Úö¹ºå8tÿŠ¸a9å=$¹Û_B·Ü,£¸Uµ8´Ãr85 9(
+–¸{ˆœ8!p8Aq¹¸tÀ¶°É¶ûŒR¸<¬İ7z¹®œA9Z¸Ï8nß7¸ ´¹û©¸ºå8pT‚¶Ò¾%¹îh8?8ºå ¹âDa¸f`S8Æá9fb¹Í”73†÷8‹ØÄ8{ÄÇ8è:©7:2t8ÍÙ“¸VÔ¸~Î-¹F H8™£«¸Ô8…M9Ñ;«¸§]Œ8nù.¸`ïj·^A°8k:8jÎ¸‹ç¢8½ƒ±¸R9îa¸S>P¹Ísà8€[İ3ÿ‚79Cµ 8¤V8L®–·ĞÁ¹yš¸Pï·†¸D–·+"8Èv¹¼Ú˜µíU8ĞBŸ·MAd9l¬–9J…¸	äK¹O7š¹ )
+¹`Èv7!*¹%ŞÙ¸ğ¬8“¹¿M=¹õ!€¹IşÅ8 b¡·SG„9Ö d8$•ú7wğ€¹|89ï)9àC±6Fh9µv€¹ÍR¹f‚T¸u‰·y9D~¸­l¸—¸¢X¸ƒµ”9koÃ¸'¨+9¥“Ã¸š·3¹Õ…¹ğ¦E¸Åkñ¸‘ „¹‚Ì&7øïØ7ô/9Œ	·è¯¸ÿĞ¹:­¸.%U¹"Cÿ¸FE8Ø*è7-A©¸ø{8ú]t¸&ı¸Öªi8·c8—8Š`9ş%†979ÊÀ¸Ù³¹Æ3¤8òûU¹]Á+9ƒ9Pø7·é›¸p¨€·w28 hj7ä‘·y³©¹Áf8‹“ã8UÆÙ¸ã?¸¬y8B_‡9û)9Àß‡¸f¹¸Ş¹@i"·Àâ!7Ô#¹EÜ8H*Ò8@,y¶~!T¸ö¸ø|¸äô¢¶"íï89‰9y˜¥9¿Í‚8BÌ8û÷Ù8ˆÉf¸»"9¦û8JĞ¹•0¼8óJK¹Ğ¬®·;†U9¿Øó8 ±¹6 „è2à†9åÃ8±Lø¸[ÃÃ8Xæ,9=/>9Ëÿé8ü …8€Já7œ\”·Óe¹·œ¸°…
+9,ß…¸?Z”871¼¸x 9œJ›8Â¦%¹6ç‹¸¼æ“6d®8}‚8¸›v9É*C¹§GZ¸óêz¹„Ñ8¢Ç9Œ&B¸ “98u9K¬a¹¢?§8úÿ¸\3è·òñ¸..¹°J²84è8Šû 9†
+O¸pU9Üßƒ8QÅš¸æà8&‚9Fš7™Ö¸2œt8öóŠ9íNÚ¸8/ƒ¹G…¹p;e·ôâ·¹M¹N™€¹&‰œ8±E†9Ä›¸/j9¶£–¸·Q· ¾À7`Şã¸ÜŞÚ7}-ƒ9mSk8˜%·)
+d9lŠ·h7#¹¶É+¸º €8+¹‘!ù¸ã‹¶¸Çdê8zÇ58ø6ˆ9S;G9#£å¸`ã·fƒT¸HÈë·À”ï6°d[¸xå¸sA¹Œo“7ı¡O¹Pâ‘¹Ğ1ù6zö™8–[p8–0Ô6¾M9ÀRú8kÖ¸Lƒ+9€P 51Ò%9¦õ 9tîJ¸ø>9 63´@Î:m§ ¹dÃ¶¸nÔ[¸ËqZ¸J‘97¹€Er·C'9Í`6¹î­Ç¸2¹0¸7ßf39øE¶b&9¾š9G½Ç¸ú,¹†õ¹
+Î99ö:ù·Hß3·6{¿8@§95¹¸ğ"99î>8‚T¹ Q-¸Üıt9ÚI¸Äy¸<â*·v…8¹ˆ7‹Ãå¸u‚Â¸™D‚9+¯‹8DÙƒ9’¹Í\ø¸  x/ºàã¸ÖX˜¸b&9  ®2Ç:™¸úhä7£n·¸€U¾¶wÃ	9(0¹#¹Ô)N¸Îğ8&ù.¸Î	8‚};¹'U¹@‹7|Í*·T}¿7åı8ı¸ìµ”8~½p¹Á)8'Ş°¸®[M¸ŞÅ7¸Bê”¹.²¹¦ù.8‚Ì&·p#¸¹İî9ª
+9¦6@¸A9N«94‚8ú/;¹›Ø$¹ŒAt8ZZ¸®L0¹ßc¹Æn*8®+¸šX¹­ë8’™W9ÌÛ¸ïÂÑ¸ßCœ¸îÔq¹°Æ»¶PŸ5°— ¹  @8dBÍ¸uÀ¸nº$8¶¸@‹%·ğ‡»¶m¿Ç¸Ú”9„>€¹)¼²8ƒl¶8XTv9*a„¹QÒE9_8½R½¸Şp*¸L}¹À9Çö‚8"“6¹±6ÀÁO¹ìlx85/"9,	8<ã·µ%ù¸î¼98˜
+09JÀâ¸ü“ÿ·De8Èe²·®ı¸F|9¥…8 V¾6j—8ˆĞÜ8.ãs8úk8üô9¾ùæ7Ê ¹q™Ö¸ ‹ï¸µµú¸_ëz¹F9 á·Jó©·À$6µXô8ˆ™•¸)ÍJ¹ Vã3™p…8ú7¹÷Fô¸ø9ßñ¼8Ğ¤Ö¸X~ï6òŸŞ¸x@¸½:™8t™¹í™È¹È´Ñ·'2‚9‘ô.8ñSI¹ÑÅ…9ß#æ¸~ù.¸  á®ªV?¹5°å¸nb9q7"Œ+¹ìÉ9näÔ8^F¹“n·8øw9<\”·R'B¸àøø¶¸±/¹İ—;¹Úp8½1¦¸w@º¸·÷09®+¸0Ó¶«SŠ9ZÄÖ¸"“6¹€e€9ó[¼8Œ=€¹x×8bpÈ¸pI¥¹£z#9ğÀL7ošÁ¸Kvë8h¶E·ë Y9¡xé¸pšÂ6µÄ·xÕi8g&O¹²,¬8ê}90ª‘8F9Væ¹¸!5¶D¸ß¯¸ã`¢8°^98Ô(¸l”7ÊÖ8úD8åA9Ör9&3¹Z^¹À¡Í·H	¹ÿµ8%'K¹àö)·&tq¹"‡Æ8 á7­©¸³ù9ĞÑ·”¼”¸xš·¨Œ¸à¿í6Û9º¾X¹…7?¹â­I¸Ç)¹ ;%9Î ¹ÚAÇ8àç8Áe
+¹Ä$ñ¸;'€9@,n6ë7ì"¹?êD9‘³ÿ8èTÎ8ÄØ‡8Ù?91´I9è•ú7À¹8pØ³¸h7ÀÔ¹š¹©­¹`Ø6B¸t 8$;v8¦¹{¹F¼¹¹±8¥.¸¸Î'?9Àîˆ¹W´7~*4¹~A¹¦š®¸ PÜ´ª8Á¸Ùc¸ı¯ê8¶1œ·ì`»8€`À5  °Üo”76§8¼zõ¸VŸ8‰Õ–8 pÅ´<„8°™‚¶Èt&¹OŞ¸ùé@9¡&™8fG8†m¸ˆ²c8A­¸È”ä·Ô­^9Ïl©¹h® 7n	„8Éøº8"è¬¸d38Ji9¸ı§¸rš†¸àùT¸—y8ä82Í¸=æ9dq“·âGê¸M,	¹~O9VËp8(G¹´K9ç¹@¡¹˜L¨7‰É¸ˆãN¸ø <9)î¹O9<°8Ğ;/9Ê@Q8ÔÀ[9<¶8³—9^¹ˆ¾ä¸JÍB¸õ*ƒ¸Rm·¸]ÉŒ8­Ü87“¹yƒ¸ E'90ÁÃ7xUÅ·  €-Ño­¸¿ûá¸?é¢¸±7ª7fÎ ¹ê'¹Ÿ¾8Ğá8Ú'?9˜À<7OÇ¸8gá•¸€©¼69dç¸·c9¸ı9	$ñ¸¨Ìø¸8:¹x¡ 9yïÛ8ølE7	¶È8±ŞM¸ì¬•8n„¹ô29@ÏÊ·øÆø¸(s+9w¶b9bÓ19t>@¸  ’/À²¹6ÈöF¸+S9ò›"¸P½Ç¸0ã\¸³iF9~´K¸÷…¹Œe·VÃ–8Ç¹ ïj7Y{¥¹“Æ9'0ö¸Ò}8tS9,X9åó¢¹WB9r9ŒrÂ¸Ô
+¹)Ğû¸G.9ªR·@p9Dy·¸€£˜5Ï¢8Fô¸`¥·`ÉÍ7r3/¹ÜÍ598ûã¸¥Š9(¶Æ7š0
+9/!¶81è‡¹0¹dÕ@9ğQ 9LR9ì…7ÅP÷¸  ş¯~¹\8ˆÍëµÖ\g¸“88'%¹Šc8Ñ3·¸	J¨8ò;@8  ¢/¼zõ8úeŠ¸Œô‰7‡B8÷wÆ8ø­”9<ì·
+w9EK¹gğ9àC±6D*”7$579–˜8àA?´”pè·Gº¸Ÿà8À]…8Jú}¸[‘v9¸Öe¸ñº‚¹c{{8I?9h„ü8 H53.s™¸Ù> ¸
+è>¸ì¸ı·ä8?$¶¸5´9'Ş°¸¿{Š¸>­ù¹A‘´¸¬E¹şş*¸|Ö7nı¹uü¤·K{Ç8úÿ9=W8Tß›7¬A¶¸€ÎS6Š¹>K¥¸(=¦¹`ä7w|\9ö¸>9½ƒ±8ô“ä¸vŒ¸<Ó˜µT\9”e%9  Ş3	J¨8T”·Ğ˜æ¸4)	¹©û¸âùu8u¢@¹ ­µ2T¶9)‰\9PïÄ7Rúı¹¾/09?Ò`¹|l›7ã‰¼¸Ö(9‰©•¸R½:¹Xá·.ˆ 9ú)¬¹»”¹À` 8—êå8|•98ªÖ8¦%¥¸dµ¸rlö¸† _8cù¸Ò=¶8h¸´jÙ¸;î¹æøã7@7†¯Å8û±¸š@¹â¯ ¹±)¹ Qc9Bì¹,Ô8Ç}¸/éö9 ÌF2pi·….u¹e°(9\»Æ¹ØPı·ÆÚà8°Æ6âTµ·Sä¸b°¼·– 9*–%8Š£¼8ÑÅ…9
+¦8çR~¹Ávd¹cH8©Aƒ¸Ç8d´¹øÌ7ê¸Ìëä85°9h ¹©¨ö8M<¸a±8—i1¹>Ó§¸öÎF9oõ9éB«¸š“·ç›8öã8÷~¸;—¸ğTD¸
+Î÷¸9ù8ì¸0õ¶†´¹À²·¶Ç¹ €î±iÛ6¹cÄr8t¶Ï¹Ç&¡8²èZ¸Õ—ı8%§¸„–$¸üı¸"ë¸ğ‚80É¶°‚(¹H¸Ô\µ¸=UG¹şÍÔ8 n–³¡|€¹\nÛ¸ü-ô8Q½Ç¸`3»¶&j9 ¸p3¸mM¹:Ş¤83™³¸¶J9ÁÂ.¹€ZÀ5 ò¹MF9 Q$¶Æ¹çÛ¦¸‚˜8ML¹ß)`¹²Ô59pÆÈ7û¸åc93‹¸j?<¹‘-³8 @¸2š“¸ıµ`¹µ$£¹D‰‡7®¹Ûšï¸ğ¯u¹î[d8€i
+9<cw9d«·úËn8€Èê´Å_n¹.â9ğ‡ 9âíœ¸h½ÕµHc¶E÷÷¸ì=Ş·†…¹\F˜7ö ×8 ½Ù¸†ä49åŸ8‰â¸Nô?9¨¹¾»:¹·u¨¸°“9B!Ñ8Áb96`8Ü¹´O·ÆD)¸;°ì¸¸Ç–·Ñ°İ¸`ä7Ú¯ ¹?c¹ùE¹<QM8İ;’8®"”8Ò†
+9õ¹I­T¹ëÍ¤¹·ª9  ø0˜¸'5W9İø¸®§s¸
+ûÀ8óÊ†8ç(c¹ö7g8€İ³€»&7aA
+9†J8YÊ¸àC7Jæv9ëNÂ8°©ì¶*ÙÂ¸D¢±¸6/¹¼Ç«9P²·6•‹ã¸&to¸ŠZ¬8ùV¼8EP¹ÌU{¹›=8ÆÍ¹¶f¹¸œ¹8¤4Ì·æ¢l9¤<È¸&í¸ÄTR¸\÷9APa¹‘¬9€yÁ·h·J‹ ¹5&¸hÁ‚8Õ68°ÿ`7£‘>9v|¹y‡¹ğ0P¹x¸$;Q¸*7oH8¾‹Ÿ8~¹\8ÖP
+8¼ï¹½ëÜ8¦ì¸^È¸¼¡‘9!ƒš¸ˆ>·!­9Ö3:¹Bav8İãñ¸xÎ¸Bµa¸hÙ¸Èï9ég6¹–Bk8él!¸®$&º   -X~T·®H&8.)9œù96æ¾¸iû×8ÕF084382H8¶½7C¥7¦\`8f7§8×­¶¹  X¯n8V•´¸‹…9Ì	7î” ¸R—7"¸FŠi¸ã‹¸ÔÕ|9;š¹~ì:9¥VX9H/Æ¶N]Ç·Øui8aÄæ8j?n8Ù‹Ä¸E>¹uÔ¸ƒöK¹BÉ39Â=¹2ç‚¸Í?»¸0Ví·  à­Ä¸,9y9®ÆB¸Æ+/¸Åxf¹Öÿ.¹G8ªV¸(°7[˜¸n¦²8¶9hØ8’R¹¡¯-9¤ÄV9 _…5ÎÑÀ¸ Ê ¸£2ê¸'ÿ‘¸y¾ò8UfA¹Ğ6¸è¸¸,V¸ ›İ7¤V_8¨ñ	¹*–›8S‡¸ä(Ô6ÇŞ|¹ğÙDµÎ8h ¹¸ô¹ä4„·Äå9•ö8”åA9 PÜ´ä¹9lnø8Â_ö¸”Ù8 €#1å&—8ä<Ÿ7?¹}¸°8À‹]µMâ:9`r9v|˜8Àì¹ã1À¸‡@º8ºVz¸Ä×¢9:}Ô¸Œ¸Cº¸¾Lº8hÁ‚8Êd9³sL¹.9¬Rğ·°×K¹°¨ì6#ø6¹¸9SaX¹]ÃÃ¸éE69R©7Xo8VÔ*¸308i† 9ğäø¸Ú?09 D5´B7ÿ·¶ô±8"×8="ß¸°ªÔ7Äß)¹ ‹:7  €.
+R,¹w-ƒ9<¹÷É¹¹:™¸eîY9+•µ¸÷7ÓíÙ868Au%8{ ¹ºÀ68	‹8#fÉ¸ª0½8•» 9¦¿8\È·à9°7Ãƒ¹x_ï7
+«.¸‚¹µ¸ „ß3õ8BÕ¸ Ûş· a¹ï‹N9ç£7îÂß8——÷¸¸œd¹d:8Î²Å·&D9`-M9H“º¸ˆG1¹bb–?ø¸Ôì¸»9Úº8Ww9³ó¹ı•Á¸33¸A{Ç¸$	€9:Y&9ŞUİ¸*úƒ9­	9 À-1©%¹ê"¹˜-9ÍdE¹ndÒ8l/.9€£¹VBo¹Ø›7·ß/¾¿]‡¸Í$À¸â¾e¹à 8çŸc9uõ9 –„4¸^¸'¢í8çÃÎ¸Û¹½”n¹âT8€~¸¶ºÕ.8¥¡Ô¸ ®¥7:TH9²ï>9&
+¸4T‡7Ö‹¹ÃÑ¸éªæ¸?5p¿šÜ¦¸ôæ¹ù.8
+¤9·A9L^7èb°·Ùü8x®¹1Ã8(Ş¸`v¹®ÍP8F:C9Ú v¸ì <¹tÅã8Dx ¹#÷8¢ôJ8 ¾¸€X7l“7şHá8\b8|¸·¤µ}¸^ÎG8@Ÿä¸C’8rn9¾E¼8æ€C¹HŒú·ÖF¼¸İL¹¸Ú¹d=D¸„¹zAš¸0oÅ7·†<8³Q¹R•=8šÜ¦8n^á8kî¸}p¹ä÷`¸úVµ8X¸û¸¡'!9f¸   .ˆÜ85Íù¸ÄÁ·J*Ó¸(:\7&²C¸·Œ8 V¾¶ş•¹c7V¹ËAù8XšÌ7´é8„Zò8wql9‘’¸º¸8¸Üú¸  ş¯HL»7à-·6\¹£9xK:FŒB¸dí¹8)Ú¦¸«D¹®˜§·¸ØÀ8¤1­¹OÏ«¹^$¸\÷Æ¸Ì•9´TN¹ğ©¸Øò¸Qı„9ê"¹°m¸‚Ì&7Ï¸R*˜¸Ãª$¹ÁVK¹»9ZÙ¸€Ø2¶r¤9.1¸¤©‹·&J¸úÂ/¸€&60¿š8¶œ7Ä<¸ÁVk8xêÒ¸*ÍB¸^n.¸¡9 í9·ºĞ·8èÒ¸eç8Tm¯71!(9/¸¸8v¸R86åI¸ÄİL·„Aº¸_é‚9ád7Ê¿‘¸ØRe¸¸:¸‹k¤¸   ±v?°¸²ï>9´e¹>¹¹Ò×½¸Z¬•¸¬„E·69T=X¸€S…¹¸ìB¹<½‹¸,¯t¸Èv¬·¨Õ–7“<·Ø±92-†¹~Z–¸âB‹9®É¸ I·ñË¸ŞÙ¸^A°8Ø¾9€n‚8â­9^½9õÄá8ş(—¸¢ÿÂ·‘­e9w6Ş8X– 9fn8!?9D€¹æRW9cÓ¸BÇ9zk9úØ¢8Ã¶£8á+¸Š¸ 
+äµ´ƒ9(#P¸ äŞ3°\…7öç9¸&¶q80¡Í¸ì€N¹Ø<’¸·5Ñ8uZù8ÜI¹K¸Äx	¸¸.N9 ©µ5Iß¸„p¹‰6¹*Ò¸Ç¼8}p¹ÒM1¹úËX¸d
+	¹÷'?9<°¸ôü9oôÓ¸ãÑ×8  117È›78$¹P=
+9šïv8å¡æ8§´9EÎ¸¸ûŸ^9I§ø¸¸W¹Æéà·~99‘«M¹¼È9ÜÚí¸œ›8c‘v¹,…í¸·¦83×8Ñ’ã8‹y8 634 d”³v~C9 .–3åkœ¸.˜8`396uB9Î² 8NZ8‡b>¹Eš8„®8„ö¸¶oÖ¸~ñÂ8`ˆh6>¤¸~·¦¸¯s^¹–Vz9J´¸œ¿—·*À‹8­×¹v¸V¹`[8òf9 Šı¸:À¸Ø®¹¤=‰7.Kƒ9b2A8é8=§—¸~¬;9ô¹¤Nˆ·¹ÑÅ…¹hb9|•¸hÁ‚8¿(88|‹8J´¬9U`Ë8jNŞ¸ˆĞ¸8Ì¸ ĞB3€y6hÁ‚8(Û¢8ì“V¹KÍâ8FBk8:İJ8ìû	9ÿø8¡”K9RC8É=9C\¹´ÿ„·•8?Šä8v’1¸ C8q~G9?¹(¹$Ÿ¸`9b´8¥ò9…‡M9ƒÃç·ß#æ8‰/·8Ç}8Ú3:9öC8Vï28lÿ7¶Í8Tv·7  œ/.¼ê¸0Æÿ7†®ô¸İ¼¤¸¾SU8½ º8İé¸€Oì7/nK9‡Ì¸  ‡°8ôm7cì¸>¹Mr¦¸±Àç8Vè!9k)Æ¸r$¸„ï#¹4=¹ø¯9VU/¸€)P·|ù8Ä®8@ğj·Íëµ Àİ³}”ì8°R9èõÕ7À›Â6o<9g8%9®68O'99ş“¹¢dN8<q÷·Ø´¼·lœ·«!¸ Fç¸¡¹O9{Â¹PÉ¶,ß…¸Ô/9úX¸Ü¹–Õ¸Ò2¹÷	9ZØd¹¨>¹Í49o¦L¹¬¸¾ô±¸@|<9ÍçF9PM9c\ù8Pæb8x?8y9/¶Í¸õŸ8  h¯œ]b¸ˆK·¸È‹
+¸V3À8}ß¸&oÑ¸JÓP¸C¿¸L›¸¸H…Ë¸¿„·h&(¹pŞò¶Ã³ğ8Ì> 8ñ–8p®€6BÃ¸´[·7mÌŸ8ms™¹N569¸8C¹Ô
+÷8¶Y¥8Üóâ¸» F¹Ï@8pƒÀ7¬uµ¸p ¹›Lc9ø¹ü~¹°Ö¹:8· ‰É7Ì”47×8·²9eÿ¹©ß8P29¨S8¾€9E9  ¯6<}¹+|8~¹\8É¸ìS¦7¸W9®ÃÃ¸LåŞ7ZA8•	E9<n8Ï @¸ü¼p8× Ù8¹RÈB8På‹¸x¤6·vj8ŞK¸^=¸Xûj¸2Ö9§•À8ø…S7›.¹Kø¹©+9é#¹ „é2-èA¹‡ë¸(TK¸dâ9²¹xÕ¹Ô­{¸:ì8“ˆ9Ìü8bW9é…á8¬¹9.­8¾v¹vŒ9*Õ9ˆô^9òä–9è•>9.0¹Y³Ø8z¢¸ˆõ—¸À1N8 ä·œÔt¹ÀŸ×6hô¾7¸îŠ6ÅÌ—9ı³„8éWT9,Îğ88¸9Ïô8sØ¥¸€º9699 ŠX7<»‰·}„¹F¦º8Ú}ô8ÑÅ…¹¬Rğ·  ®2N…Ë¸¶ u¸O±Æ8ò‡·]¸È —·ş®8' 9:Z90Z8­Õ¹.Xù8ú	l¸/hÉ8ó«Ã8Á•Ø8Ùx8¥n$9MÔ·RïĞ8§—@9WÆ9G9ØGÌ·BüÑ8¥Ø³8°vº·“58Ú¦o¸m7PÎ9©W9éK09 v8*Ò8€Æì¸öo9g“8 ïü8`©7¢Ö„¹|İ¸Ş9ò ä¸HŞo¸æ¸–
+9÷ç7¹Î„¹l›©7Pó7Â ×8f§K8göE¹êY7š/G¹ò±$¸IeÊ¸úÍd9gûx8ìíì·.¾¸İÑ×¸Ä·2¹	j˜¸ü¹‡·¸9«è¶96Ş!¸Ô½#¹lI&7âh¸t€J8¥f596À8hãŠ8dV
+98-¹ãgY¹>Í¿·_O9I09¢»Š¹¥ º¸É4º87d18¯]A¹Œ,¹º=9Ä"B¸Ô¤¥8¾ZÖ¸ÖĞQ8Äk>¹pøy¸6n­9o¯8~â9˜~å7õßq¹aúM9 !û6p^9 €'±tĞ»7~#¸€Ö9·öSÚ¸Qñ¸¡à8Øş•7²RÈ8F%D8Àœ39€8 éû¸jñ8¬¨Ú·8‡ä72„Î8$-¹°‹8Öƒ¸b‚"8I;˜¹jI£¹‹n·¸İW¤¸:§Ö¸<‰¸‚¹"9°¶¹¸WB¸Ş_9gñ8½Û8W^Š¹\”¸S0¹àÇ@¶÷ä9¤)Ô6œ€Œ8cL÷8ôB‘¸Á%l¹s›8€2ù6H"9àìÀ7¾q9ŒÖ*8v«¹~†ƒ¸Åœ8ì*h6 ¯$¹¬Ñ¸ÿ¢è8Xp8áó¹È«¹€É³7ì~¸p,«·œÍú8‚Ì&7Íë9$¡S9İî¹¬¯O¸Ooº8hc¹IÕ¢94&Ş¸ãFÅ8G>¹XÕÙ¸+§Ö8U=9ıK¯8Ö/D9"?È7 `n2 ì·á¸¸ñ6¹A7ÀÊ8*öK9È¼[·ÅÊó8Sı€¸ú·L8L8z8  d¯×,9È×¹8\:9 2¹Söœ9ÖÒ˜8@ŒE¸Ä^™·@Š·gûx8ÏU²8©oå8tGy9BŸ/¹ö«8Å:™¸ß…¸TtD8tk¸£Ş¹KÁ¿¸'Ë¸Ç]n9ƒ¼»¸ã©8#èª9l¼¢7íÃ7(Ù…8{M8‚y9 ãä·-Ô|¹ƒ@8Ô¸ÔÌJ¸Ù8Ê j9>¹ğ!h¹LÊÌ·ÒÌ8Œd[8Å§~9¤QŠ9€p9ô;!9zÔF9Á:™8ÔÕ|9yºà8!P©¸Á87«ZM¹9F²¸8m·¸¤9à9ŠìÁ8Ñ¹,ş8ãj,¹	]©¸½\8•çw¹¸mM¹^:¹]ot¹éÈ¸9XO¨8ÀŒ¹lr*9™š9RX)9Uï8oñè¸ÈWq¸ÑÎ¢¸¥Zá¸ö²/¹è(¹?L9¹Âv¹Ò˜o¸a‡ğ8²‹q¹eC9ªQX8ºú9d­à78m·8ÅF¹Ûè‚8Jc[¸€îz8ÉÎs9ÿI¹Ì¶º€9Ä®¸í|¸eÃF¹49Û(‚¹Úy:¸ùı7  [0„°	¹Ø´¼7\Y··cgd9°’¹	H‹¹4çî8 }€¹t49»Œ³8“Äï¸M×I¹ ñ$µ“9¹%îÛ¸‡˜c¹+€C9ÛÈ·</ƒ¹níÉ8û8<rK9*¸Š9ëÉ¸4¹¡P¹v®Æ8A`Î8  ¸®p¨ì¶ÂÇ 8Ï)9º¸Ú=U¸ØmÌ7I›0¹í‰¸¸wñ/9ÉM=9ä±ñ¸OTX¹©´·N’+94ø†7ÑÅ…9àEÅ7¬µ9^%¸ş7g8D–7&ˆ¾8ÄJ¹7aÆÙ8 @0<ğ¸v¸Œ9.íˆ9ÏÆ/9ëñt7¼ì!ºœ“—¹€6Y8š9¹ãøK¹Éú>8²G¹– ç¸r"9.@A¸ÔØ7$…ß¸ û· ‡¹ÿv®¸lVÙ·F¥q¸wMã¸ÎX#¹L‡·Õ‹K¹›kf9‡}¼8uR9åÁ	9o Æ¸j­ø84¬¹ß#æ8×à9€®Æ·ª»B8™ëÉ¸Hc¶xâ·  H±ß#æ8¥?+¹×¶8èä%9«P¹XõI8ô¸“¥¸¸ ¸º1BŸ/9ÂØ­8ãÏ+¹‘¸ÀMy¸È 7¨¾õ8a8©SŠ9e…ƒ8ˆÆ¹¿®O¹öÇe¸/Ø“8ı'8Ü©’·ìè¸€\5Û’ˆ9B9¹wş8¤®¸É—88Põ7Ş'?9i>g9ÎÈB¸l¯¹I'8¸¶Ğ ¹FYØ8¦v¨9¬š¸%bÿ8MÆÙ¸´ˆ¤7Ï8ªÆ8l4Ì·Øî€¸xÕ¹Ô'?¹Á!1¹ ² 7dÄ8üók¸2W59Èÿ8xBÍ¸.–›¸[†º¸Ü1A¹>Ó§¸Ì8ä[²7˜ªå78{8x8ZÚ¶úLš¸Ìû7¸À­h8Âµ7²É¹>9^ª8’E¸  H1ØãF¸ªJ¸ù.8à?”8^)¸sÆ7„¸#9€$º¸àÈëµ2’¸Âàã8mÅ8d´¹
+ê¸:8vèù8~`¹ğYi¶ ¯?7ÙÒ˜9¹yñ8wX6¹`Ë¹¸l¹FI¹°6»6øœ†¹P±Õ·L!ü·üä°¸'’9¶ü¸À.·6CÎ¸í(?¹€½%µâ<¸8½æ‘¹*éÔ8ô·7dˆ7aÆ.¹Ü’‡9‰ ¸ ·Q·/5¹(äc72Ş9”E‹·ãæ8¨ÄÙ8F0ó·\7’×¢8@æg7  Ë0{@·ğ¸¨Œ¸ˆ.…9î"9#"5¹vBÍ¸áH7¹^ÔH¹8Æf· q¹$öÔ7´ö8¸:æ8”»Ã·7hM¹.oÑ¸Æ.¨¹>¤V¸.8.µ°9`²Ç7ŠìÁ¸šQX¸D1.¹ÌyE8!`ü¸ 6NµÕ–İ8ï\ì8èŸ	7À6VN84	¹è/B¸ÀW7g{K¹ĞP9Á)¹M8—Š!9É=$¹èšÉ6ğ\¹ ó·ÖI0¹0ƒ¹\:9q“­¸ç‚9}‡Ä¸5Å 8&•8xå8yÊ8gSÁ8T2	8Ôá9.QÏ8\N¹ÓE¸f¹¹û¥¸ÜJù8†=¸Ì9äõ~¹¿9}¨6ö«Z¸"_í8–¡(¸ ¸f(s8RÁ8§²±8WGƒ8GÃ¡¸x³‘¸ÒGê8Ï ß¸1â8X±Q·c¸‰óL¹&Õ›8§¸85¸‹d9dxz8†}Ò¸š¢¹Òˆv8ç=9_é6  À®JQ¹?Ô|9Êd¹  ¦/!ÿN9µ9ÔaS¸ÒZ¸] 8 íßµ¤}\8ZJ_8ñE69ı•‰·#ñ´8<v‹7 ëì·,…í¸@2—6àC±¶úyœ8€Éµ
+•ì8ŠnL¸ÏTª¸›a¹  N°Vlù8j ¹d´9³Õb9¬Ñ¢8n‹…9×~¹èÑD5ö¶8€F9CWS¹  	°Æ²·!	¬¹Ê¹B9g1¹*ÿ¸¼W¹:Ø°¹ü˜8*fÉ8û>9Xôæ6èÑ9‘Ä‹¹
+O¾8]ªB¹Æ…28=%¤8‚g¹€3ù¶Öÿ8¸¤‹¹-á…8q®K¹ˆƒ¸Â•Ø8º$¹R*Ó8€<9öáO¸xÖ7é>N¹J/+¸¸M¸æI9`ãä7sËM¹è”¸À²¹6r~9A&¸aé¹¾“9İb¸.°£¸Eo·¸œ7¬8	î‚¸jBÍ¸ñQñ8w»¹jÄ‚9?é¢8ÊÒ9Ä¶7 -·8[­·Ü>¹.¡e8&’»9°ò€¹ÎÁ”9(ƒõ·¶Ç¸­DR9òbÍ8
+'¹ÚeG¸Xî9ˆ=947“7éš“¸ŠÛ8ÃæG9†P¸pvÀ7p˜‚6D–·Ék¼¹öªP¹Ÿ;ƒ8°jÙ8`ÿ’¶™`í8}JŠ¸|VY¸Øä!¸Mv¢9Ï­\9–Òî8O7”8–¹ë0Œ¸•Š·pG”7³óÃ¸.}<¸=ö0¹ÿô/9îá‘91Ã8ú%¹4‹¹¤¦¸Tm7
+{¹438ïv¹VÇ9¯ÿ¼8'Z39RŸ/9 >Š8gu;9ÃúÊ¸	”š¸sÕV¹:û6¹TÓŒ9~(S¸]õK¹Ø3P9:Z¹ÅŒ¬¹  À-o98¹òø9§SŠ¹h·ìö¢8¡¹àbÂ5¼Õ¹CÖ39Ï¸Î€m¸ºäÅ8¦ù.8Ò%9¹ÂG9HZ¨¹U³¸Ğ}å6Bñ8Nw08 :ö8@*n¶MÅ¸ æ¶É@Á¸¬Rğ7;Êµ¹KÊğ8†Ét¹ëğ8í>¹ˆ…2¸‹|I9€d²7Ö O¹¼d[¸êWw7JÅ¹U–œ8€'â¶z×a¹€Œ¶7>·3¥¹C×ƒ8íÆp9D–·d(9©8œV˜7šÜ ¹0Ã8)õb9´vW9¶ª¹ œ>·´çH¸ÊJÅ¸×DZ¸¬Rğ7JÙƒ¹Xû"¸b¿¹8=ı8€n·‹9Ë1A¹/¸Ùœ8HZ¤¸ˆÙ3·¾x¸ú	%8òK¹aCÁ¸i®+8Í)²¹¥Z¸w­¹ƒLk8Ô”û8êÇ#9d”ü¸š¤Ó8+=Q¹cÛ9h7×GŸ9÷$À¸ß¯/9„÷`8¦ÙT8E‡¹Sd(¹6Ï¸`WV¹,¶¸L38Ú6‰8€9¨Èë7dÒ®¸ ,?4é¿¢8@F¹Y—·aƒô¸0ıB¹~y9¬¶pÜò¶‡¿Œ8d­à·¢à[8€ïj·T™9êa¸à9  (/Z@8Z¸+ÎÂ8Üã²74…¸x¹N30¸ÈÖ¸XÙ¸‘`b9Xi$¹ í7	ü8U{Ç8u@¸ú{n¸÷¡ 8J_)¹›
+V9Û¹Å»Ÿ8  À®×¹@´8,Z?8°Óğ8š9,$º¸qÒù8iÓ¸9â:
+¹{¶S¹N—9àç7ñr¸óÍZ¹Ò:¸:”œ¸ÒR½¸ğ¯u9"îâ¸¹$=¦9:W:¹ìO‡¸œ.¹9”×¹8¿eJ8†"79€¹9 È0³_SÁ¸÷,”¸Ÿæ8‡Jÿ¸&¡¹Ï—´8èş•7úÖA¸Ò&J¹¿eJ¸¬'y·§~@9‰"Q9<°¸Cö8ìÍğ8Ğ6¸×8@¹PÛ¸:û¸±§÷8Hµ‘¸†ñ2¸³ƒ¸¨³9æJ¸r4?9c¹#ëG9œ™”·³é¹¢p9c^8öµæ8w”¸]*88 \:¹>Cÿ8Õ‰i9üØ‘·Ç}8¹\û7¸4B—¸Õ_¹òè
+¸ŒÜ¤71ä‚¸×ó¹Ñ§L9,š¹°‹¸îà…8ëÑ×8>·põ/9f’ı7Ì)N8”X9~$8 ö¶p&9^ã#¹A‘´¸ü*	9Š°ƒ9Ü¶,¸˜×4·¬¸/˜7î:>9¾1?8Î¸M!9ÿå¸ñÎg¹È-9nlè¸£1!¹’gw9–^98¾L—9à-?´ß#æ8èfl7àkÃ7‚	9â(‚¹ŞW@¸U¹ê¹t¸ÿ˜¸E7æ8#±78Šİ 9Gî¹¥Â·¸¨À¸ä9€ƒq´¨ó8õ†¹4i8Pİû¸Ş¹nl9E[8X›"¹Ò7 9èû8àM?4€'İ3ŠV”8Ç~V9}L¸Hd¹1a¹M,	¹“1¹D¬g8¬Ë·\5¸ÑÅ…9ñ+8fu™¹ZQs8ç¸¦E«9 C¹I=¹º¿r8z;H¸(Ú·ÊvC9×å8f”ß¸9Î8Qó9ùø.8P[İ8ğ¨¹[9³Hà8­.8\˜7k‡£¹5ÉÄ¸^Ñ9 vJ8vGÙ8şó9&D8bóq¸ÿiÎ¸1>¹°ˆe¹¬ºJ8T”ÿ7¬­¸ˆû±8~I@¸C<&9à…8×~9	¶`¹7×9°;9'ãì¸u˜ò¸=99ztş9Ò5‹¸Ä9ÙGæ¸× &9Š·8¬…Ä·â%¸¬—8€Â¶’‹Y8\´Ì7ı2„9¡¾¸^A°8“.G¹œ=¹Xnœ·ïbš¸~Bı8£‡K¹ó·8ø¬À¸Œ0£¹îë‚¸9œ•8S49ÑyÖ¸s´¹Ê¹‚Ù¹&z¾¸hsÖ7g‰9Ã2’¹îY¹: ø¹$­¹ëá¶8S²¸íC°¸¸¼Ç8­Å¢9¬jÙ¸i£a9ÜÌå¸N?¸ÿ{090'6ğ6|¸Fš¸C7*¹(d¹Ö…™¸/à$9û$¾¸r®ô8ÉE9¢8O¹ò5à8 ×š9V&¸ˆ~	9ds×7B¸8ôI9˜Ù¸ŸÿN8”s7]’G¹Åf8@¯¯7‡×Ï8’©i¸<ÏÃ7€µÏ5)…'¹÷Ï¸üŒ3·N</9­º¸(åP·,€¹­–9¥WŠ¹Óƒà¸ H†6¢E¹
+v¸Ê<¹ğ¤¾¸<|¹¬w8}‚©8ÜşA9À¸g0°8—Ä69eQ¦¹¶@¹hb9y®¹Ğ$¬7ì9ğt8‘€¾8¨	¹¹¢¸‰¸*X¸I09Á‚¹¸Â$9^<*8ÊQc¸øg90,9­›Ÿ8>y$¹ƒ¹G<¹ñ4•¸¹{ğ8X)l8>Õ ¸  /’X¹YB9„\Õ·Ö_¸Ô8\58B9¹.ø9"Æ9RN9€z®·0Û§¸*Ò¸Ë¯8(ê•7>b¸p99cÄp9Îû¹Ûõ±¸ò9   ®¶:g8YLƒ8è9:Ãp¸„0¹K9ße¹Õv%8PÈ64S–7BCW¸x©!¹A"9ŸÓ8ĞT¸¥”®9`:b7òí(¸0E-5:ù¹û&	9Ø'9€¢ç7–ô¸@ô…8`('· +±78mÌ¸°¬®·Ò\8ÜX:¹8İ 7€t&¹EH9ı/Ï8ä[²7tîJ¸4ÄÒ8•†7´®¸Ir&¹€)4©‰İ¸ÎB¸£¯È¸=Äó¸ÀÒk¸W^¬8èG7Â©ƒ¸r±8:ı1¹„8.8Œ³°¹<èl·Ğ÷¥¶‚¦¸ú]t8€Ü=·÷Ã¸P†¹ÂRY¸Ri¸¾.7¹NÍ8¢¨39|f
+¹àC±6‚}¹CK9Y··4 =¹ì B¸ |¸~(¹Q†]¹¨K¸´zE¸…®õ¸ú!î7¼Ê¢· İ!9ö8†,Œ8®µ‡¹LÍB8ˆ9-¹üØ+¹UÏ¸G"9RG8Ã¯ÿ¸@k€7^5´8¦ie¸dY…8œ°¿¸œÙ
+9°<´·5 Ğ8(Óë·ä{‰¹¥’Ş¸™G¹œ8ü7L?¥¸Â’¸`&9Ç}¸®+¸ @\3ybç¸ô&ô¸>¥Ì8€R95Y·¹Mœ_9¡r8­S9Ò3:¹,	9¡¡@¹ÍN¸vù.¸Ød:9˜~¸ ‘¶4–S¹J#¥8~íİ¸×¸­9 ñÏµØØ¶xå8å9—¸¼É¹ t4¾k8÷~8mõœ8ş,¹úÆa8RÛB¸DŸ¸
+¹¸+A¹š;‘8´“²¸íÈ©9~99xó9ş	×¸``·ªlœ·JÙƒ¹J
+9¼ÕS¸`Ñ†9æN8  p®É 8ŠMÅ¸ŒbÅ¸ê8©rÉ8Šé¢8€à?8ãüN¹€79–gj9ÈË¾·^¤Õ8xå¸ğkÖ· ;8V
+¹tÇš¸÷'?9\y9 nÉ7*1i¹àß¡9l=Ã¸NXD8)‰›¸`õ·ÖÆ8«Ô¹ÃX9n
+"·qîH9ŠCª¹&rÄ¸Q.¹rò59På‹¸[Ù¸á%§¸ÒZ”¸.¿Š6ˆA{¸D–·í#‰¸Ò–Ë8Øv«¶qÀ€9TW9å~=9fEq¹gŠÓ¸®½·Çt—¸†¶‚8¿’9H”Á8Æ»¹ÈÃ¸X|¸Ş[ş¹<v‹·Ä0¹@Z¤8W·	 8ºŞB8€É¶òKq9Î–Ë8Ú;@8µ"·“„¸ŠX9ªÄX¸gÇb9ü@:¹dV
+¹ì·¼·Øº¸?ğ¸”˜-¸6£A9ŠWÔ8¬Ò„¸G´¸0Dy¹=Ç+9Ò=¸;K;9àêĞ¶Ø´¼7K §¸ôğ¸8’+Ù8Ø“	·"ºŒ8kõ¹^A°8Vn¹°²·6zØY8Ãì8 áÙ8 `‚°j•ß8.^¸vìÎ¹G´8²ÖJ¸Bn¼7<Ö˜µ.
+09Õÿ¹Ñ9 ¶G¸õ¹~¹\8Ud9¹H‡w¹ß#æ¸w¹¸ÌÚ˜8q“¸¦–˜¸Î˜§7n=8½â§¸à‚7\²A¹?»ğ8hÁ‚¸æ”8œ}à7MWi9Qµ¸¤á¸9ib™¸ˆ“¶7wóŞ8Ìpø·s¶8RxG8ãdR¹ "¹&V8Ñ®=¹t{9Ç}¸ât[¸,…í8à¼”¸•¸c„>¹Mæ¸@9~¡~8¶Ü¹˜h¸Å_¤8™œ8NÛ9ÿù¡8  ş/ğ¯u¹•:–8¸İ,7Ég0¹°¶¹9´{á8Ğ9vCo8¦@¸mE¸®N8»Sf¹@È·D~¸’öà¸,7¹°78F-O8«—8€|· i	4k´9¿Ç·«š³9^y'¸Tİ9Û·´Š·*+8´.¹pPĞ7[½Ç¸ª ›8M{]9±£ö8m.¸D0¹Xu™·•0¸,|8`3»6 —8=Ó49‚Ì&·ih9û¹µ9Ï¸~{o¸gûx8‚s¸©¼7#©Ã¸â;¸ªh¹@ˆ9Y#¥8ÊIj8¬§t¹$±9jôĞ8-209H„8®‹y9)FU¹Øys¹Oø†¸Ñ#!¹†9`Ó¥·šù‚9@\9¢ôJ¸»™‘¸àF‘6Ú¦5¹›dó8JÍB8Ô…¾8FË<¹€rƒ¹rİo8×¬µ8¢49*ºâ¸—ÀÀ¸|ê—¸+®ü8à±¶¨â9 có8F…Ë¸¿ÙQ9	.¹£¡æ8M€¸ghŠ8°Æ»6Ê± 9Ìßø8»Ñµ8äH·å´ä8†>08Æ²î8ø¬7¸ï¹ª¥µ8ú O¹c9¹ÊÅ¸ 9Då¸·ô"¸ÚD¼·ıŞ¸
+¹DFü¸&)!9®ÔY¸i"è¸ä`¸h¹²¸<¯{8’·zı8$R¹Ü· 9Ñé#¹ Á{4\w9ò›8m'm9@Æÿ7›n·¸ÖË¬·v	¹É F¹°öE8¤¶9qç!9)²)¹†#8”÷.¸¢š¸¼{k8¾X¹î4j¸ ZÆ5
+L79fÔ¸¸ô¾”8É6ç8Rğ®¸€ÁµÈe²7hùÊ·ş›8q)_¸‰»6Æ‹¹Ã19AÔ|9°î(·« µ8~V¹¨S¸|êa¹*b®¸úiÎ¸AĞ]¹$]ú8^A°¸D~8ã;¬¹~d8Zm·¸—Iò8fa¸kw#9ê[7¼VR8<	ä¸ Ì7&Öî8Rô8 q¸|¸Üé¢¸€Ö¶/˜˜8ıd¹F/å¸È¸	9„–†¸Ì…¾¸‹Š‚¸ ”{³(µÑ74=¹Ñ¤F¹$Ë×·ÏZ8f¨'¸~ı_8™g9š£¹Ïï8”“8÷~¸@ô6°‹¸U˜µ¸èÀ9RÔš¸<&%¸‰I0¹4µ”¸jÁX¸‡	¹q¹aVù8@F¹1x9€p¹zRx¸¥÷d¹d´9,Ç·E."9Á®¸ ¸¸14öÌ¸ (µqƒ¤94¢$8æh˜¸.õA8f\Ø· »·‚D>9,D¹v´n8}y€¸%²£¸@F9èz·0ªÕ6û¡î¸S8¸Ä³8mõF¹â¹lÙ…¹eõ9\€9À¶ÄÉ¹¸Ø9èĞŠ9½_D9ìÄ· €³ X¹;Y¹Ì79X|8ˆ9zãs8ş\¸}=9X¹¾6<¹`3»6¨Ô¸:”8‰6æ8^!¹°á·¸ y7†Q6¹Ä=9Câñ8€=º8IÏZ9İ!ø¸7ÄØ¸ ä7ä·ó· ‹8ñ8³Ü7–J8|=$¹îCù¹ŸI2¹X[ª¹×íÙ¸SMk8dçÀ¸(ş(8ºk18l˜Ç¸Ğ¸Å;P8Q[g¹N8¹Êl8îKˆ9	J¨¸~(9èµ7?õ‚9‚V‹¸ã"H¹Ÿ­¸åW¡¸Th€:òå8ğéd7çIù8Vlè¸3‡¹‚Ì&·Ş£·÷G²8Nö™¸Ú)9¯i´91â¹ğüšµş&9\¬:¹l«u9â©E¸¾ğ28Vb¸gşÌ¸ğ88¸ŞˆØ8 ·²ç9¾•¹^A°8Aûö8Åò€9$«·ğü¹N°-¹[°¬¹ æ7ÑìK¹ôŒÿ·&Î‹8s‡Ú8°p­7™¿¸éì”85_8²vm¹A¹ãvÚ¸Í]š¸´k`¸Œ7Å·ÌWM¹hîà¹yÀ½Ç™8Á¸¸&0¹46‰8œ–#¹
+ş8İ8P}·¼1J¸úk¸Â¸ş¹<°8Z¹à9?´Íi¹$7 ©µ;´¹¡ö·8r8Â 9€¹µxˆ9»GP¹«ñ7Ù±®¹§yÆ8Vı8õt‹7‰¶8ä¸@^1·65¸ìä„·İ*„9\
+x8¨CŸ7®“L¹[‹ï¸#æ¸ÚÑ˜8§¶¬9lkô¸NŸ¸Ô	£9Î„9P\‹6Ú8;·8%kL¹Ø·84M¹ R³Ê‘l¸Éï>¹*p”¸Ø/‚9ß…8“ëQ9:;X¹”À7/A9€¹À6îL8ŒÎ”7ÓÎû¸EŠ8İ9–Ñ
+¹§`L¹R¡]¸SîK9=)ø8Ú5~8Ë¡09v`¸`êĞ6ªÓ[8"+¹ø?y7„Dş8ÏÏ)¹’w8Üˆ·0æ57úÚ¹‚QZ8–3Æ¸/20¹ @s°s‰¸iÉº¸@\t¶¸ ™8È•9óá8Í–İ¸ se4‚ëÛ8ˆô
+¸>İ¹  O±Ë¸9d¹¶]†8¿Ö!¹–Øš¸‰’¸}ôì¸yãæ¸2p”¸ } ·r´¸&%¤¹ ±¹¶|¸Ş­¸¸L…·…:İ8 ˆo¹ô°9k±¸°9–p9,q ¹İ¹fBÍ¸\‡ö¸oñ8ÍSŠ¹ÀÇ7ÜƒO¸HŞ~8lÃ¯7\2²·@´7x·¹Ñ…8Sõ¹¸»¸«üâ¸{d9®‹q9Ûó¸:­8	
+¹¸ş¸À•Ø8\à¹ƒf9  ş¯ûİ39Py9E?Á8]C9ëÀ`¹Â»Š8öı08·âí8àù=7…m¸|Î¹çÃ¸_YÁ8î:¤l8Zg'8 	1¶à‘¹^A°¸Î <¹ÄD ¸>óÈ¸vë9§"µ¸;N9¨S¼¶ÑÅ…9Of˜8{ˆœ¸3¸»¸8î`š¸èeÓ·ò„C9Â²ß8€õ‡·Ë‚¸ 0·6˜×97Ë8†
+¸{Ó9jÎ¸{ç¢8Tƒ929E´ø8Ğÿ17üı8^T8\®š·D±9 hÜ´h,9·<­7XÌ½·ì¥°8XŠ9KÄM8ç ”¸Gˆí8v»9g­¶~¹\¸ È´æ•Á¸—w”8ËÔ×8n´!¹º 	8!†8˜@’¸ï8§Á59ƒ9¹`ş8H%^¹Z1Š¹¬Rğ7Kœ†¸ˆq¾¸C5L¹x°å7“Ş$9¨
+7¡[:¹¢İ[¸X!¼¸Ä.¹â"9ˆÆŒ¸^A°¸ìÊ¸3/¹Cæ¸8ææ¸›û¸y€¸V‚¸Æ„%9Pq·ğ¯u¹úÈP¹(…·md¹R¹¹fÍ59! ¤8Íƒ±¸ÜÚí¸¥ º¸fE9<÷69TÊM¹X¸C7Â]S9˜L=9TÅ=¹æYn¹„Êk¸¨e²7Ğ¦¼9,Ä®7üU
+¹l—ë8´%¸| m8İ†9†ñ8NÀŠ6Xà·«ZM¹üĞ7 €$4Œyı859zÏ8ø=·eÛ‹¸›g€·éR9„m…¹ò_v¸B89Ôê³·HŸ8x ú72½9¦¦9îf¸R?k8èJ<7šµœŠ7X—å7qì8Ó}¸Œ˜Í·Ç_¹À(·dN=¹ö€å8€­É7TÃ¶¸PÁD83ÿİ8én9 H;7IX9…f8ê›¹À·€à¹äë.8Äˆ7²ç”¸üÁ~¸—'¹Ğ$"¹/"¹yÔ/¹cÆÙ8ˆ…9àÜ6PĞ¶H'h6œV˜7â¿7Ooº¸û8¼Àò8Rç¹gûx8h~8 à6ÑÅ…9®+8¸9œ6ó,·¸0ö9©şŒ¹ö‰9ı£¹¼©L9bóX¸Ø·¸J¹(B¹îW¢¸à¥¸l“ä8H;”8–_q¸ğª8€sq4ÿ÷Ù8”^·"F9ÂD;¹z¤9…‰9N ›8X¿n9{·÷7”ˆû¸=C¸‘9zÁ82×ª¶ëı/9ó8¨^o¹l ğ·øç†·½Ëğ¸#¸àL¹øĞ180s`¹àC8íÿÅ9†×İ8~+9	
+¹¸­~¹N´¸êÑ>9Fá¹¯ó9Ö]•¸tİ· ¦ú¸6ì¹ëNr9,Îğ84Œ§·  à/îÓt9  ¾/”œI7:ïá8àè½·19šS¸ADV¹‰Ø³¸f¸È¾v·hë9OÉ/¹I…9è–¦¸®â‘9€YĞµ8Ì7¼ñÕ8ó³¸zb9 k¿·¢Ç…9º†9qIw¹ºV(¸†Ô‹¸ëè‚¸¾“48_T¹î( ¹?a_9Ø×7üŞ8 ëB5¡9¹¡‘8\ €7€ì6«È†8Î÷/8P`8ûNÂ¸`</9WÌ¸ó\¸šP¸B Û8àC±¶ÅHÈ8¥ º8Åœj9ŒO=9+¨7fœÜ8<4Ì7H”¶Ty8¶(I9 Bü7Âhq¸ÕDg¹¹Êª8Z¼p8ë•›8Ğ[¹6Òµ8’0q8@9üPò¸Ù{¢9 Æm2}ñŸ¸{€A9EÍ¾8;š¼8Hñ¶Ç´9JP9Ù9¡8êŞ¸¸qi8­*¡8ZaU9äO8©è,¹ÕC°¸ÜğP8q	¹u8¹E§¢¸p¹†@8¼ V¸°‹¸5ï8¶¶9	’¹ŞI0¹Š	¹§,f¸¸Q7t³R¹5àÏ¸då8RÀÉ8n‘v¹¨ğ7šö9+c¹è(¸ t6¶¤û.97ÄØ¸œ­71˜â8B89”4Ì·œëÉ¸r¹>Iq¹ÂlZ¸Ã¤¸XÆ¸56©÷{8°)È·öòµ7H“µ¶È3Î¸  61¢!(¸ú]t¸ßwÆ¸ƒì¦¸
+ª¹ ~Á·¡©•¸L¹àX¹8Ó¸ }E7z×a9~—·  "°Š]M¹òt9>°ß¸dl7¹xèj7 Ã<µfY…¸Äú8jú¹SşK¹ {M·x#¹·’´8ßo,¹Îğ¸’ËE9 ©¼66Ş¹øùâ8—îú¸zñ}¸³Èÿ86‹8VÍÌ7_ö¸Ü'ì7‚p¹•9ô8í·k ½8><~83·%¹œ¹I«›8…f8µL9 ‚Ù¸Ö?9»s„9^Å•¸ Šg7)Ş­¹áò¸®Ùù¸xƒ 8“!Ğ8<J„8RÃ8Ôäö¸½©¤9Z•q8a¹x¿7VIë8‚Ì&·şcL¸‹ç¢¸€Ñ8Í¿·Âı8d_„7O=”8pv¹®Å(¹]0‰¸Ü¸¢Õ«9Q-ñ8¦n@8@‚5¹¹@ñÎ5r¹R>9·lC9Œ=€9(|¸İã½8¤«€¹x¦u·6P~9 È03UÈº¸Ô/9…¯¸ú‰¹ü’Œ¸B W8ø8¹ê K¸-ÿ¸9Â‘c8¸Ã@6H”Á¸ğ’	¹¼-90ª9Rjğ8%ˆò¸ı–9î‘J¸k*}8ß]J9}Ù#9@¥7î/˜8Ö`š¸:8å¼æ8b²:¸–'a¹Êv´¸8cå·š\¸WáY8½r99|êa9D®¹òK90à}7±ÒÙ¸]õ‡8%8¹°À ·,‘Ç8c0¹mg…¸u—¬¸Ò =¹›2¹bÆp8÷j¯8_8Æ°³8lË¹ µ²ÀÖ™·lX­7«‘»9¤,Ë7 ­‰5trÀ7<ñ7ÔÁO9Öªf¸Bt(7p(9İˆó¸‰ê¸…rƒ90Æÿ·€ĞŒ¹ÿÛ¸ğ½p¸1¶¸°Ì7Pú6l7§¸ŞA8l¨{¹ŒJ·7Çâ®¹$‚8°¸hA¹°Æ»6‚ &9æÅ¸LÑe8O=8¹~ù.8Ìø¸Ö\û¸LÂ½¸Ğ—+7û–?9½ Å8Ö7!9@¦’·<71–¹p‚"8Lm9k¼÷¸Ø®9ûg¹3è‡¹è†9Ğ¹·ø‡¸<¨39˜ãi¸ªq ¹ˆ¹pW0¹Ü@9ÌÜV9¡’7¹<ë69JWX9wÁƒ¸|à9RãZ¸€Şà7ú]t¸'?¹¸mM¹*SC8¿¨”9¬Rğ·r¯´8ø\8Dz¹¶æ>9*Ìp¸œ.9­Ú8ú::9ÃÙü8¿·°§³¸†r ¸4?e8¢°Š8â¦84¹õÏ68°°¶  ®n¸ÈZ¸bQı¸2…B8Bì8¿
+4¹y9~¿£¸ª38p;¸©Z¸ÎI¹İÉL8B>V¹aâª¸á°¯9T¶¹v)—¸ë`¢¸,}r8.ƒß7Í:™¸œ¿:9~9ği70Ü:¹$Z8*ùq¹Çı€8ü.¹~X¬·y9r†·òBW8½,8o.L¹ülx¸:ºÀ8Ò“¹P7·À5Ö¸%¹}Ö¹8Šƒ·„cj¶àïj·òª$¸Àx·|ü{8Nö®¸ÿÓƒ8€rı¸pşB9°ˆ„6</S¹@À]7hÁ‚8O¹éªT9œâ-¹V‡û¸ÃŒ8ä®#9cÛ8÷~¸ØmÌ7ù	9Àˆ³7wáÃ¸··â½¸âs¸s„¹!¹(¹Á§~9íé¸P¸¶ .·6²´¸7÷ô¦¸şÜƒ8.¹n¸í•e¹7¹Õ¶8)Ğ9úk18f¢Ç¸¤i8~É[8ì.95Õ¹8¿à‘¹0†¹ú-¹å:™¸f69J²39`58šôH¹ğ¡8H±7TÃ¶8®¦e¸je¸¿ÿ+9¤H9×±7¹§p9  D¯úiÎ¸Øõ…¸€^Àµ@¹àÌ¤·ú#”8 ØÉ2öò%¹n9®+8YÀß8ºH8699jëã¸
+t6¹f¹¶dÁ¸ö"¶8Åé49Š0@9¬q¸Õ’Ş8¨ŸŠ9¨}m7˜ˆ9l‹ı7ëv9l–:Â9€²¹6KÆÙ8ıƒ¹i+w9!§Ö¸Dù¹|9¬ˆ7îDÇ8ó€9Œ¼4¸ºg÷¹f÷¸èßF7®@¹E­H¹Â4Ş¸Ÿkf¹G‹­¹q Ä¸=ân9€¸¶õ$¾8pŞú4ÅK	9²"ı¸[¯ã¸sÀ®8`3»¶?nµ¸7øI8|b¡7•M9~õo8.©W8m0¹,9~.Ç8[§8)í¹`‡¥·t~•8ĞÕ|¹€rƒ9ş¨8ºt¹‘*¹4l*9²Lı¸÷9tN¹àC±¶Àü·RO9”ç°¸©Ô¸>ÿt¸ È7ÕŒ¬8œßú¸&Nq¹à`7ø09Ìhî7Áª7¹
+	Ç8Š/¹¼Í38·u¨8âÏ¸­&¡¸ğ©6D 8w2Œ8£¾¸û69P¿!¹üÄõ8³49ğ¯u9š5ü•$9¶êA8mÎˆ·`¦·ä‘·¯»99:qê8Ö”‰¸?Në¸åo49A}¹¶¡õ·jÔ7&è¹ }¸¶q “8D–·]
+8²cE¸ô·W8ŞP8ü930¸¼zõ¸å•¸rT ¹n¾{¸@ï9X{¸¸ÚSK8 :/¸%£¹^¾_¸ü'¸ğ%ı8ëÉ8şN96’9hÁ¨¸ë.9ö†¸óÇ8wü¶8N]:8Ö!8—½¹vù.90·Q7¾©V9	©ú¸ö>¥¸3‰9ka=9kˆœ8UÔ­¹SC{¹®ç9õˆQ¹Xnœ·¨ùÊ7_ôÓ¸’<¹–˜8vŸº:æ8Í=«¹šW¸‹{¢9Êh¼¸Âùu¸Èh8 G8[ç8ìôŠ8ˆ‡Ğ· &¸9Zè‡¸àÔ8Dœø¸\ï>9fE#¹„kº7²r8
+|8¤åå8¢08ÊrM¹ßV8PZ¹¸yx?9¬Ò¹şX¹]§ 9€æ(4|˜§·Ø :9ÃÜU¹ Ä¶µğ	â·¨!¹"û¹\ü¾¸ùKº8ªL0¹Íj¹sMó8*ôL8Ã¸ˆo¸øõ29õ'9ôêã¸lo9©b·*ôb9ÜÂ¹~bğ7û9>9¢o481±ó8Ï¨9IÚK9"¸šK9Şà¸Mªı8è‚¹À‹9&&È8ÜFÅ8à§€·UlL9üˆ9raH¸ğ’}8Ö°7 ­µ²TÁ7rÇ9èU 8â¹ÕÜš¹a	"¹úk¸VP<9m­¸ÈPŸ71—¢9
+ä8à+¹Ï;¸ı¢Ş¸{“?9³[N¹ã´9
+\:¹ø„8?Œğ¸lZİ7›ÅU¹å«9ù$¾¸á…¹è;ı8P¦9¢gw9O‘v9ÍN8¯ÿ8€«¦·¹\è¸aoÆ84»¹D–·H’¸  ş/ Ê´Rñ ¹Ó®î¸$Ùy¸‘x8îã¸®É8ê#×¸{"P8ÉŒ›¸ğèï8r€M8ÅG¹PÀ7úiÎ¸¬ı6¹˜.¹—ëÉ8Ğ|È7]ˆè8P|£7œå¸`3ù6)õ¸Ë]®97×¹A²¥¸Ö3:9ß#æ¸ÔH©¸ğüP9H	~9Ö‚ƒ8fçŞ¸^©•7™—8V“Á8÷ş9Ê3Î8•¾©9ù
+ÿ¸Öî¹j™&¸ûú½¸P*Ò¸¢18Ï8™ê8“‚`¹6K9¸×(&9°–88É9Hú·üÖ[¸‹…8~ì8°´8÷+8IOÂ8«3:¹Îò‘9æÊ8ôjg84=¹æf8l58Fš·~ù.8œˆå8ìÏB¸°”û6d…×8€İ3š™ò¸ˆ	Î8¨'Â·w`9 ½I·š›W¸ƒ8é1M9ÆYˆ9öP,9 õi¸r0N8bi¹òŞ®¹Ğöö8Üé·í“X¸a•ü¸¡Ğk¹;h`9ì½‘7&¶q¸Ö8p„9p/‹9Œ9“¹xå¸ıÜ8›[9¬`«¹fCh¸¶†¤9Âöò8¨şj¸Lƒ¹x®´¸´YÙ¸%^9V.ƒ¹GK9@bá7Zwù8@Ëò7ñ¨ 8˜El·Î}p922¹±§¹>¸9æYM¹(w¸¾xƒ8¬Z8”n¹ Ûr¹›l:¹‰$‹¸Ø–9:±8šZM9ö§•¹*óM¸†X¹YI¹¸ñ%9%TZ9JeŸ¸z„59è‚S¹B`ß8z…&¹òz¸ÿ¸à'â6BJÁ8Ø”¹~Í8¸zïÆ8!–8H»$¹ú¹"¾Ù¸©¸dkf¸ŒX9ÃU9”5k¸3·¬t¹pN9<n69¥Ù†8hÁ‚¸8« ¹ïF9½âğ8ÎHö8|ıŒ8*«¸²¬Æ8¢ã‘¹¾Éj8 ¬2Z*¹$¹ Œ¶7m¸"9O½Ç81Ã8eÇ8  p.›m7Šr&9€2· €­2igè¸^C8FZ¹ğÓ¹˜¨·ÔÇÈ8è¸¹ì8}“?¹¬Ø¸Gb9È¸O Ú¸ '¥¹&Ó9¿¸c5ª· ¸²˜Î×7]‰9xæq¸ÆB¸PM¹û`¢847¶Ò"·£X8²©70
+090¯Ï¹C¹¹-(9²h¹¸ı8pŒ¶7C®Ò8RVX9ºÀ¹J*˜¸ç
+È8´ù8¾Ç+¹¤»û¸`wŸ8ö¹Èe¹ÏN¹¾N{8¬üI9
+-9’é¢¸¸ì9m9‚¹­‰8Î‹!9 ñj7T¶8ÄÂ¸ƒh¹8*«¸K Ã8õ‚n8XAğ¶Á¸‰B’8pAÂ7+²ÿ¸Ğ*¼¸Šrë8”˜¹¨)'9æSÆ88%i¹‡4Ğ8ßv8ò¯ 9ú4Ã8:r¹(€·cqP9Ş9.Y¸‘¤¹N‚8øe²·¬U÷¸¸0N¸ø09^BÍ¸   «Æ43¹¥Z8;‘¹^Q¸xå8ø)¹HÅx7ğİò¶{š5vG]¸çX•8êr¹ĞÄx¸˜Ä9*Bp¸ÄçH8
+"7¬QA¸Ô,*9ª’B80ˆ·Z3¹lQ!9|¹Õ¸)¹+. ¹1Vö8€5¨3ÉmA9`é·Ğ$9ŒØ+¹šYX¹÷P8@Ô–5¥‘¹H8ª!b9äŸ™9^ù.8<N¬·Lò‡7æ˜C9t4Ì·à´`mØ5â\¹¸#8ğ¸uˆ»8–ÚÏ7o€A¹¾¥'8Dø
+¹D-e·¼î8ØpX¸)Wù8¸g¹ú+9„È¹&_8ù9×¶8ë`¢¸#¼	8 Î7Ré
+¸C5ª7>L9” ¸dKC9@ê€¹i8&P­¹Œ†€8`Âé¸<Ü/¹®£¹ë^î8Mù;¹„µã¸ªÄ¹6y ¹—G19 Ò˜¸;-59€ÑS5‚Ì&·G[¼¸L©7H>¤¸Ø´¼7…èÚ¸¶8R r¹+,¹J“A8Ñ+›8€·î"˜8€·ş9é"¹ğYi¶;û8XT·7`c%¹Ì\U¸¦Û9¸6T8q /¹äÏN¸dBÍ8Àƒ¹iôÙ8·õ±8]îĞ8¹•¶8ğœA¹nY…8x^i6?àa9¬n9(Ï·@(·Ã“ñ8ä|¹kºÁ8u)æ¸Âa€9 \7Fù.¸ÉíÙ¸¡p…8@²¹¶ xİ3Ø´¼7@b7®L¹^\8P´”6É6ö’ƒ8§NU¹ãK¡8ÈõI¸OF9°8›)[¹,Üc8 8D4TL·86±8m69N|W88–Ï¹F¸"¹±×¹pÉ6’Ş¹.0¹LZ•7eb¥¸RE¹|¨·šÜi8ø§7u‡8L¾Ÿ·#ò°8qºl8O€í¸Ğ=”¸çÛ¦8¾¿n¹¶¸¿^í8À&·I~÷¸À¼Š6«Ï¶¸" á8_8Æ¥·ªM€¹æù`8LÜ/9Ä&9Œ‹8Ó,¬8ä99<v‹·ÇÙœ9Ì|¸ú›¸ g½¶àym9d¸"¤™8ğ¯u9é¹üU9¬Rğ7³gw¹+Ş¹YØø¸JKx8†ol¸ïsg¹ÆÒÖ¸ùäú8ØÎ¹Ó‚¸z=Y8êMş9õ£8ä7ª·pEXµ
+É8‹XI9¥(8¤€·-†‡9 FÕ·øM!·:e9Ş‡8Ö‘¸¼{8 È0³öº9‰Ù¹cbä8 ÙK·Iëã¸L+¹mÔt¹x¸½8 ';8ÙİÖ8àÛn9ŠÖ¸K¬à8xÍ~9>”»¹Æq¶üi7øW¤8¯œ¸²;9æÀ¹¸=”8‡•î¸’Ì¸é¹‚8ë8QÔ¢¹@h>¹€šB¹|n8œS‡¹Ğ56»÷¸¸"^:9ët¦9<¸7œ®8ƒK¹€G¼·T³ 9Ø´¼·…!¸)Ò_99€9ò·"9®L¹?e¸´09°f°¹Zª•¸x¸¬¹²cJ¸jîY¸î_â8ñ8ì§·¾7³Õb9˜8A9ÈÄ4·v£)8s¹£›¡9ü¸D8oÙƒ8÷Ü8TV¸ĞIÌ7Àâİ7â<¸¸@;@¸1¹U‰ç8x²c8~Ìz¹¤,Ë·ó>¹ad9¯fã¸Èï9 àÔ¸ß#æ¸Ä_9¡vù8pß>8øà¹ŒÖå¸JÍB869‘x¹dçB8®ú¹ \‹¶¬ë7¯9ó8|êa¹úHq9 }°9.
+¹<W¸šp9 o8’Ú9|û¸ß#æ8P|8ù¬š¸•F­¹QT•85¶ Á{4JÊ 9)L¡¸9O8Újè¸“¹èó¸§»r9¢!~9 ª8¸ ,ÑµB×`¹µg¶8Oé¢8¨um8æÃ¹ÒC8XÚj¹Òú9ù:A¹ê:º¸’î­¹z¼8fù;¸®~W8İ39ììü¸‡D¹C‚Ç8Î¼B90›)9`CT7$	¸œx*¹;6¹HŒú·ÛË9&Üe¸ 0%3N@Z¸m¸"¹(­¹ëã8ı8ı¸óÏ¶ª¿49 Ö¸Ù‘â8-'f¹€'İ³Ü3Î8äĞ6?]ì¸!®¸ÿl¨9EÕ¹8Ñoç¸sî€¸†¸¹3‘ 7¬×Ï8¾9  ±GO¸Îğ¸|ŠŠ·ÌÙŠ8‚l¹¯r7x˜ƒ·,Ó·0M9ëï¹ø 8,.9¾/9˜îK7® Í¸,…í¸‡Ï@¹Ÿs²81¸9¦SŠ¹ˆ˜8¨Ÿb¸ç«¢9Œ*¥8¨w9ˆ"á·lØ¹€¼·,	8 „0³ç9WŒª8ò6¹¤¸A#¥¸šgw¹xci¸A‘´¸ˆ‰¶7ºá¹HÜ¸ÙJ«8¢PÔ8¦w@¸ÊJ8FC¸TÑ 9Ñ$¬¹Iª9(ê¸Ø]Ç7(µÑ·Ö¿9d38tÇš¸§°8)ÆP9)9 Xİ³/¡´8®Ó 8€T¹wJï8õ£9¨
+9¬¸Z¤j¸;ùj9Jt·8I¨¸„ì69pM¹Ş¢8¿Œ±¹ÌÆÇ8[<9Â§$9Ş¶¹ò7.80ª¹  °®6=¸Ñk.¹@å‹8$|¹òFÙ¸˜|7/X·8¾sp9»Il9Ly¹—÷8å¢Ö¸iÅ8°W7^Ù¸`FO¸ ©3¹Ğ6¸Wú ¸÷AI¹;Ê¸˜Ë·Ÿ“·@?6ºø´¸¼>Q7 Ğe8   -ˆĞë5¤9~.9g¸59ÿ}1¹Ö<8 ¬8§"(8â¸  ê®ß#æ8š"¸p¸6d¸22Ü8‚É¹èÕD5¼jS8œ>Q·“…¸ Ğì6µ×·9pøy¸ÎN¸†ß8ƒaY92a¸èò8"_í¸™üÊ¸Â’¸ÔÁ9réŞ8cÊ8õ"Ş8:¸¸ŸBÃ¸0ø¬7YØ8Â‘™¸]ªØ¸hK¹tõ0¹Và9hÖª90¤€7¡D8/÷K8vÏ¢8êš8
+Ğ3¹šıI8‚µ`¸`sü8ˆ~¹'S9p¸ÿ¶À·8„¯¸M´8N¹9x8PËk¸ôV¸XÉ¹68¤r8M£8ü T¸˜9¹Ï³>¹‰£X9âô¸sÛ8!SG¹³i”9 ñÒ¸¸‡=7Ja9ŒÕ§8îRC¹\Ÿ7W;í¸5€á¸d[8Zm·8€³¹6Pë9ã93§Ö¸ Ñ‡6ÏÁ¸ƒ¹6X¹ñˆÆ8l]17L"?9\–›8 Tß³gûx8F¶¹«T*¹Ÿİ˜¹§B080¼·R2ı¸N9üİ°¸ù¸¦´%¹ÿî¸ÊM™¸oÓ.8.L9ÒG8 jÊ¸‚I<¸zRN8‡*J9‹8 >æ¶qûí8ŸÁ.9°27ĞçĞ¶¬"Ó¸Ò3X8¦ä#¸¯¸ÂØB8T¾¹’5¸€ø5)-¸´õ:9jç¼·İ{À¸¾v†7ÊŠ9¤i¸,Â9Ñ+´8v: 8kô:¹Óäì¸b 0¹Ç­l¹R·8ÚzÎ8Ø´¼7ì ë·ÛğŠ8&³2¸;ù8ö¤92>¹  p®íŸ3¹xÎ¸ä¹úÖ9¤Õ;¹åã£¸:ib80Ë·4J¸®l-9Èæ¸B š¸üı±¸¿Îü8~¹\¸ 4?4¸}™·"Ór8ˆ8™89=ı¸\í8¯¿í¸
+Ş¸^'„¸Ëå8 \¹¸!ØÑ¸èÎ87¯Ã[9À´E8ŸSï¸„°²¸bBÍ84¡$¸oV?90Î7>“‡7)ŞÙ¸~…&¹E¸}p¹`öÊ·âç|¹ØÂ¼7¯õñ¸qd9`	9nìá¸Xµ‘¸…)Ô¶@¸8-—¸ –i·ñPT9"8 àÜ2
+‘8Oc=¹¨¤8Î×80LÎ7¸¿„8 İT6ÈG(7'„S¹Í¸Œºz=X8ø¥€·Ïæ¸§td¹àR8l<†8ilÙ8ŞI0¹5_¹¾X9Oş¬8gğ¸Z·Í8f™8 O5ûö¯¸‘ëÉ8(™,¸p¹şò¸=Ã7Yñ8ğ/9"|¹Á‚79H@È·¼á9ô®85$¹Î~€¹`_5€7İ³y£Z¹‚Ì&7cì8ğÇ–·	‘‚¸êªP9}Ìì8ºï>9àØ7  ø­¶…%9Ç ”8L&(¹Ú¦5¹V0Y8%d8ê	 ¹“ O8~ß†7¼´x¹†J¸7Š¸<­¡9×ñ8y(<¹ ëÉ¸%L¹6T¸°‹¸°‚F¸Îµ€9nı}8ŞD¸Ä…•7£*_¹ îÆ7–â˜¸w¹>éã¸¬ªp¹„D»¸íe£¹ü-ÿ7„æ´¸àÑT6—\¹ #P¸ ”r8s8ğ¯ø8¨Ù¸–ÖI8¤N,¹t‹à·¢¤8ì9C¸n6]8›¾¸ƒw¹°BK8ğœ=7µC¸‚X¹[>P¹¢å9û:¶¸#p³8ğ-¹.r¹À«³·ê5‹¸ß½·8ìw9±şM9`Ç}6BÇ29 ³¹6Î1$¹¦Û8)pL9ºğ9qÏ'9»@Q¹8‚È8æbÁ¸àÊ¸ 8Hµ7hB¹xõI8í>¹uõœ8vw9ÙIö¸‘ÂŒ9HÑ·:\Ë7 Pá7Ø28ÂUë¸R19“”G9ØF·BÒ¹²¾¶ÜGé7”‘à8Ê˜q¸Nª9mè…¹Ì.²¶§îã8¹´;9 ±¹¶çÕô8È µ·C¹m8;ı¸ lQ7 ‰t¶Zu9 é²º¥–¸ È7Úmx¹¨ãN¸ÎZ”8¿æ¸`³¹6*É¸±‚?9˜Ï"¸öŠÌ¸'¶Í8ğ¾L9E¡¸BQK8¤>¹V´u¸.[î¸hÅ8ŒÃ¹ÚP4¹VŠ9<â‡7¬Z¸Ş¬9q¬9¶9u¸B7k9)ö8â¦59³‘Ä¶ ;¸xå8äy5¹=9(Æ8Z“9­6¹ÁOT¹+«ğ¸[?k8Úd|9¸ô69H	>7€¹µ}+Ò¸°VX9Ç}¸—áB9ú]t¸+¼	¸„Vß¸ö¹*à¸€Y»8 î(7n-b8°ù8†Ùü¸tº8™ğL¹h–›¸Ç’7"±ˆ90ªò·ÃA8µ!Á8@Ü8T99Õ•9)^‚9Ü†9€=›¶x^a·Øù¸À˜6:|¤8¼L ¹H¹ƒÏQ9v?¹½<b9îL	9ÖŒ9  k° ¨·Hı¦7B\¹ùÛ>9n|$9½Øò¸Æì;9ø"9İ|ø¸†6]8 /·¶Ş¦59P¦9ÕÎ0¹ƒç¢8 	¶Èv·2ÒÆ¸`ä·[2’¸ØMd·ºĞ9îbù¸¿89XË·39Éê¸	9ëFÅ8‘¶¹¦×_8Şz¸¤@¸ n7¤ ç8ÖÎI¹ğf8&÷9AİŠ¸Úo8£´¸¸¸9U_±¸ÉY¶~•ü9÷¹zq¹¬î7HEÍ¸XÙ‘7LSÿ8»•Ø¸¢Lº8;›ğ8Œ°²8Ë‚¸ü“A9°r9·áL¹¤`²7…ÿó¸K‡ô8Gô9÷ù8àŸf7ôDü¸üs\8j‘v¹æ>¥¸@\t¶	m–¸ÿ¼=9ââ9İ¶å8gö¶¸ø56Ewu9`€9­öZ9xŸ@8ı8²ù¸zV*8¨›…8QÄæ¸W›8»q#¹ß#æ8ÇÍ9L–8T¢±¸<l·VØš8l³Ã·Æñà7¶M98€/œ´×¶8ô„º¸½QF9ç‡O¹D´92ù6•åe9ëTŠ¸ºä9>}9.<9`z£¶à^¸“n¹@]À5%îP9ÀR¦¶ìÏÓ·6¹µ8¤~
+9®ßÖ7qĞu¸=½˜8‚…&¹´ê›7‘É¹Õ‡ª¸²;@8 ,?´²­·VmR8rgy9ö@08 ‰Ñ¶nÖã8}‡Ä¸+t*9Xy>7±ƒ¸2÷9¢ç”8Ë_f¹0i¹Îíß¸æTw7/9 ‡Ã·,üî·á8,…í8k“Ö¸~¸`zšµ*ÙÂ8ÇG%¹ÆÜ¹_“„8Ş¥»8ÔHÒ8ª¸¹Ö¦ü8oL¹øš 9ÍÈ¸3ø§¸–¹:$9Êï„¹>
+0¹6M«¸E¬b9Ğ÷N·¸Î¹ ?¹qQ~9êÀÿ8(ôû8eŞ£·Ì¹$¹õ3x¹—A’8ü9£¹²å*¸Šm…¹¿‚9·‚¹Ú˜8ïö8ˆå(¹¼Ä®7<P¸3Ê·¸ÕA“8C.`¹ ”{3¬Rğ·$/—8a?9Ï>ì8¨ä$·Ìÿ8@ w9ş@q9s8?9ş®A8wğ¸Q»¸úeŠ8Ìoø7˜0½7( û8p~8Ş¸¸ê>W9œ³Œ7æÔĞ8À»Ã¸½™¹¤"P8PD«7·lC¹Æ%Ú8[8
+Ã8g£¸‘í¸[Şs9ŸéN¹}Õ6¹³9¸”v9ƒû¸º,`¸¦é[¸
+S8Q8¦ü8=¶8 à8ÿI¹pÉ6ˆûø8p=8ÿÊ9æ†·0NÕ¸±øÜ8—Uğ¸û)Ì¸H
+ˆ7Gm¶_ÿ8âs ¹„ß©¸6Í(8ÆÀy8å‡¹Ò4¹Ah¿7>ø0¸6ù.¸^
+"7—$¹© ¢¹ŞÏ&¹İ‘€¹â!¸ˆ¹€Z¤·ÉØ¤9Ñ?,¹ŞI0¹ ¨®7 ÒÅ·ˆà€6ª¿¸èI¹$†•7‹öì8a ¹L¨¸‡¦¸ª½8=­79%ï89˜9üyÖ·ùœ‘¹|±¹  p.°‹8àh¨¹`3»6Œ®8¸ı¶9|ı¸,º+9F•&8<™Ì·Z±æ¸	Î85fR¹¾]…¸ƒ¦?¹î|¸Rr’9ÚÉy8è•ú·dˆ9Á	·J)G¹:•¸Ì®¸u{¹Ä¨9€+İ³YÁ'97õ¸È8¾¸šÂ6˜2¹¸A¯¢8Éaà¸=_Ú8ğÃ7{B¹N=[¸P³‘8Ï¸ã3Î8ÂÊu¸H2£¹—Òé¸ î•3¾Y8r´¸{]M¹T°Z8ÕD·8ã2´8úk¸Îß¸TŠ7çk¸´/¹‚Ì&7›J¸ÄÜ"¹¿¯8"´/¹0qç8ÔŸ	9^A°8Ë—a¹êT 9@÷g7œ.9!Ğ68¢œı9Y’H9~¹\8Ø(·”á8ç@¹—Qí8n€Ã¸†;‰8û¸ôiÎ¸l+P¸‚ï×¸àKŸ·Öi8ìä°8«û8Ñ9(Ó¹·pöº8ù	9ğé‘·ªjÙ8ç9 ¤ïµÒ7ƒ¸ Vf³íf¸Ò Z8  ¯DÏ¹>¤-8ï-y8,ü;855¹ñƒ9~7DÇ8q<0¹ 49†H)8Â\9—×‰8¨Óğ8–ã;¸êL¯9919ß#æ¸<v‹7»§6¹´ˆ¹åH7¹p`]6(”ê7½öë¸Fã«9n:	¹f¬#¸†Tw7B9Ò¸¶7¹Ë^¸gûx¸¨
+9¸_X¸A­á¸õ\m¹˜®€9Òá…¸5™°¸Aû¸ØÕ|9Zd¹çñ¸<;i9  0àÇC·w¹¿+V¹ß#æ¸ãW¹8|¸¬Eš7Å²¸ÌÌ7JÏX9´JR¹š,F8ãÛŠ9ªgw9Cº¸Ş87~#9 0g1<Jş¸xQD¸Ò8ë8°9îZ 8ÎZ”8‚à9K&Ş8„’†70s 9s`ç¸¬Rğ7‚+#9VS¢¸Ÿ¹ö0Ô6¸@[8ù]¹üY”8Í8°lù8F½¹*Î¹V“Á8ÜFÅ8<ë"9gûx¸Ò*&¸˜OJ·XÙ8Xù:7àß7 7“·H¸JL«¸Šé¢¸}2ê8Î>$8‘ºÅ|¹>»!8ài8­X ¸ $"4F¤9¤Ç×7¼Ø˜µŞgú·²„9\<ˆ7fî[8ÎOY¸ù|²8Id8á£µ8K=9E‡1¹‡öK¹Tƒ7d‘c9Féã8Â˜8R19L<.9ğùšµ„2¸¦ù.¸ÆzÒ·ğ¯u9¾ßu¹'ñb¹äà·75²8­¹Xçå7²®9ÓEK¹,|+¹8k¹šœ¹«B¹069×&…8eÛ©8Ò6¸ÆòŠ¸¤}›¸”D¸¦J8îXı¸0U9  /  œ¯Ü‹ù7µV/¹ÎG¥8 ñj7ï09¨/¹‘Ş²¹  ¯`2ù6®Óp8†§!¸.dª8^­5¸ØL9½|Í8/Ìî8‰"Í¸<v‹7_só¸€3ù¶°‹¸‘Ù8eÏÙ8jÃ9’°¸fï8ôÂ-¸÷Ê^9  B®Ş™196Ëì8Fu8¸mM¹$5‘¹ş¹.;¹Í¼¸>ù.82L¹¼~9:,9<v‹·M›a9Æ:¸w
+9Ó‡Õ¸ªÁr¸Y’ ¹°ìj7uñ8»Ã{¸E*ò¸vY…8~¹\8£áƒ8À%ı8Äò9(z9ĞJ¿·õ¸4J€¹WWM9~k†·-9'(k9`3»¶Ò±¹°&â¶˜‹ª·ò‘8A¦İ8.V
+¹gæ…¸}+Q9¡³¸‘´¬8(X˜7ß#æ8«û¸ ·NYØ8dûj8gw9®.¹@ïj7ì¼¹û$İ8}¤ü8Îx8ÀË78·­7[Ğt9 û·Úş08NŸÀ¸«å¸ü-®·oñè¸Ú&9Dû$8×¶¸PÔ8~Š`¸èì°¶‡8€ Ë·ŸrD9h ¹Rwv¸’?’¸*ç¹~å9¸îî¸ø!56†‘ä80g¸¦æ—7ê-¹ôP9OÚë8´Ú¹1I9ÌÁ8³;\9øí¹ú¦Ä¸`3»¶ Õ¸Qb95$à¸Â 	¹X.á¸–gÿ·wÊ˜¸Ìé¢8"8Ú¦59lb¸øÏ77ÜD¹@ˆ7G´8Ÿße9±±¡¸!Ê—¸ÿÕØ¸4â¹2úÜ8ğ¯u9Àf6Úx
+¹çKM¹Ua°¸ Å6gûx8åFÅ¸”:	8É{¼¹w`>¹§K¾¸ µ6ô91æœ¸Vâ˜85óp¹±îU¹ ¨½³µîW¹€Z/¹¶Æå8åñ¸éş7 `*¹3Ê8¦£"¹@}¸6Mö[¹Ì¿9D”Y¹n£'8ğ2¸3Î9¡B÷¸ÕEá¸ÙBÃ8éšJ9C˜†9ñÇ›8ˆ'r7œÃÃ8ì(7Q¹Dx9D’¸a8D–7Æ\”¸é˜Š¸iÿ¹<ÄÁ8]B¹ªË39˜õÚ6ß#æ¸  Ü/3Z¸ŒÕ§¸ù	¹İA8®+8j*^¸Ï¸/¬I¸xå¸ÆP9  ş¯p›Ì7„Q9‰iŸ¸÷ƒ¹XìG9¯ÎÕ¸š9Öx9Q.D¹˜1‡¸ŞéU8º6¹à’}¸cˆœ8¶8Ô?9şN¹ú	%¸²|U9?8–ÿÊ·“ğİ¹Ü£89º7»8^_d8–¸lğ¨7Šhp8úW*9¢Ê8ªñº¨Ì!9G8ğ¯u9+Õ¹4Q€7'Oé8&¶7xå8±V9wí8™t&9bj€9TÃ¶8ò–£¸È3Î¸È…'¸RV99µŒ9dß…8:C&¸ñ‚n8¶Šô¸(ì9<&%8.¦t9À–¹+3O¹ÇEb¹’+;¹äéÁ8R*˜¸<MŠ¹ uŠ· ®€¸q#9µ¹’:¹ªÿ€¸ôi€9B/¿¸è‰Q9 ×9%q†¸ÔX‹7sQJ9X–c¸öŒ8íq¹™Y¹È¡9ìŞ9qâ¡9€_á7fâå¸  ‚¯2à¸†÷„9ğ’¸`8¶f8¸É¹80„¿6ßK¨8Ğ¹(G¸â¹ş7xH„¸§üÔ¸8e>¹Jù’¸Šñ8zL/¸÷~¸©L9àqº¶¸ı8
+«.8ÉÉä8"á7[õ9   ®
+İC8ï­±8Æ"¸×¶8Ò¹lY;9(ÈM¹ò\8 `93zÊÕ¸é5@¹õÁ%9ò]¸GÆÙ¸–¹…¯8lÍ8‹“É¸´ó9šín8Wó9i"d¹8CŸ·«å¸Ó'â¸”ƒ¯¸©â8âGê8½i9Ó¯/¹là8Åhò8Dı7Øj|·Ü9}²c¹‚Z9¹.Ç¥9 ;¸ ¹vìo¹ój±8Œ|¸ŒX9¬;ì8[ÆÙ¸æá7Yõ9ÃX¹jèt8E>¸!ùÃ¸Xq-¹„¹¬Í¹Ğ·8,Ÿ8‰ï›¸À2ù¶|ç¸„y756„æ´8ÎØú7Å–İ¸´ã/¹×¶8€\¹x]|8æ„j8ş@¹Œï{8ë¸  ¯209×c
+9‚Ë:7h·°;¨6ÀxÑ·)v8Ör¹èØú¸´ó¹–=9Œ=€9dA9¥U¹™q]¹ı«Ã80À7©7£ké¸è§É·œ¹Š@†¸œd[¸é;¥¸ò¤o¹Ø´¼·¦ß¸øŠ’¸Föu¸ã>9+¶=9´ì9(Ö¹«"9îs¸İÄ¸Ğ—8"|¹D
+¸‹„9¹v¥9Ğw°¶,Lô8)§ 8°§ì6|§»·®¤Á8VX9  È0æ7²8Ö¥»89L¹148Ø´¼7Îıø9,…í8„s×·—È¨8û.9¾99Ã¥ğ8Olˆ¸â§9§ƒ¸C¢9F ¸fİ“·zk€¹Š›[8•ø.¸Uò¡¹ÊC¸]ĞT¹’ı×¸’lö8€g³%2·8Šr&¹¹­9ØŒf7TE¹Èe£7@›6pÍ»7ı‚n8%êĞ8,; 9Nóè8IP~¹ Œ_5Ğù¸ J®´Jâ8‘<—8 <Ó3Ë¯¬92š“¸Âıƒ¸ˆ*j7¨Ç)9bÀ¸äÑ8Tˆ·xå8òD0¸öB¸8¹š,¹¢Ù¸/üĞ8qç*9xìi7bÙA8fÍ¸İ8?}z92Bq¸ò	¹Lx8´zÁ·Ğ‚Ù8î¸ĞÀÙ¸¨X8Oõ9¦û;9*úä8œ­9¬u•7Rm·¸Ò)ı8#t¹™.ü8qÔ;98â¿7ú]t¸Œğí7iN¹b8’8ğôŠ¸l|¾7]Ù9%Ã†9›?9Ïæ¬¹uB¹²t8úª¹¶ÚÏ·¢
+9®+8!¥¤82 ¸6W!9ìÃ	9Ëº8Ï¸sğ8à(V9ÌU-¹M¬p9ø9Õl†9ĞN9ˆ>7&¥)¹¼û·Í<¹à7L7t™9ÕØŸ¸Š‰à8 Dz9,B—8—ùç84J8¼©8XÃ8‰9±_›8ğšö¸r29={ô¸ú†›¸€¼6ÿP?¹ò=œ¸&Pü7„b¸¸M¸
+H€9Ôì¹Ø!8&=¸®{¹¹7¹Zê†8;”€¹çÛ¦¸P&¹Ÿ{¸¹5e¹94–·}Ñ˜8Åñ×8å«©8ıºL¹ ñj·\¡49"®L9†9ã¯/9–i\¸¬÷9°¨ì¶®+¸@•¶Ø©b·µK¨¸&æl8¥«F8ş’J9P
+Ÿµï­È8”lò¸t 8¶ñ¸|¢8Â§Â¸ (³LY··ç¯/9ùõ8ZqË¸ø>ˆ¹¸­ ¸õ¹'•¸¤,Ë7‹øI¸€ä8c¨·Kÿ°8`”Á8<Ó7¸G9:æ8íìø8Ød:¹ÂùÎ·~K˜8(Ö¹T4Ò¸ ‰W60¬Z8rÚ@9¶Í¸ĞÂ6x#·¹p²½7Ê¯ê¸X9½78ºK7ğ”Ì8 8D´S$9šö±9¸G¸J=­¸tèË8¢­Ô¸Ãz9Œ¹~²8ğµ07¶Z”8´Àl8XğÅ7¿fú¸«Ûç¸ß#æ8èH+¸{.384o9˜Ø¤¸  ’¯R†Ñ¸^9ÑVX9?…92Á¸(â‹8ºİ9zO!9€åø¶\iI6&`·  Ğ/ì-"9óp92]A9˜¬‹9°A¸¸†k×¸€İ3ã)²¹  ‡1²Å¸PÚa¹ì <9è§$7ä ¹Eàé8ú]t8D;9XD¸wác8ÜX:¹ÃB9ÔÜN¸RbÙ8Ö#¹g‡‰¸¤Ğÿ· H¸ C
+¹à’Ë¸zÒR¸¶İ9¶·^Xù¸ÖŸ¹Ì8à½¹j¯}¸)×:9XD
+¹Y‘å8û609cŒx¹”[:9.†¹+€C¹Ó~9xB¹+> 9è¸Ö·j¹9„œ·¼k9j79ù.8éª7²dì¸üÔ„7øM8~êL8¤®¸ç9öÖã8PZ¹8ÚlÎ8,²È7›>8ªĞp¸<âi¸¬?G·
+…¯85“¸÷‰9ş[8Ã™8ß:8øğ9("-7µ7+9Åkñ¸€›I·q8¼@¹~¤™8´şD¹8Ú!8ı'?9
+öK9x†Ê8ÂE¹ ËË7.o9‘~;9°zµ¸`äø¶Qfı¸Ô/9`ã„9  ’/üÖr¸”Q9fô·„@¸ÈôŠ¸ZÔÏ7m§ ¹ºùÌ7/<¹N…×8Ç #¹f«!¸qc9¹´‹8çîP9v&9•VX¹Ê439&r 8r7¹ç‚¹ª—¹_kB9§,è¸;Š¾¸|²¹œ«ß¸v¾Œ·&sÆ8¼-#9­9j¼å8øf®9kvz¹IĞu¸f9<9´¹{†8ºå­¸ÍíÙ¸ø¿·y†9<> ·’F8'ğ¸@„¹[²‚¸‚l¸d•8úØú·hXà7  ‚/ú’(9jÈş¹O9›ò9Öª@82Ş¸=¦9Êv9½æ¸cñL¹rí9,…í8VÕ¸j.80DW9$(8Õ¬¹ª×í¸Dä‡·Q¼¹’ÚE8ä¾„7Åoš8,úŠ·Ï¢³9°3
+¹X;8•êã8¸8*&=¹Š
+w¹&Õú·~2?¹6/À¸Nä¹¨ü8AJ9F°$¸jÀİ·ò\¸º¼+¹Sô8'uµ8	N¨¸Â9‡È‹9Põ‰¶òss8µ´ô8Úå99:é
+¹P÷9§¶8$±¹ ¹¡p=9¼ÎÏ8øã8¤)Ô6€‰¶V“Â·gÌÁ¹´şB ¹mÛ‹8<×ó7 èl¶ñ›¸Æ¸)?¢8$¾	8ôŸ™¸w ¸ÚÍt¹†Q9H(ğ7~ÊO¸Áw-9 §¹Âı9Ák9d0d¸ºÆ	9şPo¹†¹8è)7|‡ê·ÆÇ7¶ó¹·DZ8p-<¸ª*7ğ0Ã¸nŞ]8%8üç?9í>¹G¹”%ºÃŒ³¸ó‘¹¥á—¸œmì·œÏ¸—ï8-¡¹½6ê<9RP8Ã:™8{š5B¹>“«¹¸¾L¹$%9“…L8')¹¦ô¹¾9à42İ9µw„9ÿ÷29@ºÌµ´8¯8h8`V¾6¬Ë7”k€¹>ã‡8¶i–¸ì¾85’¸Ş£‹¹íó8Ø›>·VZ:¹,Æ¸Œ¶7“ç¢¸şX:¹pÔ®7üg¹j_¸ºÿ€¸)¡8 €9|H9xÓU¸T)9G
+9€3ı8àúj·­œ¶(wB¹ Âğ¸–;‰¸¸mM¹|V˜7˜ø·²ÍÔ8pP9O¹ºË58¸G*9¹80Œ8héï8 ?æ¶ĞM×¸ñÀ8^$m¸dˆŠ7ˆç¸ ¾ 6	Œñ¸ã›8Fp%¸NØ¸03É·\¸=rM¹Pì­9zöi¸  `®?¡´¸€æ(´–B):I¹,ß…¸+×9c¹á8ÀÖr¸nÿË¸/bU9æ×8ÙÒ—¹+Üo9  ì¯m°º¸Ê~P¹ú]t¸ÚWç8ˆ…Ö7Ç‰8¸O¹ 0ş4h³‘¸ æ´5ÄÆÍ8Æû9&_8æ«Ô¸½\G9ğL¹4UM9„˜½78E8^E#9nç81¯8rŞ#¸ø <9Ù»¥8´N¯¹µ/¸ˆá\7l®¸Xüw7‚};¹œ÷¹a(å¸ ¨®7İó8Ã¿m¹8„9ÃxK¸êv¸qD¹·Yí¸ú]t8ì%9%İ¸XÕ¾·ìK¹^ 8¸Š{·½%+¹ â8}.9bÿF9 ù¢³‚úg8X¸Yõ9	n½9 €ü²Èl9Ü€9ø·×·îÿ9VË9¨¾¦·ë¢¹¼Œß8O£M92ö¸E‰ê¸Ii}7qâÇ9Ñ§¸Û@<¸76t¹¨ÌÔ7µÒœ8à;9N—i¸Ú€Ó¸´İ¸·aõ9]y¿8V"=8ëŸX8›Œ8yt9'1†¸ğ|¸¶ƒ¸ğl¹p™£7ác0¹Ğ9Æ/¿¸#+¸Ü}ã¸ ’¹p€8+¤¼¸Uƒã¸í8ÈÒK8à´€F#99I<8ı–‚7NO¿8tH8ÆÌ7¶,¹Xáö8Šr&¹Î§r8ĞKÅ¸pa–¸J‰E¸Ör9±uÍ¸<ÌÌ·¸ñ€¹
+Î¸ªÂ6Nö™¸YØ¸|=¹!¹ ¬²Zl8À{¬7ëè8k?19n‘	8f)8*09®„†9CUí8Š%9ÈÌ¢9.18Í@‡¸všp¸ëmƒ¹ÌsL8B¸¸8Ïk7–Y¸†dŠ8fTw·‚ìu¸*Ò¸+¹ğOÿ·¾C•8$lM9sö	¹8gK9PZ¹8íó'¹6¹ÁÔ=e¼?¹2÷¹hS9¹*ªdBonnx::MatMul_27J5Ÿ¸Ù„¸µ¸ş1!9ÀW@¹-¨9ÊÏ¹ıñ·8ÜŠ¸  h/ ¡6š•¸_kL9İ7ûœ7[ø9!d09¤ø™¸Êìt¸h+¹€\Àµİ€Ÿ¸×¶8×“L9	¹pË7+Ì‘8BFw¸†Ë8²±/9Ç»Ó8Ê†Y¸`z£¶¢é‘9CAƒ¹
+¨ß8A¥Œ¹[ÏB¹l¹c“æ8‚Äx8•*8Ciç89á5£9â"7/‘?0nì·|¹,º+9>Ì7r7ag¹†Ãy8B÷¹ì¸M®`¹Gã¸ç‰88ÜÚ· 9í·ñm˜¸Qf9Š¹18¶]†8¨
+·Ï8×ÕÍ¸¯X¹¨‰Š¸Ş­¿¡êŸ¸V
+=¸öüd¹Ò’8ˆK¸XÁ 9È¸[94Ê¹Ì^ö·rQ.¹ìW¹ U¾6µY­¹Šı™¸¼Æ–·”ö69FH¸ Æ(²…f¸À°9–´^8ğ¯u9 H9©U»6ó%B¿ƒOè¸¸/¹Å‹¤¸Z
+onnx::MatMul_0
+
+
+b
+23
+
+
+B

@@ -57,7 +57,7 @@ def define_mpc_expert():
 
     running_costs = 0.1 * np.eye(6)
     control_costs = 0.1 * np.eye(3)
-    terminal_costs = 0.1*np.eye(6) 
+    terminal_costs = 0.9 * np.eye(6) 
 
     running_cost_fn = lambda x, u: lqr_running_cost(
         x, u, x_goal, dt * running_costs, control_costs)
@@ -115,7 +115,7 @@ def clone_mpc(train=True):
     # -------------------------------------------
     mpc_expert = define_mpc_expert()
     hidden_layers = 2
-    hidden_layer_width = 64
+    hidden_layer_width = 128
     cloned_policy = PolicyCloningModel(
         hidden_layers,
         hidden_layer_width,
@@ -125,8 +125,8 @@ def clone_mpc(train=True):
         #load_from_file="mpc/tests/data/cloned_quad_policy_weight_decay.pth",
     )
 
-    n_pts = int(5e4)
-    n_epochs = 5000
+    n_pts = int(1e5)
+    n_epochs = 1000
     learning_rate = 1e-3
     if train:
         cloned_policy.clone(

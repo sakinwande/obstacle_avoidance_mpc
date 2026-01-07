@@ -1,0 +1,28 @@
+{
+  "os": "Linux-6.14.0-33-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-11-08T02:45:38.591079Z",
+  "program": "/home/sam/Documents/Code/obstacle_avoidance_mpc/mpc/tests/clone_unicycle_dynamics.py",
+  "codePath": "mpc/tests/clone_unicycle_dynamics.py",
+  "codePathLocal": "mpc/tests/clone_unicycle_dynamics.py",
+  "git": {
+    "remote": "https://github.com/sakinwande/obstacle_avoidance_mpc",
+    "commit": "63fc41dfd54aa9f50b586156a8c5262367f35a07"
+  },
+  "email": "samakin@stanford.edu",
+  "root": "/home/sam/Documents/Code/obstacle_avoidance_mpc",
+  "host": "sam-desktop",
+  "executable": "/home/sam/miniconda3/envs/obstacle_avoidance_mpc/bin/python",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "disk": {
+    "/": {
+      "total": "514908536832",
+      "used": "67362279424"
+    }
+  },
+  "memory": {
+    "total": "66512826368"
+  },
+  "writerId": "8ls780l50k4z4hlsnmeosid1f2tgp0zy"
+}
