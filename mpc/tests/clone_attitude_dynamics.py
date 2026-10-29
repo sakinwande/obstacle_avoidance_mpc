@@ -33,12 +33,12 @@ radii = [0.1, 0.1, 0.15, 0.15, 0.1, 0.15]
 #Define the indices of the state that are in the sphere
 indices = [i for i in range(6)]
 state_space = [
-    (-3.0, 3.0),  # px
-    (-3.0, 3.0),  # py
-    (-3.0, 3.0),  # pz
-    (-1.0, 1.0),  # vx
-    (-1.0, 1.0),  # vy
-    (-1.0, 1.0),  # vz
+    (-7.0, 7.0),  # px
+    (-7.0, 7.0),  # py
+    (-7.0, 7.0),  # pz
+    (-3.0, 3.0),  # vx
+    (-3.0, 3.0),  # vy
+    (-3.0, 3.0),  # vz
 ]
 
 
